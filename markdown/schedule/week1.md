@@ -8,6 +8,15 @@ varTwo: test2
 
 &#x2705; = solution posted
 
+<table>
+  <tr>
+    <td>{{ var_one  }}</td>
+  </tr>
+  <tr>
+    <td>{{ varTwo }}</td>
+  </tr>
+</table>
+
 | Date | Lessons | Assigments |
 | --- | --- | ---
 | Monday, 10/3 | {{ var_one  }} | stuff |
