@@ -11,6 +11,6 @@ varTwo: test2
 | --- | --- | ---
 | Monday, 10/3 | {{ var_one  }} | stuff |
 | Tuesday, 10/4 | {{ varTwo  }} | stuff |
-| Wednesday, 10/5 | stuff | stuff |
+| Wednesday, 10/5 | stuff | {{ page.id }} |
 | Thursday, 10/6 | stuff | stuff |
 | Friday, 10/7 | stuff | stuff |
