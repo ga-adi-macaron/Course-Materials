@@ -1,8 +1,8 @@
 # ADI Macaron
 
-Welcome to the [course materials Gitbook](https://charlesdrews.gitbooks.io/ga-adi-macaron/content/) for GA's ADI Macaron cohort.
+<img src="macaron.jpg" width="500" align="center"/>
 
-<img src="macaron.jpg" width="500" align="middle"/>
+Welcome to the [course materials Gitbook](https://charlesdrews.gitbooks.io/ga-adi-macaron/content/) for GA's ADI Macaron cohort.
 
 ---
 

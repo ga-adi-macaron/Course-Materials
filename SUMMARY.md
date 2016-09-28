@@ -1,8 +1,7 @@
 # Summary
 
 - [Home](README.md)
-- [Logistics](markdown/logistics.md)
-- [Requirements](markdown/requirements.md)
+- [Logistics & Policies](markdown/policies.md)
 - [Lessons & Assignments by Week](markdown/schedule.md)
   - [Week 1](markdown/schedule/week1.md)
   - [Week 2](markdown/schedule/week2.md)
@@ -21,11 +20,11 @@
   - [Android Technologies and Services](markdown/topics/android-technologies-and-services.md)
   - [CS & Interview Prep](markdown/topics/computer-science-and-interview-prep.md)
   - [Databases](markdown/topics/databases.md)
-  - [Workflow & Dev Tools](markdown/topics/workflow-and-dev-tools.md)
   - [Product Development](markdown/topics/product-development.md)
   - [Programming Fundamentals in Java](markdown/topics/programming-fundamentals-in-java.md)
   - [Testing](markdown/topics/testing.md)
   - [User Interface](markdown/topics/user-interface.md)
   - [Web Communication](markdown/topics/web-communication.md)
+  - [Workflow & Dev Tools](markdown/topics/workflow-and-dev-tools.md)
 - [Projects](markdown/projects.md)
 - [Resources](markdown/resources.md)
