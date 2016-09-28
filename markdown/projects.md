@@ -1,20 +1,21 @@
-# Projects
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Projects
 
 &#x2705; = solution posted
 
-- [Project 0 - Rock Paper Scissors](): Due Friday, 10/7
+- Project 0 - Rock Paper Scissors: Due Friday, 10/7
 
 
-- [Project 1 - To-Do Lists]()
+- Project 1 - To-Do Lists
 
 
-- [Project 2 - Mobile Commerce App]()
+- Project 2 - Mobile Commerce App
 
 
-- [Project 3 - Team Project]()
+- Project 3 - Team Project
 
 
-- [Project 4 - Final Project]()
+- Project 4 - Final Project
+
 
 ---
 

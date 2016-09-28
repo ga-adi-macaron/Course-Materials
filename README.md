@@ -1,6 +1,6 @@
 # ADI Macaron
 
-<img src="macaron.jpg" width="500" align="center"/>
+<img src="macaron.jpg" width="500"/>
 
 Welcome to the [course materials Gitbook](https://charlesdrews.gitbooks.io/ga-adi-macaron/content/) for GA's ADI Macaron cohort.
 
