@@ -50,7 +50,7 @@ var2: test2
 
 | Date | Lessons | Assigments |
 | --- | --- | ---
-| Monday, 10/3 | {{ this.var1  }} | stuff |
+| Monday, 10/3 | {{ page.var1  }} | stuff |
 | Tuesday, 10/4 | {{ var2  }} | stuff |
 | Wednesday, 10/5 | stuff | stuff |
 | Thursday, 10/6 | stuff | stuff |
