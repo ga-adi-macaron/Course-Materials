@@ -1,6 +1,6 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Course Schedule
 
-- [Week 1](schedule/week1.md) (10/3/ - 10/7)
+- [Week 1](schedule/week1.md) (10/3 - 10/7)
 - [Week 2](schedule/week2.md) (10/11 - 10/14)
 - [Week 3](schedule/week3.md) (10/17 - 10/21)
 - [Week 4](schedule/week4.md) (10/24 - 10/28)
