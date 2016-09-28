@@ -1,13 +1,14 @@
 # ADI Macaron
-![](macaron.jpg)
 
-## [Link to the ADI Gitbook](https://charlesdrews.gitbooks.io/ga-adi-macaron/content/)
+Welcome to the [course materials Gitbook](https://charlesdrews.gitbooks.io/ga-adi-macaron/content/) for GA's ADI Macaron cohort.
+
+<img src="macaron.jpg" width="500" align="middle"/>
 
 ---
 
 | Drew Mahrt | Charlie Drews |
-| --- | --- |
-|  <img src="drew.png" width="200"> | <img src="charlie.png" width="200">  |
+|:---:|:---:|
+|  <img src="drew.png" width="200"/> | <img src="charlie.png" width="200"/>  |
 
 ---
 
