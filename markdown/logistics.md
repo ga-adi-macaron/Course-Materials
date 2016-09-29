@@ -23,6 +23,9 @@
 - **Location**
   - 10 East 21st Street, Floor 3, Room 3E
   - 915 Broadway is the same building; the door is on 21st
+  - Housekeeping rules:
+    - Clean up after yourself - don't leave garbage, coffee mugs, etc. in the classroom
+    - The refridgerators are cleaned out every Friday
 
 
 - Contact info
