@@ -1,7 +1,5 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Academic Policies
 
-This is a summary of key policies. Please refer to the [GA Course Catalog](https://ga-core.s3.amazonaws.com/cms/files/files/000/004/365/original/GA_Catalog-NYC_v1v6_20160910_bvm.pdf#page=19) for full details.
-
 
 - **Graduation Requirements:** In order to graduate and receive Outcomes support, students must:
   - Receive a passing grade on ALL projects
@@ -23,3 +21,6 @@ This is a summary of key policies. Please refer to the [GA Course Catalog](https
   - Projects not receving a passing grade or submitted late will not count, and will disqualify students from graduating and receiving Outcomes support.
   - Assignments and projects that contain errors which prevent the code from building and compiling will not be counted. Assignments and projects that build, but immediately crash when run will not be counted. You must always ensure your code builds and runs successfully!
   - All assignments and projects must adhere to the [GA Code of Conduct](code-of-conduct.md). Please notify your instructional team if you have any concerns.
+
+
+Please refer to the [GA Course Catalog](https://ga-core.s3.amazonaws.com/cms/files/files/000/004/365/original/GA_Catalog-NYC_v1v6_20160910_bvm.pdf#page=19) for additional details.
