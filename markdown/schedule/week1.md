@@ -38,32 +38,51 @@ days:
   - date: Tuesday, 10/4
     lessons:
       - name: Intro to Android
+        url:
       - name: Data Types & Variables
+        url:
       - name: Functions & Scope
+        url:
+
     assignments:
       - name: Data Types & Variables Lab
+        url:
       - name: Functions & Scope Lab
+        url:
       - name: Functions & Scope HW
+        url:
 
   - date: Wednesday, 10/5
     lessons:
+      - name: Outcomes
       - name: Control Flow
+        url:
+
     assignments:
       - name: Advanced Functions Lab
+        url:
       - name: Functions Practice HW
+        url:
 
   - date: Thursday, 10/6
     lessons:
       - name: Debugging Fundamentals
+        url:
       - name: Data Collections
+        url:
+
     assignments:
       - name: Data Collections Lab
+        url:
 
   - date: Friday, 10/7
     lessons:
       - name: None (Project 0 Workshop)
+        url:
+
     assignments:
       - name: More Functions Practice HW
+        url:
 ---
 
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Week {{page.week}}
