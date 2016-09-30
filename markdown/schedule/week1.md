@@ -12,25 +12,22 @@ week: 1
 days:
   - date: Monday, 10/3
     lessons:
+      - name: Welcome to ADI!
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/orientation-materials/welcome-to-adi
       - name: Command Line
         url: 
-
       - name: Git & GitHub
         url: 
-
     assignments:
       - name: Command Line Lab
         url: 
         note: 
-
       - name: Git & GitHub Lab
         url: 
         note:
-
       - name: Android SDK Installation
         url: 
         note: (no deliverable)
-
       - name: Optional command line setup
         url:
         note: (no deliverable)
@@ -43,7 +40,6 @@ days:
         url:
       - name: Functions & Scope
         url:
-
     assignments:
       - name: Data Types & Variables Lab
         url:
@@ -57,7 +53,6 @@ days:
       - name: Outcomes
       - name: Control Flow
         url:
-
     assignments:
       - name: Advanced Functions Lab
         url:
@@ -70,7 +65,6 @@ days:
         url:
       - name: Data Collections
         url:
-
     assignments:
       - name: Data Collections Lab
         url:
@@ -79,7 +73,6 @@ days:
     lessons:
       - name: None (Project 0 Workshop)
         url:
-
     assignments:
       - name: More Functions Practice HW
         url:
