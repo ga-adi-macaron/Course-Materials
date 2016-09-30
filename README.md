@@ -9,6 +9,7 @@ Welcome to the [course materials Gitbook](https://charlesdrews.gitbooks.io/ga-ad
 | Drew Mahrt | Charlie Drews |
 |:---:|:---:|
 |  <img src="drew.png" width="200"/> | <img src="charlie.png" width="200"/>  |
+| [drew.mahrt@generalassemb.ly](mailto:drew.mahrt@generalassemb.ly)<br/>Slack: drew.mahrt | [charles.drews@generalassemb.ly](mailto:charles.drews@generalassemb.ly)<br/>Slack: charlie.drews |
 
 ---
 

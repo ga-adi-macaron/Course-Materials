@@ -28,6 +28,6 @@
     - The refridgerators are cleaned out every Friday
 
 
-- Contact info
+- **Contact info**
   - Drew: [Email](mailto:drew.mahrt@generalassemb.ly), Slack: drew.mahrt
   - Charlie: [Email](mailto:charles.drews@generalassemb.ly), Slack: charlie.drews
