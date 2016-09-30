@@ -66,6 +66,7 @@
   - [Android Feature Graphic Generator](http://www.norio.be/android-feature-graphic-generator/) - Quickly create graphics required for the play store
   - [GitHub Pages](https://pages.github.com/) - Make a quick portfolio site or app feature site
   - [Appetize.io](https://appetize.io/) - Embed apps in websites (useful for porfolios)
+  - [Meetup](https://www.meetup.com/) - Best way to find networking events
 
 
 - Algorithms & Whiteboarding Practice
