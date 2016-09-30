@@ -6,7 +6,7 @@
   - [Android Studio User Guide](https://developer.android.com/studio/intro/index.html)
   - [Android Vocabulary Glossary](https://developers.google.com/android/for-all/vocab-words/)
   - [Git Docs](https://git-scm.com/docs)
-  - GA students get 50% off [books from O'Reilly](http://shop.oreilly.com/category/deals/general-assembly.do?cmp=ex-na-books-videos-lp-promo_general_assembly) (well, maybe; not totally sure this works)
+  - GA students get 50% off [books from O'Reilly](http://shop.oreilly.com/category/deals/general-assembly.do?cmp=ex-na-books-videos-lp-promo_general_assembly) (Well, maybe; not totally sure this works)
 
 
 - Quick References / Cheat Sheets
@@ -23,7 +23,7 @@
   - [CodePath Android Cliffnotes](https://guides.codepath.com/android)
   - Tutorials Point for [Java](https://www.tutorialspoint.com/java/index.htm), [Android](https://www.tutorialspoint.com/android/index.htm), and [SQLite](http://www.tutorialspoint.com/sqlite/)
   - [Android Developer Youtube Channel](https://www.youtube.com/channel/UCVHFbqXqoYvEWM1Ddxl0QDg)
-  - [Android Performance Pattern Videos](https://www.youtube.com/playlist?list=PLWz5rJ2EKKc9CBxr3BVjPTPoDPLdPIFCE) - great series from the above channel
+  - [Android Performance Pattern Videos](https://www.youtube.com/playlist?list=PLWz5rJ2EKKc9CBxr3BVjPTPoDPLdPIFCE) - Great series from the above channel
   - [Google's Android Architecure Blueprints](https://github.com/googlesamples/android-architecture)
   - [Clean Architecture](https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html)
   - [Vim Adventures](http://vim-adventures.com/) - Learn Vim by playing a game
@@ -42,7 +42,7 @@
     - [Realm](https://realm.io/)
   - Other
     - [RxJava](https://github.com/ReactiveX/RxJava) and [RxAndroid](https://github.com/ReactiveX/RxAndroid)
-    - [Android Data Binding](https://developer.android.com/topic/libraries/data-binding/index.html) - not technically a 3rd party library, but close enough
+    - [Android Data Binding](https://developer.android.com/topic/libraries/data-binding/index.html) - Not technically a 3rd party library, but close enough
     - [Much, much more](https://github.com/JStumpp/awesome-android)
 
 
