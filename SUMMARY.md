@@ -1,7 +1,7 @@
 # Summary
 
 - [Home](README.md)
-- [Course Logistics](markdown/logistics.md)
+- [Logistics](markdown/logistics.md)
 - [Acdemic Policies](markdown/policies.md)
 - [Lessons & Assignments by Week](markdown/schedule.md)
   - [Week 1 (10/3 - 10/7)](markdown/schedule/week1.md)
