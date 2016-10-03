@@ -18,9 +18,10 @@ days:
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/workflow-and-dev-tools/os-navigation-lesson
       - name: Git & GitHub
         url: 
+
     assignments:
       - name: Command Line Lab
-        url: 
+        url: https://github.com/ga-adi-macaron/command-line-lab
         note: 
       - name: Git & GitHub Lab
         url: 
