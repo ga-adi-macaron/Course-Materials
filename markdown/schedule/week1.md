@@ -17,14 +17,14 @@ days:
       - name: Command Line
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/workflow-and-dev-tools/os-navigation-lesson
       - name: Git & GitHub
-        url: 
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/workflow-and-dev-tools/git-github-lesson
 
     assignments:
       - name: Command Line Lab
         url: https://github.com/ga-adi-macaron/command-line-lab
         note: 
       - name: Git & GitHub Lab
-        url: 
+        url: https://github.com/ga-adi-macaron/github-lab
         note:
       - name: Android SDK Installation
         url: 
