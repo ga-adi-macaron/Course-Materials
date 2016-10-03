@@ -1,7 +1,7 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Academic Policies
 
 
-- **Graduation Requirements:** In order to graduate and receive Outcomes support, students must:
+- **Graduation Requirements** - In order to graduate and receive Outcomes support, students must:
   - Receive a passing grade on ALL projects
   - Complete at least 80% of assignments (i.e. labs and homeworks)
   - Accrue no more than 3 unexcused absences, per the attendance policy below
