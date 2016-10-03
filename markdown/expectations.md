@@ -21,7 +21,7 @@ Per our group discussion, here are the things you should expect from yourself an
 
 
 - **Challenge Each Other**:
-  - Some *friendly* competition can help encourage achievement. Be creative and encourage each other to go above an beyond the requirements for each assignment.
+  - Some *friendly* competition can help encourage achievement. Be creative and encourage each other to go above and beyond the requirements for each assignment.
   - When helping a classmate, don't always give them the answer right away. Try to point them in the right direction and let them have that "ah ha" moment when the figure it out for themselves.
 
 
