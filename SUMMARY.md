@@ -3,6 +3,8 @@
 - [Home](README.md)
 - [Logistics](markdown/logistics.md)
 - [Acdemic Policies](markdown/policies.md)
+  - [Code of Conduct](markdown/code-of-conduct.md)
+- [Expectations](markdown/expectations.md)
 - [Lessons & Assignments by Week](markdown/schedule.md)
   - [Week 1 (10/3 - 10/7)](markdown/schedule/week1.md)
 - [Lessons by Topic](markdown/topics.md)

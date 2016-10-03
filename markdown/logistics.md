@@ -39,7 +39,7 @@
     1. Single or double sided
   - Housekeeping rules:
     - Clean up after yourself - don't leave garbage, coffee mugs, etc. in the classroom
-    - The refridgerators are cleaned out every Friday
+    - Put your name on anything you put in the fridge, and don't leave anything over the weekend
 
 
 - **Contact Info**
