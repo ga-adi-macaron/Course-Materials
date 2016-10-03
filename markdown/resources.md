@@ -26,6 +26,7 @@
 - [Git Info in Your Bash Prompt](https://git-scm.com/book/en/v2/Git-in-Other-Environments-Git-in-Bash)
 - [.bash_profile vs .bashrc](http://www.joshstaiger.org/archives/2005/07/bash_profile_vs.html)
 - [Bash Tab-Completion](http://superuser.com/questions/59175/is-there-a-way-to-make-bash-more-tab-friendly/59198#59198)
+- [Bash Aliases](http://tldp.org/LDP/abs/html/aliases.html) - for example, alias `rm` to be `rm -i` so it always runs in interactive mode and asks you yes/no before deleting anything
 - [Solarized Color Scheme](https://github.com/altercation/solarized/tree/master/osx-terminal.app-colors-solarized)
 
 
