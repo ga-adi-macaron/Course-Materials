@@ -72,13 +72,11 @@ Git was created by [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds
 
 #### Can you use git without GitHub?
 
-> Instructor Note: Explain the differences between 'remote' and 'local'.
 
 Git is a software that enables version control on local folders on your machine.  GitHub is a place to host your Git repositories, remotely. You can certainly have local files, that are using Git, that are not sent to or stored on GitHub.
 
 Read [this](http://stackoverflow.com/questions/11816424/understanding-the-basics-of-git-and-github) when you have time!
 
-> Check: Describe how remote files compare to local files.  Describe how Git compares to GitHub.
 
 ## Demo: Why is Git tricky to understand? (15 mins)
 
@@ -132,7 +130,6 @@ Once you have committed a file and it becomes "unmodified" then it's contents ar
 - **Not saved in git memory**: Your file is not saved until you commit the file to Git's memory
 - **Saved in git memory**: Only once you have committed a file, it becomes saved in Git's memory
 
-> Check: Work with the person next to you, get on the web, and take 3 minutes to come up with a one-sentence explanation of the difference between untracked and stage files. Get ready to share out.
 
 ## Guided Practice: Let's use Git (15 mins)
 
@@ -163,7 +160,6 @@ Git will reply:
 ```bash
 Initialized empty Git repository in <location>
 ```
-> Check: Did students get this message?
 
 You've now initialized the working directory.
 
@@ -224,7 +220,6 @@ You should now get:
  create mode 100644 a.txt
 ```
 
-> Check: Did students get this message?
 
 #### Checking the log
 
@@ -240,7 +235,6 @@ You should see:
 * b4faebd (HEAD, master) Please remember this file at this time
 ```
 
-> Check: Did students get this message?
 
 To exit this view, you need to press:
 
@@ -258,7 +252,6 @@ If you press `return` in the terminal, you will now see that you have untracked 
 
 Running `git status` again will show you that a.txt has been **modified**.
 
-> Check: Have the students add and commit the change.
 
 ## Guided Practice: Making and cloning repositories  (10 mins)
 
@@ -285,7 +278,6 @@ In order to send files from our local machine to our remote repository on GitHub
 git push origin master
 ```
 
-> Check: Did students get a success message?
 
 #### Pulling from GitHub
 
@@ -305,7 +297,6 @@ git push origin master
 
 Refresh your GitHub webpage, and the files should be there.
 
-> Check: Were students able to get their code on GitHub?
 
 
 #### Cloning your first repository
@@ -351,7 +342,6 @@ Receiving objects: 100% (3/3), done.
 Checking connectivity... done.
 ```
 
-> Check: Did students get this message?
 
 You now have cloned your first repository!
 
@@ -393,7 +383,6 @@ The goal is to get the work from [this](https://github.com/ga-students/forking-e
 6. Type in your name in the `readme.md` file
 7. `add`, `commit`, and `git push origin master`
 
-> Check: Do students have their changes on their GitHub fork of the forking-exercise repo?
 
 Remember, before you can open a pull request from your fork, you must commit new code to your local clone of your fork, and push that code to your fork on GitHub.  Now, to create a pull request:
 
@@ -407,13 +396,9 @@ Remember, before you can open a pull request from your fork, you must commit new
 7. Enter a title and description for your pull request
 8. Click 'Send pull request'
 
-> Check: Does the https://github.com/ga-students/forking-exercise have  new pull requests from your students?
 
 Think about this flow because we'll be using it throughout the course!
 
-## Independent Practice (10 mins)
-
-Use the skills you just learned to turn in the command line lab. It's fine if you haven't finished it yet, you can continue to make commits and have them show up in your pull request.
 
 ## Independent Practice: Assess (10 mins)
 
@@ -426,7 +411,6 @@ Use the internet and what you've learned today to answer the following questions
 * How do I check the configuration on a specific machine?
 * How does GitHub know that I am allowed to push to a specific repo?
 
-> Check: Call on various students to reveal their answers.
 
 ## Introduction: Git Ignore file (10 mins)
 
@@ -456,11 +440,8 @@ All of your future projects will ignore the files listed.
 
 ## Independent Practice: Turning in an assignment (5 mins)
 
-Using your new Github skills, turn in the command line lab from yesterday. Fork and clone the lab repo, move the folders/files you created into the local repo, then push the changes. Finally, make a pull request.
+Using your new Github skills, turn in the command line lab from today. Fork and clone the lab repo, move the folders/files you created into the local repo, then push the changes. Finally, make a pull request.
 
-If you have time, do the same with the homework, otherwise do that later.
-
-> Check: Were students able to turn in their assignment?
 
 ## Conclusion (5 mins)
 
