@@ -1,6 +1,7 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Resources
 
 
+<a name="documentation"></a>
 - Documentation
   - [Android Developers Docs](https://developer.android.com/develop/index.html)
   - [Android Studio User Guide](https://developer.android.com/studio/intro/index.html)
@@ -9,6 +10,7 @@
   - GA students get 50% off [books from O'Reilly](http://shop.oreilly.com/category/deals/general-assembly.do?cmp=ex-na-books-videos-lp-promo_general_assembly) (Well, maybe; not totally sure this works)
 
 
+<a name="cheat-sheets"><a/>
 - Quick References / Cheat Sheets
   - [Command Line](https://www.git-tower.com/blog/command-line-cheat-sheet/)
   - [Git](https://services.github.com/kit/downloads/github-git-cheat-sheet.pdf)
@@ -17,6 +19,16 @@
   - [Vim](http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html)
 
 
+<a name="customization"></a>
+- Command Line & Git Customization
+  - Git Commands Auto-Completion for [Bash](https://git-scm.com/book/en/v1/Git-Basics-Tips-and-Tricks) and [Other Shells](https://github.com/git/git/tree/master/contrib/completion)
+  - [Git Info in Your Bash Prompt](https://git-scm.com/book/en/v2/Git-in-Other-Environments-Git-in-Bash)
+  - [.bash_profile vs .bashrc](http://www.joshstaiger.org/archives/2005/07/bash_profile_vs.html)
+  - [Bash Tab-Completion](http://superuser.com/questions/59175/is-there-a-way-to-make-bash-more-tab-friendly/59198#59198)
+  - [Solarized Color Scheme](https://github.com/altercation/solarized/tree/master/osx-terminal.app-colors-solarized)
+
+
+<a name="tutorials"></a>
 - Tutorials
   - [Official Java Tutorials from Oracle](https://docs.oracle.com/javase/tutorial/)
   - [Vogella](http://www.vogella.com/tutorials/)
@@ -29,6 +41,7 @@
   - [Vim Adventures](http://vim-adventures.com/) - Learn Vim by playing a game
 
 
+<a name="libraries"></a>
 - 3rd Party Libraries
   - Networking
     - [OkHttp](http://square.github.io/okhttp/)
@@ -46,12 +59,14 @@
     - [Much, much more](https://github.com/JStumpp/awesome-android)
 
 
+<a name="consoles"></a>
 - Developer Consoles
   - [Google Developer Console](https://play.google.com/apps/publish/)
   - [Google API Console](https://console.developers.google.com/)
   - [Firebase Console](https://firebase.google.com/console/)
 
 
+<a name="tools"></a>
 - Tools
   - [Sublime Text Editor](https://www.sublimetext.com/)
   - [Atom Text Editor](https://atom.io/)
@@ -69,6 +84,7 @@
   - [Meetup](https://www.meetup.com/) - Best way to find networking events
 
 
+<a name="algorithm-practice"></a>
 - Algorithms & Whiteboarding Practice
   - [Cracking the Coding Interview](https://smile.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/)
   - [Interview Cake](https://www.interviewcake.com/)
