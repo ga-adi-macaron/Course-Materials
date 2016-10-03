@@ -460,7 +460,7 @@ A null value is an empty value.  Taken from a StackOverflow post:
 ## Independent Practice: Practice! (15 minutes)
 > Instructor Note: This can be a pair programming activity or done independently.
 
-Download the coding prompt found in `VariablePractice` and complete all tasks. We will go over the answers in 12 minutes.
+Open the IntelliJ project found in `starter-code` and complete all tasks specified in the comments. We will go over the answers in 12 minutes.
 
 > Check: Were students able to create the desired deliverable(s)? Did it meet all necessary requirements / constraints?
 
