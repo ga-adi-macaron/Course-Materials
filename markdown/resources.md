@@ -22,6 +22,7 @@
 <a name="customization"></a>
 - Command Line & Git Customization
   - Git Commands Auto-Completion for [Bash](https://git-scm.com/book/en/v1/Git-Basics-Tips-and-Tricks) and [Other Shells](https://github.com/git/git/tree/master/contrib/completion)
+  - [Change Default Text Editor for Git](http://superuser.com/a/503845)
   - [Git Info in Your Bash Prompt](https://git-scm.com/book/en/v2/Git-in-Other-Environments-Git-in-Bash)
   - [.bash_profile vs .bashrc](http://www.joshstaiger.org/archives/2005/07/bash_profile_vs.html)
   - [Bash Tab-Completion](http://superuser.com/questions/59175/is-there-a-way-to-make-bash-more-tab-friendly/59198#59198)
