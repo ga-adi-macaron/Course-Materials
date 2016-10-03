@@ -27,7 +27,7 @@ days:
         url: https://github.com/ga-adi-macaron/github-lab
         note:
       - name: Android SDK Installation
-        url: 
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/workflow-and-dev-tools/sdk-installation
         note: (no deliverable)
 
   - date: Tuesday, 10/4
