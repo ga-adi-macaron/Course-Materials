@@ -1,6 +1,6 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Course Logistics
 
-- **Key dates**
+- **Key Dates**
   - First day: Monday, October 3, 2016
   - Last day: Monday, January 9, 2017
 
@@ -12,7 +12,7 @@
   - Friday, December 23 - Monday, January 2 (class resumes on 1/3)
 
 
-- **Class hours**
+- **Class Hours**
   - Monday, Tuesday, Thursday, Friday: 9:00 am - 5:00 pm
     - Lunch: Typically 1:00 pm - 2:00 pm; may occasionally vary
   - Wednesday: 9:00 am - 12:00 pm
@@ -42,6 +42,6 @@
     - The refridgerators are cleaned out every Friday
 
 
-- **Contact info**
+- **Contact Info**
   - Drew: [Email](mailto:drew.mahrt@generalassemb.ly), Slack: drew.mahrt
   - Charlie: [Email](mailto:charles.drews@generalassemb.ly), Slack: charlie.drews

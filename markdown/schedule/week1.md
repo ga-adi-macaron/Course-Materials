@@ -28,9 +28,6 @@ days:
       - name: Android SDK Installation
         url: 
         note: (no deliverable)
-      - name: Optional command line setup
-        url:
-        note: (no deliverable)
 
   - date: Tuesday, 10/4
     lessons:
