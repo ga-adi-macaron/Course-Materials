@@ -15,7 +15,7 @@ days:
       - name: Welcome to ADI!
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/orientation-materials/welcome-to-adi
       - name: Command Line
-        url: 
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/workflow-and-dev-tools/os-navigation-lesson
       - name: Git & GitHub
         url: 
     assignments:
