@@ -439,7 +439,7 @@ Please create a new Java project in IntelliJ and work through as many as these e
      thirdAndFirst("Times","thyme");
      ```
 
-4. Write a method called 'reverseString'. This method should take one argument, a String. The method should return a string with the order of the words reversed. Don't worry about punctuation
+4. **BONUS**: Write a method called 'reverseString'. This method should take one argument, a String. The method should return a string with the order of the words reversed. Don't worry about punctuation
 
     ```java
     reverseString("black cat"); => "tac kcalb"
