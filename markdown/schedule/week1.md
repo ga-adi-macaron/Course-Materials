@@ -38,6 +38,8 @@ days:
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/programming-fundamentals-in-java/data-types-and-variables
       - name: Functions & Scope
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/programming-fundamentals-in-java/functions-lesson
+      - name: Exit Ticket
+        url: https://goo.gl/forms/cB8Jhr4pxvRR9Ps82
     assignments:
       - name: Data Types & Variables HW
         url: https://github.com/ga-adi-macaron/data-types-and-variables-hw
