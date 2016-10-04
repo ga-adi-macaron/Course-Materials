@@ -1,7 +1,7 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Workflow and Developer Tools
 
 - [Command Line](https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/workflow-and-dev-tools/os-navigation-lesson) (Monday, 10/3)
-- Git & Github (Monday, 10/3)
+- [Git & Github](https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/workflow-and-dev-tools/git-github-lesson) (Monday, 10/3)
 - Debugging Fundamentals in Java (Thursday, 10/6)
 - Debugging in Android Studio
 - Developer Documentation
