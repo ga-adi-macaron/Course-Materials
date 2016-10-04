@@ -1,0 +1,37 @@
+package ly.generalassemb;
+
+import java.util.Scanner;
+
+public class AskAQuestion {
+
+    public static void main(String[] args) {
+        askAQuestion();
+        System.out.println("Thanks for playing");
+    }
+
+    public static void askAQuestion() {
+        System.out.println("Ask who, what, where, when why");
+
+        Scanner input = new Scanner(System.in);
+        String userInput = input.nextLine();
+
+        if (userInput.equals("who")) {
+            System.out.println("We are an ADI class");
+        } else if (userInput.equals("what")) {
+            System.out.println("We are learning about functions");
+        } else if (userInput.equals("when")) {
+            System.out.println("Right now");
+        } else if (userInput.equals("where")) {
+            System.out.println("NY");
+        } else if (userInput.equals("why")) {
+            System.out.println("Because they are cool");
+        } else if(userInput.equals("quit")){
+            return;
+        }else {
+            System.out.println("Not a valid command");
+        }
+
+        askAQuestion();
+    }
+}
+
