@@ -37,7 +37,8 @@ days:
       - name: Data Types & Variables
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/programming-fundamentals-in-java/data-types-and-variables
       - name: Functions & Scope
-        url:
+        url: 
+        https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/programming-fundamentals-in-java/functions-lesson
     assignments:
       - name: Data Types & Variables HW
         url:
