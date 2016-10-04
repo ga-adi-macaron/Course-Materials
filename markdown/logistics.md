@@ -43,6 +43,11 @@ Campus will be closed and no classes will be held on the following dates:
   - Put your name on anything you put in the fridge, and don't leave anything over the weekend
 
 
+#### Course Tools
+- GitHub organization: [GA ADI Macaron](https://github.com/ga-adi-macaron)
+- Class Slack channel: [#adi-macaron](https://ga-students.slack.com/messages/adi-macaron/)
+
+
 #### Contact Info
 | Name | Email | Slack |
 | --- | --- | --- |
