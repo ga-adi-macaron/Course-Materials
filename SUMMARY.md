@@ -13,7 +13,7 @@
   - [Android Technologies and Services](markdown/topics/android-technologies-and-services.md)
   - [CS & Interview Prep](markdown/topics/computer-science-and-interview-prep.md)
   - [Databases](markdown/topics/databases.md)
-  - [Orientation & Review](markdown/topics/orientation-and-review.md)
+  - [Orientation & Review](markdown/topics/orientation-and-review-materials.md)
   - [Product Development](markdown/topics/product-development.md)
   - [Programming Fundamentals in Java](markdown/topics/programming-fundamentals-in-java.md)
   - [Testing](markdown/topics/testing.md)
