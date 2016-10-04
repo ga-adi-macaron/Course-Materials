@@ -196,7 +196,7 @@ System.out.println(2 * 2);
 System.out.println(2 % 2); // What does this do??
 ```
 
-## Demo: Using Math Methods (10 mins)
+## Demo: Using Math Methods (5 mins)
 
 Programming languages can be a little stingy with the number of operations they allow you to do.
 For example, how do you square or cube a number?
