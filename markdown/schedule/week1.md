@@ -42,9 +42,9 @@ days:
       - name: Data Types & Variables HW
         url: https://github.com/ga-adi-macaron/data-types-and-variables-hw
       - name: Functions & Scope Lab
-        url:
+        url: https://github.com/ga-adi-macaron/functions-lab
       - name: Functions & Scope HW
-        url:
+        url: https://github.com/ga-adi-macaron/functions-and-scope-hw
 
   - date: Wednesday, 10/5
     lessons:
