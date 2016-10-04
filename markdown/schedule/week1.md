@@ -22,7 +22,7 @@ days:
     assignments:
       - name: Command Line Lab
         url: https://github.com/ga-adi-macaron/command-line-lab
-        note: 
+        note:
       - name: Git & GitHub Lab
         url: https://github.com/ga-adi-macaron/github-lab
         note:
@@ -33,7 +33,7 @@ days:
   - date: Tuesday, 10/4
     lessons:
       - name: Intro to Android
-        url:
+        url: https://github.com/ga-adi-gelato/Course-Materials/tree/master/lessons/orientation-materials/android-intro-lesson
       - name: Data Types & Variables
         url:
       - name: Functions & Scope
