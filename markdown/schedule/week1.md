@@ -39,7 +39,7 @@ days:
       - name: Functions & Scope
         url:
     assignments:
-      - name: Data Types & Variables Lab
+      - name: Data Types & Variables HW
         url:
       - name: Functions & Scope Lab
         url:
