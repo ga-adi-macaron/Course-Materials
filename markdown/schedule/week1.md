@@ -35,7 +35,7 @@ days:
       - name: Intro to Android
         url: https://github.com/ga-adi-gelato/Course-Materials/tree/master/lessons/orientation-materials/android-intro-lesson
       - name: Data Types & Variables
-        url:
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/programming-fundamentals-in-java/data-types-and-variables
       - name: Functions & Scope
         url:
     assignments:
@@ -80,7 +80,7 @@ days:
 
 Assignments must be submitted via pull request by 9:00 am the next class day.
 
-&#x2705; = solution posted
+&#x2705; = solution code posted
 
 <table>
 <tr><td><b>Date</b></td><td><b>Lessons</b></td><td><b>Assignments</b></td></tr>
