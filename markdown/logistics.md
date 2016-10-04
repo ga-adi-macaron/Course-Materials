@@ -46,6 +46,7 @@ Campus will be closed and no classes will be held on the following dates:
 #### Course Tools
 - GitHub organization: [GA ADI Macaron](https://github.com/ga-adi-macaron)
 - Class Slack channel: [#adi-macaron](https://ga-students.slack.com/messages/adi-macaron/)
+- [GA Circuits](https://circuits.generalassemb.ly)
 
 
 #### Contact Info
