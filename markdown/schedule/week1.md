@@ -50,14 +50,13 @@ days:
 
   - date: Wednesday, 10/5
     lessons:
-      - name: Outcomes
       - name: Control Flow
-        url:
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/programming-fundamentals-in-java/control-flow
     assignments:
       - name: Advanced Functions Lab
-        url:
+        url: https://github.com/ga-adi-macaron/advanced-functions-lab
       - name: Functions Practice HW
-        url:
+        url: https://github.com/ga-adi-macaron/functions-practice-hw
 
   - date: Thursday, 10/6
     lessons:
