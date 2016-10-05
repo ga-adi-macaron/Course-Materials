@@ -44,6 +44,7 @@ days:
         note: "&#x2705;"
       - name: Functions & Scope Lab
         url: https://github.com/ga-adi-macaron/functions-lab
+        note: "&#x2705;"
       - name: Functions & Scope HW
         url: https://github.com/ga-adi-macaron/functions-and-scope-hw
         note: "&#x2705;"
