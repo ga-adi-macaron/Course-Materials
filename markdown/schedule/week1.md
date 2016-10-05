@@ -22,10 +22,8 @@ days:
     assignments:
       - name: Command Line Lab
         url: https://github.com/ga-adi-macaron/command-line-lab
-        note:
       - name: Git & GitHub Lab
         url: https://github.com/ga-adi-macaron/github-lab
-        note:
       - name: Android SDK Installation
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/workflow-and-dev-tools/sdk-installation
         note: (no deliverable)
@@ -43,10 +41,12 @@ days:
     assignments:
       - name: Data Types & Variables HW
         url: https://github.com/ga-adi-macaron/data-types-and-variables-hw
+        note: "&#x2705;"
       - name: Functions & Scope Lab
         url: https://github.com/ga-adi-macaron/functions-lab
       - name: Functions & Scope HW
         url: https://github.com/ga-adi-macaron/functions-and-scope-hw
+        note: "&#x2705;"
 
   - date: Wednesday, 10/5
     lessons:
