@@ -2,7 +2,7 @@
 
 &#x2705; = solution code posted
 
-- Project 0 - Rock Paper Scissors: Due Friday, 10/7
+- [Project 0 - Rock Paper Scissors](https://github.com/ga-adi-macaron/project-0): Due Friday, 10/7 at 4:00 pm
 
 
 - Project 1 - To-Do Lists
