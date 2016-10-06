@@ -1,6 +1,6 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Lessons and Assignments by Week
 
-- [Week 1](schedule/week1.md) (10/3 - 10/7)
+- [Week 1](schedule/wk1.md) (10/3 - 10/7)
 
 
 ---
