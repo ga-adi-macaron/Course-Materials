@@ -56,8 +56,10 @@ days:
     assignments:
       - name: Advanced Functions Lab
         url: https://github.com/ga-adi-macaron/advanced-functions-lab
+        note: "&#x2705;"
       - name: Functions Practice HW
         url: https://github.com/ga-adi-macaron/functions-practice-hw
+        note: "&#x2705;"
 
   - date: Thursday, 10/6
     lessons:

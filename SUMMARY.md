@@ -7,7 +7,7 @@
   - [Course Catalog](https://ga-core.s3.amazonaws.com/cms/files/files/000/004/365/original/GA_Catalog-NYC_v1v6_20160910_bvm.pdf#page=19)
 - [Expectations](markdown/expectations.md)
 - [Lessons & Assignments by Week](markdown/schedule.md)
-  - [Week 1 (10/3 - 10/7)](markdown/schedule/week1.md)
+  - [Week 1 (10/3 - 10/7)](markdown/schedule/wk1.md)
 - [Lessons by Topic](markdown/topics.md)
   - [Activities & Fragments](markdown/topics/activities-and-fragments.md)
   - [Android Technologies and Services](markdown/topics/android-technologies-and-services.md)
