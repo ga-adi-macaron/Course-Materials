@@ -69,7 +69,7 @@ days:
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/programming-fundamentals-in-java/debugging-fundamentals-in-java-lesson
     assignments:
       - name: Data Collections Lab
-        url:
+        url: https://github.com/ga-adi-macaron/data-collections-lab
 
   - date: Friday, 10/7
     lessons:
