@@ -2,7 +2,7 @@
 
 - [Home](README.md)
 - [Logistics](markdown/logistics.md)
-- [Acdemic Policies](markdown/policies.md)
+- [Academic Policies](markdown/policies.md)
   - [Code of Conduct](markdown/code-of-conduct.md)
   - [Course Catalog](https://ga-core.s3.amazonaws.com/cms/files/files/000/004/365/original/GA_Catalog-NYC_v1v6_20160910_bvm.pdf#page=19)
 - [Expectations](markdown/expectations.md)
