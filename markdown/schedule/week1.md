@@ -62,7 +62,7 @@ days:
   - date: Thursday, 10/6
     lessons:
       - name: Debugging Fundamentals
-        url:
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/programming-fundamentals-in-java/debugging-fundamentals-in-java-lesson
       - name: Data Collections
         url:
     assignments:
