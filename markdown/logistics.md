@@ -56,4 +56,5 @@ Campus will be closed and no classes will be held on the following dates:
 | Charlie | [charles.drews@ga.co](mailto:charles.drews@ga.co) | charlie.drews |
 | Claudia | [claudia.matos@ga.co](mailto:claudia.matos@ga.co) | coachclaudia |
 | Eric | [coacheric@ga.co](mailto:coacheric@ga.co) | coacheric |
+| Macia | [macia@ga.co](mailto:macia@ga.co) | coachmacia |
 | Outcomes Team | [nycoutcomes@generalassemb.ly](mailto:nycoutcomes@generalassemb.ly) | |
