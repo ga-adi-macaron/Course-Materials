@@ -72,6 +72,7 @@ days:
     assignments:
       - name: Data Collections Lab
         url: https://github.com/ga-adi-macaron/data-collections-lab
+        note: "&#x2705;"
 
   - date: Friday, 10/7
     lessons:
