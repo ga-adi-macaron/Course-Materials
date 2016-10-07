@@ -82,6 +82,9 @@ days:
     assignments:
       - name: More Functions Practice HW
         url: https://github.com/ga-adi-macaron/more-functions-practice-hw
+      - name: "Reading: Intro to OOP Concepts"
+        url: https://docs.oracle.com/javase/tutorial/java/concepts/index.html
+        note: (no deliverable)
 ---
 
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Week {{page.week}}
