@@ -81,7 +81,7 @@ days:
       - name: Project 0 Workshop
     assignments:
       - name: More Functions Practice HW
-        url:
+        url: https://github.com/ga-adi-macaron/more-functions-practice-hw
 ---
 
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Week {{page.week}}
