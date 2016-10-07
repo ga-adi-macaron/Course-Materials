@@ -75,8 +75,9 @@ days:
 
   - date: Friday, 10/7
     lessons:
-      - name: None (Project 0 Workshop)
-        url:
+      - name: End of Week Exit Ticket
+        url: https://goo.gl/forms/xWTRoRaqnK4DrSgm1
+      - name: Project 0 Workshop
     assignments:
       - name: More Functions Practice HW
         url:
