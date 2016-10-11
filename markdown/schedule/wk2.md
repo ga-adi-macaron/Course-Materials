@@ -19,7 +19,7 @@ days:
       - name: Week 1 Review
         url: https://www.jeopardy.rocks/adigelatoweek1
       - name: Organizing Information
-        url: 
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/programming-fundamentals-in-java/organizing-info-lesson
       - name: Classes
         url: 
       - name: Exit Ticket
