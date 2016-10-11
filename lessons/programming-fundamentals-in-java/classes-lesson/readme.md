@@ -41,9 +41,9 @@ We give these objects a template using the concept of `classes`. A `class` is a 
 
 ## Introduction: Instantiating an Object (10 minutes)
 
-Creating an object of a class is called *instantiation*. This means we are creating a new object in memory. This is done by using the `new` keyword and a special thing called a **_constructor_**. Constructors are like a method whose name _exactly_ matches the name of the class. They can include some parameters that we can pass to our new object. They set up the initial state of the object.
+Creating an object of a class is called *instantiation*. This means we are creating a new object in memory. This is done by using the `new` keyword and a special method called a **_constructor_**. Constructors are methods whose name _exactly_ matches the name of the class. They can include some parameters that we can pass to our new object. They set up the initial state of the object.
 
-Constructors are used only when an object is instantiated. Their sole purpose is to help create an instance of a class. In contrast, the purpose of methods is much more general: execute Java code. Note the difference between constructors and methods.
+Constructors are used only when an object is instantiated. Their sole purpose is to help create an instance of a class. In contrast, the purpose of other methods is much more general: execute Java code. Note the difference between constructors and methods.
 
 
 ## Demo: Defining a Class (10 minutes)
