@@ -28,7 +28,7 @@ days:
       - name: Organizing Information Lab
         url: https://github.com/ga-adi-macaron/Organizing-Info-Lab
       - name: Classes Lab
-        url: 
+        url: https://github.com/ga-adi-macaron/classes-lab
       - name: Classes HW
         url: 
 

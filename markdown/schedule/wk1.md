@@ -82,6 +82,7 @@ days:
     assignments:
       - name: More Functions Practice HW
         url: https://github.com/ga-adi-macaron/more-functions-practice-hw
+        note: "&#x2705;"
       - name: "Reading: Intro to OOP Concepts"
         url: https://docs.oracle.com/javase/tutorial/java/concepts/index.html
         note: (no deliverable)
