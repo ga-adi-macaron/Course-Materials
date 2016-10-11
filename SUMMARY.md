@@ -8,6 +8,7 @@
 - [Expectations](markdown/expectations.md)
 - [Lessons & Assignments by Week](markdown/schedule.md)
   - [Week 1 (10/3 - 10/7)](markdown/schedule/wk1.md)
+  - [Week 2 (10/10 - 10/14)](markdown/schedule/wk2.md)
 - [Lessons by Topic](markdown/topics.md)
   - [Activities & Fragments](markdown/topics/activities-and-fragments.md)
   - [Android Technologies and Services](markdown/topics/android-technologies-and-services.md)
