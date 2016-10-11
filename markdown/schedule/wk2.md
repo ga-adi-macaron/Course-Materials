@@ -51,7 +51,7 @@ days:
       - name: Interfaces & Abstract Classes
         url: 
       - name: Exit Ticket
-        url: https://goo.gl/forms/46MZum6u4gUuC6vK2
+        url: 
     assignments:
       - name: Subclassing Lab
         url: 
