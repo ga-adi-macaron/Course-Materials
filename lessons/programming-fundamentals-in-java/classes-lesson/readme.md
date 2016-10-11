@@ -62,17 +62,14 @@ public class Animal {
     public Animal(String name,float weight) {
         mName = name;
         mWeight = weight;
-    
     }
 
     public float getWeight(){
       return mWeight;
-    
     }
 
-    public float setWeight(float weight){
+    public void setWeight(float weight){
       mWeight = weight;
-    
     }
 
 }
@@ -142,8 +139,14 @@ Perhaps we also to allow public access to change the `mName` variable, we would 
 
 ```java
 public void setName(String name) {
-    mName = name;
 
+  // With a setter, we have the opportunity to check/verify the input
+  if (newName.isEmpty()) {
+    System.out.println("Name can't be empty!!!")
+  }
+  else {
+    mName = name;
+  }
 }
 ```
 
