@@ -21,7 +21,7 @@ days:
       - name: Organizing Information
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/programming-fundamentals-in-java/organizing-info-lesson
       - name: Classes
-        url: 
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/programming-fundamentals-in-java/classes-lesson
       - name: Exit Ticket
         url: 
     assignments:
@@ -30,7 +30,7 @@ days:
       - name: Classes Lab
         url: https://github.com/ga-adi-macaron/classes-lab
       - name: Classes HW
-        url: 
+        url: https://github.com/ga-adi-macaron/classes-hw
 
   - date: Wednesday, 10/12
     lessons:
