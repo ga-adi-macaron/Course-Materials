@@ -3,7 +3,7 @@
 - [Command Line](https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/workflow-and-dev-tools/os-navigation-lesson) (Monday, 10/3)
 - [Git & Github](https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/workflow-and-dev-tools/git-github-lesson) (Monday, 10/3)
 - [Debugging Fundamentals in Java](https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/programming-fundamentals-in-java/debugging-fundamentals-in-java-lesson) (Thursday, 10/6)
-- Debugging in Android Studio
+- [Debugging in Android Studio](https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/workflow-and-dev-tools/debugging-in-android-lesson) (Wednesday, 10/12)
 - Developer Documentation
 - Diagramming Morning Exercise
 - Portfolio Site Lesson

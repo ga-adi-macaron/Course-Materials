@@ -13,11 +13,14 @@ public class ToastActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_toast);
 
+        final int myVariable = 1;
+
         findViewById(R.id.buyButton).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 // do something here when the "buy" button is clicked
-                Log.d("TAG", "onClick: buy");
+                //Log.d("ToastActivity", "onClick: myVariable = " + myVariable);
+                Toast.makeText(ToastActivity.this, "alkeuhgerku", Toast.LENGTH_SHORT).show();
             }
         });
 
