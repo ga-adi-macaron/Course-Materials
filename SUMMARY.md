@@ -20,6 +20,6 @@
   - [Testing](markdown/topics/testing.md)
   - [User Interface](markdown/topics/user-interface.md)
   - [Web Communication](markdown/topics/web-communication.md)
-  - [Workflow & Dev Tools](markdown/topics/workflow-and-dev-tools.md)
+  - [Workflow & Developer Tools](markdown/topics/workflow-and-dev-tools.md)
 - [Projects](markdown/projects.md)
 - [Resources](markdown/resources.md)
