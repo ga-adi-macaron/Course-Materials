@@ -1,6 +1,6 @@
 {
     "structure": {
-        "readme": "README.md"
+        "readme": "README.md",
         "summary": "SUMMARY.md"
     },
     "plugins": ["toggle-chapters"]
