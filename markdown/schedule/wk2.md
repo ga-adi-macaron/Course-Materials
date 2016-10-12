@@ -34,18 +34,18 @@ days:
 
   - date: Wednesday, 10/12
     lessons:
+      - name: Singleton Design Pattern
+        url: 
       - name: Debugging in Android Studio
         url: 
       - name: Intro to XML
-        url: 
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/user-interface/xml-lesson
     assignments:
       - name: XML HW
-        url: 
+        url: https://github.com/ga-adi-macaron/xml-intro-hw
 
   - date: Thursday, 10/13
     lessons:
-      - name: Singleton Design Pattern
-        url: 
       - name: Subclassing
         url: 
       - name: Interfaces & Abstract Classes
