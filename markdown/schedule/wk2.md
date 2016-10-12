@@ -27,10 +27,13 @@ days:
     assignments:
       - name: Organizing Information Lab
         url: https://github.com/ga-adi-macaron/Organizing-Info-Lab
+        note: "&#x2705;"
       - name: Classes Lab
         url: https://github.com/ga-adi-macaron/classes-lab
+        note: "&#x2705;"
       - name: Classes HW
         url: https://github.com/ga-adi-macaron/classes-hw
+        note: "&#x2705;"
 
   - date: Wednesday, 10/12
     lessons:
