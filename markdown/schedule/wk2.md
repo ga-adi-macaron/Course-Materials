@@ -57,7 +57,7 @@ days:
       - name: Interfaces & Abstract Classes
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/programming-fundamentals-in-java/interfaces-and-abstract-classes
       - name: Exit Ticket
-        url: https://goo.gl/forms/Lrl1Sz3QlQbDQQOq2
+        url: 
     assignments:
       - name: Subclassing Lab
         url: https://github.com/ga-adi-macaron/subclassing-lab/
@@ -65,6 +65,8 @@ days:
         url: https://github.com/ga-adi-macaron/abstract-classes-and-interfaces-lab/
       - name: Subclasses, Abstract Classes, Interfaces HW
         url: https://github.com/ga-adi-macaron/subclasses-abstract-classes-interfaces-hw
+      - name: Outcomes Circuit Unit 1
+        url: https://circuits.generalassemb.ly
 
   - date: Friday, 10/14
     lessons:
@@ -81,8 +83,10 @@ days:
         url: 
       - name: Activities & Intents Lab
         url: 
-      - name: OOP Assessment
+      - name: OOP Assessment HW
         url: 
+      - name: Outcomes Circuit Unit 2
+        url: https://circuits.generalassemb.ly
 ---
 
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Week {{page.week}}
