@@ -64,7 +64,7 @@ days:
       - name: Interfaces & Abstract Classes Lab
         url: https://github.com/ga-adi-macaron/abstract-classes-and-interfaces-lab/
       - name: Subclasses, Abstract Classes, Interfaces HW
-        url: 
+        url: https://github.com/ga-adi-macaron/subclasses-abstract-classes-interfaces-hw
 
   - date: Friday, 10/14
     lessons:
