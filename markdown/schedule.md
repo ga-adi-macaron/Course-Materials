@@ -1,7 +1,8 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Lessons and Assignments by Week
 
-- [Week 1](schedule/wk1.md) (10/3 - 10/7)
-- [Week 2](schedule/wk2.md) (10/10 - 10/14)
+- [Week 1 (10/3 - 10/7)](schedule/wk1.md)
+- [Week 2 (10/10 - 10/14)](schedule/wk2.md)
+- [Week 3 (10/17 - 10/21)](schedule/wk3.md)
 
 
 ---
