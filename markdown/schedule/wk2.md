@@ -52,16 +52,16 @@ days:
       - name: Functions Morning Exercise
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/programming-fundamentals-in-java/functions-morning-exercise
       - name: Subclassing
-        url: 
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/programming-fundamentals-in-java/subclassing-lesson
       - name: Interfaces & Abstract Classes
-        url: 
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/programming-fundamentals-in-java/interfaces-and-abstract-classes
       - name: Exit Ticket
         url: 
     assignments:
       - name: Subclassing Lab
-        url: 
+        url: https://github.com/ga-adi-macaron/subclassing-lab/
       - name: Interfaces & Abstract Classes Lab
-        url: 
+        url: https://github.com/ga-adi-macaron/abstract-classes-and-interfaces-lab/
       - name: Subclasses, Abstract Classes, Interfaces HW
         url: 
 
