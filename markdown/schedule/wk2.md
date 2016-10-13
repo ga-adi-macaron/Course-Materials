@@ -46,6 +46,7 @@ days:
     assignments:
       - name: XML HW
         url: https://github.com/ga-adi-macaron/xml-intro-hw
+        note: "&#x2705;"
 
   - date: Thursday, 10/13
     lessons:
