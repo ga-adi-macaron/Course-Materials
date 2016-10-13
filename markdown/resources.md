@@ -13,7 +13,7 @@
 #### Quick References / Cheat Sheets
 - [Command Line](https://www.git-tower.com/blog/command-line-cheat-sheet/)
 - [Git](https://services.github.com/kit/downloads/github-git-cheat-sheet.pdf)
-- [Markdown] (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) - you'll use this format for your README files in GitHub
+- [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) - you'll use this format for your README files in GitHub
 - [SQL Joins](http://www.codeproject.com/KB/database/Visual_SQL_Joins/Visual_SQL_JOINS_orig.jpg)
 - [Big-O Analysis](http://bigocheatsheet.com/)
 - [Vim](http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html)
