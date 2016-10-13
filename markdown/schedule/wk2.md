@@ -57,7 +57,7 @@ days:
       - name: Interfaces & Abstract Classes
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/programming-fundamentals-in-java/interfaces-and-abstract-classes
       - name: Exit Ticket
-        url: 
+        url: https://goo.gl/forms/dimWrh9eTxrv6gd02
     assignments:
       - name: Subclassing Lab
         url: https://github.com/ga-adi-macaron/subclassing-lab/
