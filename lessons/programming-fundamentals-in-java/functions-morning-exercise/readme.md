@@ -17,7 +17,7 @@ creator:
 
 For more practice writing methods, try these problems from CodingBat:
 - [Blackjack](http://codingbat.com/prob/p117019)
-- [Build an array of ints](http://codingbat.com/prob/p178353)
+- [Build an array](http://codingbat.com/prob/p178353)
 - [Word count](http://codingbat.com/prob/p117630)
 - [Shift left](http://codingbat.com/prob/p105031)
 

@@ -49,6 +49,8 @@ days:
 
   - date: Thursday, 10/13
     lessons:
+      - name: Functions Morning Exercise
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/programming-fundamentals-in-java/functions-morning-exercise
       - name: Subclassing
         url: 
       - name: Interfaces & Abstract Classes
