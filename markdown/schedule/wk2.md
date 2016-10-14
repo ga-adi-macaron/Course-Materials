@@ -83,7 +83,7 @@ days:
         url: 
     assignments:
       - name: Views Lab
-        url: 
+        url: https://github.com/ga-adi-macaron/Views-Lab
       - name: Activities & Intents Lab
         url: 
       - name: OOP Assessment HW
