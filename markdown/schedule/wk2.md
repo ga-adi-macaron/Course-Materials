@@ -75,9 +75,9 @@ days:
       - name: End of Week Reflection Survey
         url: https://goo.gl/forms/tlz8cFz1i76Cz1wF3
       - name: Views 101
-        url: 
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/user-interface/views-101-lesson
       - name: Views 102
-        url: 
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/user-interface/views-102-lesson
       - name: Activities & Intents
         url: 
     assignments:
