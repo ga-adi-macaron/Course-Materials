@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1" />
+        <option name="modules">
+          <set>
+            <option value="$USER_HOME$/Dropbox/Charlie/GA/ADI-Macaron/adi-nyc/curriculum/04-schedule-and-supplies/week-02/baseline-materials/activities-and-intents-lesson/solution-code/StartActivityForResultDemo" />
+            <option value="$USER_HOME$/Dropbox/Charlie/GA/ADI-Macaron/adi-nyc/curriculum/04-schedule-and-supplies/week-02/baseline-materials/activities-and-intents-lesson/solution-code/StartActivityForResultDemo/app" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

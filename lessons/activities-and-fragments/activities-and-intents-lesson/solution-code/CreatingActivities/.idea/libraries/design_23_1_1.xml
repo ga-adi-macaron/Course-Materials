@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="design-23.1.1">
+    <CLASSES>
+      <root url="file://$USER_HOME$/Dropbox/Charlie/GA/ADI-Macaron/adi-nyc/curriculum/04-schedule-and-supplies/week-02/baseline-materials/activities-and-intents-lesson/solution-code/CreatingActivities/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res" />
+      <root url="jar://$USER_HOME$/Dropbox/Charlie/GA/ADI-Macaron/adi-nyc/curriculum/04-schedule-and-supplies/week-02/baseline-materials/activities-and-intents-lesson/solution-code/CreatingActivities/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/design/23.1.1/design-23.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
