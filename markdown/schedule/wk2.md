@@ -80,7 +80,7 @@ days:
       - name: Views 102
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/user-interface/views-102-lesson
       - name: Activities & Intents
-        url: 
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/activities-and-fragments/activities-and-intents-lesson
     assignments:
       - name: Views Lab
         url: https://github.com/ga-adi-macaron/Views-Lab
