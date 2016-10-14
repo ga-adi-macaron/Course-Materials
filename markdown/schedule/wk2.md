@@ -85,7 +85,7 @@ days:
       - name: Views Lab
         url: https://github.com/ga-adi-macaron/Views-Lab
       - name: Activities & Intents Lab
-        url: 
+        url: https://github.com/ga-adi-macaron/activities-and-intents-lab
       - name: OOP Assessment HW
         url: 
       - name: Outcomes Circuit Unit 2
