@@ -61,10 +61,12 @@ days:
     assignments:
       - name: Subclassing Lab
         url: https://github.com/ga-adi-macaron/subclassing-lab/
+        note: "&#x2705;"
       - name: Interfaces & Abstract Classes Lab
         url: https://github.com/ga-adi-macaron/abstract-classes-and-interfaces-lab/
       - name: Subclasses, Abstract Classes, Interfaces HW
         url: https://github.com/ga-adi-macaron/subclasses-abstract-classes-interfaces-hw
+        note: "&#x2705;"
       - name: Outcomes Circuit Unit 1
         url: https://circuits.generalassemb.ly
 
