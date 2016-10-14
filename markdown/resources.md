@@ -17,6 +17,8 @@
 - [SQL Joins](http://www.codeproject.com/KB/database/Visual_SQL_Joins/Visual_SQL_JOINS_orig.jpg)
 - [Big-O Analysis](http://bigocheatsheet.com/)
 - [Vim](http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html)
+- [Android Studio Keyboard Shortcuts](https://developer.android.com/studio/intro/keyboard-shortcuts.html)
+- [Android Studio Live Templates](https://medium.com/google-developers/writing-more-code-by-writing-less-code-with-android-studio-live-templates-244f648d17c7) - like `fori` to generate a for loop, `psvm` to generate a main method, etc.
 
 
 #### Command Line & Git Customization
