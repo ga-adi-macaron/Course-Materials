@@ -32,6 +32,8 @@ days:
         url: 
       - name: RecyclerViews
         url: 
+      - name: Exit Ticket
+        url: 
     assignments:
       - name: RecyclerViews Lab
         url: 
@@ -48,12 +50,16 @@ days:
     lessons:
       - name: Outcomes - Branding
       - name: Project 1 Workshop
+      - name: Exit Ticket
+        url: 
     assignments:
       - name: Outcomes Circuit Unit 3
         url: https://circuits.generalassemb.ly
 
   - date: Friday, 10/21
     lessons:
+      - name: End of Week Reflection Survey
+        url: 
       - name: Project 1 Workshop
     assignments:
       - name: Tic Tac Toe HW

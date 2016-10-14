@@ -70,7 +70,7 @@ days:
 
   - date: Friday, 10/14
     lessons:
-      - name: End of Week Exit Ticket
+      - name: End of Week Reflection Survey
         url: https://goo.gl/forms/tlz8cFz1i76Cz1wF3
       - name: Views 101
         url: 

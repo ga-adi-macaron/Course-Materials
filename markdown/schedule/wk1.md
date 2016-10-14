@@ -76,7 +76,7 @@ days:
 
   - date: Friday, 10/7
     lessons:
-      - name: End of Week Exit Ticket
+      - name: End of Week Reflection Survey
         url: https://goo.gl/forms/xWTRoRaqnK4DrSgm1
       - name: Project 0 Workshop
     assignments:
