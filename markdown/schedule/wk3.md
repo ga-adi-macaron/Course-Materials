@@ -24,7 +24,7 @@ days:
       - name: ListViews Lab
         url: https://github.com/ga-adi-macaron/ListViews-ListAdapters-Lab
       - name: ListViews HW
-        url:
+        url: https://github.com/ga-adi-macaron/listview-and-listadapter-hw
 
   - date: Tuesday, 10/18
     lessons:
