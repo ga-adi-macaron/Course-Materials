@@ -3,8 +3,8 @@
 - [XML Intro](https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/user-interface/xml-lesson) (Wednesday, 10/12)
 - [Views 101](https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/user-interface/views-101-lesson) (Friday, 10/14)
 - [Views 102](https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/user-interface/views-102-lesson) (Friday, 10/14)
-- Layouts
-- ListViews/Adapters
+- [Layouts](https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/user-interface/layouts-lesson) (Monday, 10/17)
+- ListViews/Adapters (Monday, 10/17)
 - RecyclerViews
 - AlertDialogs
 - Material Design Introduction

@@ -16,6 +16,7 @@
   - [CS & Interview Prep](markdown/topics/computer-science-and-interview-prep.md)
   - [Databases](markdown/topics/databases.md)
   - [Orientation & Review](markdown/topics/orientation-and-review-materials.md)
+  - [Outcomes](markdown/topics/outcomes.md)
   - [Product Development](markdown/topics/product-development.md)
   - [Programming Fundamentals in Java](markdown/topics/programming-fundamentals-in-java.md)
   - [Testing](markdown/topics/testing.md)
