@@ -13,7 +13,7 @@ days:
   - date: Monday, 10/17
     lessons:
       - name: Outcomes - Intro to Tech Industry
-        url:
+        url: https://github.com/ga-adi-macaron/Course-Materials/blob/master/lessons/outcomes/intro-to-tech-industry/ADI-Intro-to-Tech-Industry.pdf
       - name: Whiteboarding 101
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/computer-science-and-interview-prep/whiteboarding-lesson
       - name: Layouts
