@@ -84,10 +84,13 @@ days:
     assignments:
       - name: Views Lab
         url: https://github.com/ga-adi-macaron/Views-Lab
+        note: "&#x2705;"
       - name: Activities & Intents Lab
         url: https://github.com/ga-adi-macaron/activities-and-intents-lab
+        note: "&#x2705;"
       - name: OOP Assessment HW
         url: https://github.com/ga-adi-macaron/oop-assessment
+        note: "&#x2705;"
       - name: Outcomes Circuit Unit 2
         url: https://circuits.generalassemb.ly
 ---
