@@ -19,10 +19,10 @@ days:
       - name: Layouts
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/user-interface/layouts-lesson
       - name: ListViews
-        url:
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/user-interface/listviews-list-adapters-lesson
     assignments:
       - name: ListViews Lab
-        url:
+        url: https://github.com/ga-adi-macaron/ListViews-ListAdapters-Lab
       - name: ListViews HW
         url:
 
