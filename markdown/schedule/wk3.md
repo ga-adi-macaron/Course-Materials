@@ -13,37 +13,37 @@ days:
   - date: Monday, 10/17
     lessons:
       - name: Outcomes - Intro to Tech Industry
-        url: 
+        url:
       - name: Whiteboarding 101
-        url: 
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/computer-science-and-interview-prep/whiteboarding-lesson
       - name: Layouts
-        url: 
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/user-interface/layouts-lesson
       - name: ListViews
-        url: 
+        url:
     assignments:
       - name: ListViews Lab
-        url: 
+        url:
       - name: ListViews HW
-        url: 
+        url:
 
   - date: Tuesday, 10/18
     lessons:
       - name: Whiteboard Morning Exercise
-        url: 
+        url:
       - name: RecyclerViews
-        url: 
+        url:
       - name: Exit Ticket
-        url: 
+        url:
     assignments:
       - name: RecyclerViews Lab
-        url: 
+        url:
 
   - date: Wednesday, 10/19
     lessons:
       - name: Recursion & Whiteboarding Practice
-        url: 
+        url:
       - name: Developer Documentation
-        url: 
+        url:
     assignments:
 
   - date: Thursday, 10/20
@@ -51,7 +51,7 @@ days:
       - name: Outcomes - Branding
       - name: Project 1 Workshop
       - name: Exit Ticket
-        url: 
+        url:
     assignments:
       - name: Outcomes Circuit Unit 3
         url: https://circuits.generalassemb.ly
@@ -59,11 +59,11 @@ days:
   - date: Friday, 10/21
     lessons:
       - name: End of Week Reflection Survey
-        url: 
+        url:
       - name: Project 1 Workshop
     assignments:
       - name: Tic Tac Toe HW
-        url: 
+        url:
 ---
 
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Week {{page.week}}
