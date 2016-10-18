@@ -31,7 +31,7 @@ days:
       - name: Whiteboard Morning Exercise
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/computer-science-and-interview-prep/whiteboarding-morning-exercise-1
       - name: RecyclerViews
-        url: 
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/user-interface/recyclerview-lesson
       - name: Exit Ticket
         url: 
     assignments:
