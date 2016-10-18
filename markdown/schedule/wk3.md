@@ -35,7 +35,7 @@ days:
       - name: Paper Prototyping
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/product-development/paper-prototyping
       - name: Exit Ticket
-        url: 
+        url: https://goo.gl/forms/rkBZcMdzWNeyNCV92
     assignments:
       - name: RecyclerViews Lab
         url: https://github.com/ga-adi-macaron/RecyclerView-Lab
