@@ -65,7 +65,7 @@ days:
     lessons:
       - name: End of Week Reflection Survey
         url:
-      - name: Project 1 Workshop
+      - name: Project 1 Workshop & Presentations
         url: https://github.com/ga-adi-macaron/project-1
     assignments:
       - name: Tic Tac Toe HW
