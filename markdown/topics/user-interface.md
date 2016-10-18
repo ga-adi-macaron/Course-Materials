@@ -5,7 +5,7 @@
 - [Views 102](https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/user-interface/views-102-lesson) (Friday, 10/14)
 - [Layouts](https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/user-interface/layouts-lesson) (Monday, 10/17)
 - [ListViews/Adapters](https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/user-interface/listviews-list-adapters-lesson) (Monday, 10/17)
-- RecyclerViews
+- [RecyclerViews](https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/user-interface/recyclerview-lesson) (Tuesday, 10/18)
 - AlertDialogs
 - Material Design Introduction
 - Toolbars and Menus
