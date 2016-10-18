@@ -67,7 +67,7 @@ days:
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/programming-fundamentals-in-java/data-collections
       - name: Debugging Fundamentals
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/programming-fundamentals-in-java/debugging-fundamentals-in-java-lesson
-      - name: Project 0 Workshop
+      - name: Introduce Project 0
         url: https://github.com/ga-adi-macaron/project-0
       - name: Exit Ticket
         url: https://goo.gl/forms/46MZum6u4gUuC6vK2
