@@ -36,6 +36,8 @@ days:
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/user-interface/recyclerview-lesson
       - name: Paper Prototyping
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/product-development/paper-prototyping
+      - name: Introduce Project 1
+        url: https://github.com/ga-adi-macaron/project-1
       - name: Exit Ticket
         url: https://goo.gl/forms/rkBZcMdzWNeyNCV92
     assignments:
