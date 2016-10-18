@@ -1,7 +1,7 @@
 ---
 title: Whiteboard Practice
 type: Morning exercise
-duration: "1:00"
+duration: "1:30"
 creator:
     name: Charlie Drews
     city: NYC
