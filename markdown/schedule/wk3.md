@@ -51,7 +51,10 @@ days:
   - date: Thursday, 10/20
     lessons:
       - name: Outcomes - Branding
+      - name: "1:1 Check-Ins"
+        url: https://docs.google.com/spreadsheets/d/1YABj9ZaNxLymnWsgcf2Qew3sGzPqNb0grlpg-DECS-8/edit?usp=sharing
       - name: Project 1 Workshop
+        url: https://github.com/ga-adi-macaron/project-1
       - name: Exit Ticket
         url:
     assignments:
@@ -63,6 +66,7 @@ days:
       - name: End of Week Reflection Survey
         url:
       - name: Project 1 Workshop
+        url: https://github.com/ga-adi-macaron/project-1
     assignments:
       - name: Tic Tac Toe HW
         url:

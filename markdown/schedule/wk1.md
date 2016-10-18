@@ -79,6 +79,7 @@ days:
       - name: End of Week Reflection Survey
         url: https://goo.gl/forms/xWTRoRaqnK4DrSgm1
       - name: Project 0 Workshop
+        url: https://github.com/ga-adi-macaron/project-0
     assignments:
       - name: More Functions Practice HW
         url: https://github.com/ga-adi-macaron/more-functions-practice-hw
