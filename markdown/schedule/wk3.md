@@ -43,6 +43,7 @@ days:
     assignments:
       - name: RecyclerViews Lab
         url: https://github.com/ga-adi-macaron/RecyclerView-Lab
+        note: "&#x2705;"
 
   - date: Wednesday, 10/19
     lessons:
