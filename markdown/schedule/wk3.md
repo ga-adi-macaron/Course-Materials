@@ -47,10 +47,13 @@ days:
   - date: Wednesday, 10/19
     lessons:
       - name: Recursion & Whiteboarding Practice
-        url:
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/computer-science-and-interview-prep/recursion-morning-exercise
+      - name: Start Activity for Result
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/activities-and-fragments/activities-and-intents-lesson
       - name: Developer Documentation
-        url:
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/workflow-and-dev-tools/developer-documentation-lesson
     assignments:
+      - name: None
 
   - date: Thursday, 10/20
     lessons:
