@@ -63,8 +63,6 @@ days:
         url: https://docs.google.com/spreadsheets/d/1YABj9ZaNxLymnWsgcf2Qew3sGzPqNb0grlpg-DECS-8/edit?usp=sharing
       - name: Project 1 Workshop
         url: https://github.com/ga-adi-macaron/project-1
-      - name: Exit Ticket
-        url:
     assignments:
       - name: Outcomes Circuit Unit 3
         url: https://circuits.generalassemb.ly
