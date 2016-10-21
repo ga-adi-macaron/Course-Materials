@@ -70,12 +70,12 @@ days:
   - date: Friday, 10/21
     lessons:
       - name: End of Week Reflection Survey
-        url:
+        url: https://goo.gl/forms/7KSSrnzn6jWoyQmQ2
       - name: Project 1 Workshop & Presentations
         url: https://github.com/ga-adi-macaron/project-1
     assignments:
       - name: Tic Tac Toe HW
-        url:
+        url: https://github.com/ga-adi-macaron/tic-tac-toe-hw
 ---
 
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Week {{page.week}}
