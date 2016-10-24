@@ -13,9 +13,9 @@ days:
   - date: Monday, 10/24
     lessons:
       - name: Unit 1 Review
-        url: 
+        url: https://www.jeopardy.rocks/adiunit1review
       - name: Intro to Databases
-        url: 
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/databases/databases-intro-lesson
       - name: SQL and SQLite
         url: 
       - name: Intro to Cursors
