@@ -24,7 +24,7 @@ days:
       - name: SQLite Lab
         url: https://github.com/ga-adi-macaron/sqlite-lab
       - name: SQL Practice HW
-        url: 
+        url: https://github.com/ga-adi-macaron/sql-practice-hw
 
   - date: Tuesday, 10/25
     lessons:
