@@ -12,17 +12,17 @@ week: 4
 days:
   - date: Monday, 10/24
     lessons:
-      - name: Unit 1 Review
+      - name: Unit 1 Review Jeopardy
         url: https://www.jeopardy.rocks/adiunit1review
       - name: Intro to Databases
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/databases/databases-intro-lesson
       - name: SQL and SQLite
-        url: 
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/databases/sqlite-lesson
       - name: Intro to Cursors
         url: 
     assignments:
       - name: SQLite Lab
-        url: 
+        url: https://github.com/ga-adi-macaron/sqlite-lab
       - name: SQL Practice HW
         url: 
 
