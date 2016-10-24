@@ -19,7 +19,7 @@ days:
       - name: SQL and SQLite
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/databases/sqlite-lesson
       - name: Intro to Cursors
-        url: 
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/databases/cursors-intro-lesson
     assignments:
       - name: SQLite Lab
         url: https://github.com/ga-adi-macaron/sqlite-lab
