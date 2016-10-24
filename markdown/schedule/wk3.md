@@ -76,9 +76,6 @@ days:
     assignments:
       - name: Tic Tac Toe HW
         url: https://github.com/ga-adi-macaron/tic-tac-toe-hw
-      - name: Install SQLite on your computer
-        url: https://www.tutorialspoint.com/sqlite/sqlite_installation.htm
-        note: (no deliverable)
 ---
 
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Week {{page.week}}
