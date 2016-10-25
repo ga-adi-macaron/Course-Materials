@@ -23,15 +23,16 @@ days:
     assignments:
       - name: SQLite Lab
         url: https://github.com/ga-adi-macaron/sqlite-lab
+        note: "&#x2705;"
       - name: SQL Practice HW
         url: https://github.com/ga-adi-macaron/sql-practice-hw
+        note: "&#x2705;"
 
   - date: Tuesday, 10/25
     lessons:
       - name: Outcomes - Resumes & Cover Letters
-        url: 
       - name: SQLite in Android
-        url: 
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/databases/sql-in-android-lesson
       - name: Databases w/ RecyclerViews
         url: 
     assignments:
@@ -39,6 +40,8 @@ days:
         url: 
       - name: Outcomes Circuit Unit 4
         url: https://circuits.generalassemb.ly
+      - name: Brand Statement & Peer Reviews (due Thursday, 10/27)
+      - name: Cover Letter & Resume (due Monday, 10/31)
 
   - date: Wednesday, 10/26
     lessons:
