@@ -34,10 +34,10 @@ days:
       - name: SQLite in Android
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/databases/sql-in-android-lesson
       - name: Databases w/ RecyclerViews
-        url:
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/databases/database-recyclerview-lesson
     assignments:
       - name: Databases w/ RecyclerViews Lab
-        url:
+        url: https://github.com/ga-adi-macaron/databases-with-recyclerview-lab
       - name: Outcomes Circuit Unit 4
         url: https://circuits.generalassemb.ly
       - name: Brand Statement & Peer Reviews (due Thursday, 10/27)
