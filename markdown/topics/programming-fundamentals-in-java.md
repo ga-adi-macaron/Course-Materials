@@ -10,5 +10,5 @@
 - [Functions Morning Exercise](https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/programming-fundamentals-in-java/functions-morning-exercise) (Thursday, 10/13)
 - [Subclasses](https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/programming-fundamentals-in-java/subclassing-lesson) (Thursday, 10/13)
 - [Interfaces & Abstract Classes](https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/programming-fundamentals-in-java/interfaces-and-abstract-classes) (Thursday, 10/13)
-- Recursion Morning Exercise
+- [Recursion](https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/computer-science-and-interview-prep/recursion-morning-exercise) (Wednesday, 10/19)
 - Error Handling with Try/Catch
