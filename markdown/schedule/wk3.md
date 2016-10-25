@@ -66,6 +66,7 @@ days:
     assignments:
       - name: Outcomes Circuit Unit 3
         url: https://circuits.generalassemb.ly
+      - name: Brand Statement (due 10/17)
 
   - date: Friday, 10/21
     lessons:
