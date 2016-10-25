@@ -36,7 +36,7 @@ days:
       - name: Databases w/ RecyclerViews
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/databases/database-recyclerview-lesson
       - name: Exit Ticket
-        url: 
+        url: https://goo.gl/forms/hxnPvGLjagL4s3T22
     assignments:
       - name: Databases w/ RecyclerViews Lab
         url: https://github.com/ga-adi-macaron/databases-with-recyclerview-lab
