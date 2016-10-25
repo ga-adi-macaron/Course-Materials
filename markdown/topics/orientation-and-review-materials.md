@@ -3,4 +3,4 @@
 - [Your Learning Experience](https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/orientation-materials/welcome-to-adi) (Monday, 10/3)
 - [Intro to Android](https://github.com/ga-adi-gelato/Course-Materials/tree/master/lessons/orientation-materials/android-intro-lesson) (Tuesday, 10/4)
 - [Week 1 Review - Jeopardy](https://www.jeopardy.rocks/adigelatoweek1) (Tuesday, 10/11)
-- Unit 1 Review
+- [Unit 1 Review - Jeopardy](https://www.jeopardy.rocks/adiunit1review) (Monday, 10/24)

@@ -7,6 +7,7 @@
 - [ListViews/Adapters](https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/user-interface/listviews-list-adapters-lesson) (Monday, 10/17)
 - [RecyclerViews](https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/user-interface/recyclerview-lesson) (Tuesday, 10/18)
 - [AlertDialogs - Covered in the Developer Documentation Lesson](https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/workflow-and-dev-tools/developer-documentation-lesson) (Wednesday, 10/19)
+- Constraint Layout
 - Material Design Introduction
 - Toolbars and Menus
 - Simple Animation
