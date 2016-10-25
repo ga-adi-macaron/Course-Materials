@@ -29,58 +29,58 @@ days:
   - date: Tuesday, 10/25
     lessons:
       - name: Outcomes - Resumes & Cover Letters
-        url: 
+        url:
       - name: SQLite in Android
-        url: 
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/databases/sql-in-android-lesson
       - name: Databases w/ RecyclerViews
-        url: 
+        url:
     assignments:
       - name: Databases w/ RecyclerViews Lab
-        url: 
+        url:
       - name: Outcomes Circuit Unit 4
         url: https://circuits.generalassemb.ly
 
   - date: Wednesday, 10/26
     lessons:
       - name: Intro to Testing
-        url: 
+        url:
       - name: Unit Testing
-        url: 
+        url:
     assignments:
       - name: Unit Testing Lab
-        url: 
+        url:
       - name: User Stories HW
-        url: 
+        url:
       - name: Prep for Enabling Search HW
-        url: 
+        url:
 
   - date: Thursday, 10/27
     lessons:
       - name: Whiteboarding Morning Exercise
-        url: 
+        url:
       - name: Enabling Search
-        url: 
+        url:
       - name: Detail Views
-        url: 
+        url:
     assignments:
       - name: Enabling Search Lab
-        url: 
+        url:
       - name: Detail Views Lab
-        url: 
+        url:
 
   - date: Friday, 10/28
     lessons:
       - name: SQL Joins
-        url: 
+        url:
       - name: Constraint Layout
-        url: 
+        url:
     assignments:
       - name: SQL Joins Lab
-        url: 
+        url:
       - name: Constraint Layout Lab
-        url: 
+        url:
       - name: Database Relationships HW
-        url: 
+        url:
 ---
 
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Week {{page.week}}
