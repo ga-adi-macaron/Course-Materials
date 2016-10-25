@@ -19,6 +19,7 @@
 - [Vim](http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html)
 - [Android Studio Keyboard Shortcuts](https://developer.android.com/studio/intro/keyboard-shortcuts.html)
 - [Android Studio Live Templates](https://medium.com/google-developers/writing-more-code-by-writing-less-code-with-android-studio-live-templates-244f648d17c7) - like `fori` to generate a for loop, `psvm` to generate a main method, etc.
+- [Renaming Packages in Android Studio](http://stackoverflow.com/questions/16804093/android-studio-rename-package)
 
 
 #### Command Line & Git Customization
