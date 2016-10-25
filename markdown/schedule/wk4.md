@@ -51,9 +51,9 @@ days:
         url:
     assignments:
       - name: Unit Testing Lab
-        url:
+        url: https://github.com/ga-adi-macaron/unit-testing-lab
       - name: User Stories HW
-        url:
+        url: https://github.com/ga-adi-macaron/user-stories-hw
       - name: Prep for Enabling Search HW
         url:
 
