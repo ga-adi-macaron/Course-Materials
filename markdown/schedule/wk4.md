@@ -30,7 +30,7 @@ days:
 
   - date: Tuesday, 10/25
     lessons:
-      - name: Outcomes - Resumes & Cover Letters
+      - name: "Outcomes: Resumes & Cover Letters"
       - name: SQLite in Android
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/databases/sql-in-android-lesson
       - name: Databases w/ RecyclerViews
@@ -59,7 +59,7 @@ days:
 
   - date: Thursday, 10/27
     lessons:
-      - name: Whiteboarding Morning Exercise
+      - name: Whiteboarding Practice 3
         url:
       - name: Enabling Search
         url:
