@@ -30,7 +30,7 @@ days:
 
   - date: Tuesday, 10/18
     lessons:
-      - name: Whiteboard Morning Exercise
+      - name: Whiteboarding Practice 1
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/computer-science-and-interview-prep/whiteboarding-morning-exercise-1
       - name: RecyclerViews
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/user-interface/recyclerview-lesson
@@ -47,7 +47,7 @@ days:
 
   - date: Wednesday, 10/19
     lessons:
-      - name: Recursion & Whiteboarding Practice
+      - name: "Whiteboarding Practice 2: Recursion"
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/computer-science-and-interview-prep/recursion-morning-exercise
       - name: Start Activity for Result
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/activities-and-fragments/activities-and-intents-lesson#demo-passing-data-back-in-the-result-20-mins
@@ -58,7 +58,7 @@ days:
 
   - date: Thursday, 10/20
     lessons:
-      - name: Outcomes - Branding
+      - name: "Outcomes: Branding"
       - name: "1:1 Check-Ins"
         url: https://docs.google.com/spreadsheets/d/1YABj9ZaNxLymnWsgcf2Qew3sGzPqNb0grlpg-DECS-8/edit?usp=sharing
       - name: Project 1 Workshop
