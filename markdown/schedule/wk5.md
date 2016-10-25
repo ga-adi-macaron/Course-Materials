@@ -34,6 +34,8 @@ days:
         url: 
       - name: Fragments & ViewPager
         url:
+      - name: Exit Ticket
+        url: 
     assignments:
       - name: Fragments Lab
         url:
@@ -60,6 +62,8 @@ days:
         url:
       - name: Toolbars & Menus
         url:
+      - name: Exit Ticket
+        url: 
     assignments:
       - name: Espresso Lab
         url:
@@ -68,6 +72,8 @@ days:
 
   - date: Friday, 11/4
     lessons:
+      - name: Reflection Survey
+        url: 
       - name: Simple Animations
         url:
       - name: Multiple Devices

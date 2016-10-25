@@ -35,6 +35,8 @@ days:
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/databases/sql-in-android-lesson
       - name: Databases w/ RecyclerViews
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/databases/database-recyclerview-lesson
+      - name: Exit Ticket
+        url: 
     assignments:
       - name: Databases w/ RecyclerViews Lab
         url: https://github.com/ga-adi-macaron/databases-with-recyclerview-lab
@@ -65,6 +67,8 @@ days:
         url:
       - name: Detail Views
         url:
+      - name: Exit Ticket
+        url: 
     assignments:
       - name: Enabling Search Lab
         url:
@@ -73,6 +77,8 @@ days:
 
   - date: Friday, 10/28
     lessons:
+      - name: Reflection Survey
+        url: 
       - name: SQL Joins
         url:
       - name: Constraint Layout
