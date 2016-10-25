@@ -113,6 +113,10 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public static final int DATABASE_VERSION = 1;
     public static final String DATABASE_NAME = "Favorites.db";
     
+    public static final String COL_ID = "id";
+    public static final String COL_GAME_NAME = "game_name";
+    public static final String COL_GAME_YEAR = "year";
+    
     public static final String mCreateString = "CREATE TABLE " + FAVORITES_TABLE_NAME + " (" +
                 COL_ID + " INTEGER PRIMARY KEY, " +
                 COL_GAME_NAME + " TEXT, " +
