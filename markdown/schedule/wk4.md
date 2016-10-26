@@ -40,6 +40,7 @@ days:
     assignments:
       - name: Databases w/ RecyclerViews Lab
         url: https://github.com/ga-adi-macaron/databases-with-recyclerview-lab
+        note: "&#x2705;"
       - name: Outcomes Circuit Unit 4
         url: https://circuits.generalassemb.ly
       - name: Brand Statement & Peer Reviews (due Thursday, 10/27)
