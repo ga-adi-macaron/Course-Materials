@@ -72,7 +72,7 @@ days:
 
   - date: Friday, 11/4
     lessons:
-      - name: Reflection Survey
+      - name: Reflection Survey & Discussion
         url: 
       - name: Simple Animations
         url:

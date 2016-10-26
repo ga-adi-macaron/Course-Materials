@@ -78,7 +78,7 @@ days:
 
   - date: Friday, 10/7
     lessons:
-      - name: End of Week Reflection Survey
+      - name: Reflection Survey & Discussion
         url: https://goo.gl/forms/xWTRoRaqnK4DrSgm1
       - name: Project 0 Workshop & Presentations
         url: https://github.com/ga-adi-macaron/project-0

@@ -73,7 +73,7 @@ days:
 
   - date: Friday, 10/14
     lessons:
-      - name: End of Week Reflection Survey
+      - name: Reflection Survey & Discussion
         url: https://goo.gl/forms/tlz8cFz1i76Cz1wF3
       - name: Views 101
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/user-interface/views-101-lesson

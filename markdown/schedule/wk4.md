@@ -77,7 +77,7 @@ days:
 
   - date: Friday, 10/28
     lessons:
-      - name: Reflection Survey
+      - name: Reflection Survey & Discussion
         url: 
       - name: SQL Joins
         url:
