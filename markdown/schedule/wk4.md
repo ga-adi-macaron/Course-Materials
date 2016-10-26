@@ -58,6 +58,7 @@ days:
         url: https://github.com/ga-adi-macaron/user-stories-hw
       - name: Prep for Enabling Search HW
         url: https://github.com/ga-adi-macaron/Enable-Search-Prework
+        note: (no deliverable)
 
   - date: Thursday, 10/27
     lessons:

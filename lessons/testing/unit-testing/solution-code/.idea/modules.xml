@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../../../../../../ADI-Gelato/adi-gelato/curriculum/04-schedule-and-supplies/week-04/baseline-materials/junit-testing-lesson/solution-code/app/app.iml" filepath="$PROJECT_DIR$/../../../../../../../../ADI-Gelato/adi-gelato/curriculum/04-schedule-and-supplies/week-04/baseline-materials/junit-testing-lesson/solution-code/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/solution-code.iml" filepath="$PROJECT_DIR$/solution-code.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../../../../../../ADI-Gelato/adi-gelato/curriculum/04-schedule-and-supplies/week-04/baseline-materials/junit-testing-lesson/solution-code/solution-code.iml" filepath="$PROJECT_DIR$/../../../../../../../../ADI-Gelato/adi-gelato/curriculum/04-schedule-and-supplies/week-04/baseline-materials/junit-testing-lesson/solution-code/solution-code.iml" />
+      <module fileurl="file://$USER_HOME$/Dropbox/Charlie/GA/ADI-Macaron/Course-Materials/lessons/testing/unit-testing/solution-code/app/app.iml" filepath="$USER_HOME$/Dropbox/Charlie/GA/ADI-Macaron/Course-Materials/lessons/testing/unit-testing/solution-code/app/app.iml" />
+      <module fileurl="file://$USER_HOME$/Dropbox/Charlie/GA/ADI-Macaron/Course-Materials/lessons/testing/unit-testing/solution-code/solution-code.iml" filepath="$USER_HOME$/Dropbox/Charlie/GA/ADI-Macaron/Course-Materials/lessons/testing/unit-testing/solution-code/solution-code.iml" />
     </modules>
   </component>
 </project>
