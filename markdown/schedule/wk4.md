@@ -48,9 +48,9 @@ days:
   - date: Wednesday, 10/26
     lessons:
       - name: Intro to Testing
-        url:
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/testing/intro-to-testing
       - name: Unit Testing
-        url:
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/testing/unit-testing
     assignments:
       - name: Unit Testing Lab
         url: https://github.com/ga-adi-macaron/unit-testing-lab
