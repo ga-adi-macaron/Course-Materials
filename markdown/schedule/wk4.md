@@ -57,7 +57,7 @@ days:
       - name: User Stories HW
         url: https://github.com/ga-adi-macaron/user-stories-hw
       - name: Prep for Enabling Search HW
-        url:
+        url: https://github.com/ga-adi-macaron/Enable-Search-Prework
 
   - date: Thursday, 10/27
     lessons:
@@ -68,7 +68,7 @@ days:
       - name: Detail Views
         url:
       - name: Exit Ticket
-        url: 
+        url:
     assignments:
       - name: Enabling Search Lab
         url:
@@ -78,7 +78,7 @@ days:
   - date: Friday, 10/28
     lessons:
       - name: Reflection Survey & Discussion
-        url: 
+        url:
       - name: SQL Joins
         url:
       - name: Constraint Layout
