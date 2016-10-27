@@ -67,7 +67,7 @@ days:
       - name: Enabling Search
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/android-technologies-and-services/enable-search-lesson
       - name: Detail Views
-        url:
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/databases/detail-view-lesson
       - name: Exit Ticket
         url:
     assignments:
