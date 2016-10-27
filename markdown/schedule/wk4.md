@@ -72,7 +72,7 @@ days:
         url:
     assignments:
       - name: Enabling Search Lab
-        url:
+        url: https://github.com/ga-adi-macaron/enable-search-lab
       - name: Detail Views Lab
         url:
 
