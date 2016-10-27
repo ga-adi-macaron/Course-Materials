@@ -63,7 +63,7 @@ days:
   - date: Thursday, 10/27
     lessons:
       - name: Whiteboarding Practice 3
-        url:
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/computer-science-and-interview-prep/whiteboarding-practice-3
       - name: Enabling Search
         url:
       - name: Detail Views
