@@ -65,7 +65,7 @@ days:
       - name: Whiteboarding Practice 3
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/computer-science-and-interview-prep/whiteboarding-practice-3
       - name: Enabling Search
-        url:
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/android-technologies-and-services/enable-search-lesson
       - name: Detail Views
         url:
       - name: Exit Ticket
