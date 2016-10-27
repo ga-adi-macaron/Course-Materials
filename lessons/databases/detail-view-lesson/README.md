@@ -52,7 +52,7 @@ In our `SQLiteOpenHelper`, one of the parameters we pass is the context. So far 
 | 15 min  | [Introduction](#introduction-opening-multiple-database-connections-15-mins)  | Opening Multiple Database Connections |
 | 20 min  | [Codealong](#codealong-using-a-singleton-with-sqliteopenhelper-20-mins)  | Using a Singleton with SQLiteOpenHelper |
 | 20 min  | [Codealong](#codealong-adding-a-detail-view-20-mins)  | Adding a detail view |
-| 25 min  | [Independent Practice](#independent-practice-icon-list-v2-25-mins)  | Icon List v2 |
+| 25 min  | [Independent Practice](#independent-practice-icon-list-25-mins)  | Icon List |
 | 5 min  | [Conclusion](#conclusion-5-mins)  | Review / Recap |
 
 If you remember, context works similar to scope, and if we move to another activity, we don't want to be using the context of the previous activity. Opening a new database connection on each activity can become very expensive in terms of system resources, and it's possible to run into conflicts with multiple things trying to change the database at once. How do we get around this?
@@ -164,7 +164,7 @@ if(id >= 0){
 ***
 
 <a name="ind-practice"></a>
-## Independent Practice: Icon List v2 (25 mins)
+## Independent Practice: Icon List (25 mins)
 
 > Instructor Note: This can be a pair programming activity or done independently.
 
