@@ -69,12 +69,12 @@ days:
       - name: Detail Views
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/databases/detail-view-lesson
       - name: Exit Ticket
-        url:
+        url: https://goo.gl/forms/s7ldzNtaFAZfGgn02
     assignments:
       - name: Enabling Search Lab
         url: https://github.com/ga-adi-macaron/enable-search-lab
       - name: Detail Views Lab
-        url:
+        url: https://github.com/ga-adi-macaron/detail-view-lab
 
   - date: Friday, 10/28
     lessons:
