@@ -46,9 +46,6 @@ creator:
 
 Many of the apps we use today have a search component built in to them, and today we will be learning how to implement search in our own apps. We have covered using databases, cursors, and RecyclerViews, and searching uses all of these in tandem.
 
-> Ask the students for examples of where they have seen search in apps before.
-
-> Check: Ask the students how they would implement search with the knowledge they currently have.
 
 Luckily, Android provides some very handy built-in tools to make the process of adding search features much easier.
 
@@ -71,11 +68,9 @@ Our app today will search through a small database filled with the numbers 0-9, 
 <a name="demo"></a>
 ## Demo: Add your own SearchView (10 mins)
 
-> Instructor Note: Have everyone do this along with you using the [SearchViewDemo](starter-code) starter code project (they will be using it in their guided practice, too).
 
 Let's try adding our own SearchView!
 
-> Ask the students to predict what file they think the search view should be added in, and why.
 
 #### Menu item
 
@@ -118,7 +113,6 @@ public boolean onCreateOptionsMenu(Menu menu) {
 
 Now we have a SearchView, but it doesn't do anything. This is because we haven't told it how to behave.
 
-> Check: "Fist to Five" on whether the students feel comfortable with the content so far.
 
 ***
 
@@ -146,11 +140,9 @@ The next step is to add some additional code to the onCreateOptionsMenu. This co
 
 Next, we want to have our activity respond to a search intent. We do this using an intent-filter.
 
-> Check: In groups, have students discuss why we are doing this instead of just responding to a key press and searching. (It adds the ability to start the search from another activity and to be included in the Global Search on the device).
 
 Finally, our last step is to take the search query the user entered, perform the search, and show the results to the user! Our activity responds to a search request by accepting and processing the Search intent.
 
-> Check: Ask the students to describe what happens in each of the two categories described above.
 
 ***
 
@@ -159,7 +151,6 @@ Finally, our last step is to take the search query the user entered, perform the
 
 Let's take this one step at a time.
 
-> Check: After showing the code, prompt the students for what they think it does.
 
 First, we create our searchable xml file. To do this, we need to create a new xml resource directory, then create a searchable.xml file.
 
@@ -196,13 +187,11 @@ ComponentName componentName = new ComponentName(this,MainActivity.class);
 searchView.setSearchableInfo(searchManager.getSearchableInfo(componentName));
 ```
 
-> Check: Ask the students what they think each of the three lines are doing.
 
 In the last line, the searchableInfo we are getting is gathered from the meta-data tag we just defined.
 
 Our next step is to add the intent-filter to the activity we want to perform the search in. This tells anything trying to perform a search in our app that the following activity is able to receive search queries.
 
-> Check: Ask the students what would happen if we didn't use singleTop in this situation
 
 ```xml
 <activity android:name=".MainActivity">
@@ -220,7 +209,6 @@ We're almost done! Now we just need to actually search the database.
 <a name="guided-practice"></a>
 ## Guided Practice: Performing a search (10 mins)
 
-> Check: Ask the students where the search should be performed on the database
 
 ```java
 public List<Person> searchForOlderPeople(String query){
@@ -265,7 +253,6 @@ Just add the launchMode property to singleTop.
 
 Finally, we add the code to handle our search in MainActivity. Since we aren't creating a new instance of the activity, we need to receive the search intent. This is delivered to a method called `onNewIntent`.
 
-> Give the students a few minutes to try to figure out what code goes inside the if statement below.
 
 ```java
 @Override
@@ -293,7 +280,6 @@ private void handleIntent(Intent intent){
 Now you will perform a different search and display the results. Instead of searching by age, allow the user to enter a partial name and search for anything matching what they entered. For instance, searching "J" could return [Jack, James, Jill], but searching "Ja" would return [Jack, James].
 
 
-> Check: Have students share out their solutions during the final 3 minutes of this activity. Were students able to create the desired deliverable(s)? Did it meet all necessary requirements / constraints?
 
 ***
 
