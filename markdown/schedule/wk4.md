@@ -55,6 +55,7 @@ days:
     assignments:
       - name: Unit Testing Lab
         url: https://github.com/ga-adi-macaron/unit-testing-lab
+        note: "&#x2705;"
       - name: User Stories HW
         url: https://github.com/ga-adi-macaron/user-stories-hw
       - name: Prep for Enabling Search HW
@@ -73,8 +74,10 @@ days:
     assignments:
       - name: Enabling Search Lab
         url: https://github.com/ga-adi-macaron/enable-search-lab
+        note: "&#x2705;"
       - name: Detail Views Lab
         url: https://github.com/ga-adi-macaron/detail-view-lab
+        note: "&#x2705;"
 
   - date: Friday, 10/28
     lessons:
