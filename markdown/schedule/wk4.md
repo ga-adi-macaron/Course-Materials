@@ -79,7 +79,7 @@ days:
   - date: Friday, 10/28
     lessons:
       - name: Reflection Survey & Discussion
-        url:
+        url: https://goo.gl/forms/5FlwZVBVyrFUc89W2
       - name: SQL Joins
         url:
       - name: Constraint Layout
