@@ -93,7 +93,7 @@ days:
       - name: Constraint Layout Lab
         url: https://github.com/ga-adi-macaron/constraint-layout-lab
       - name: Database Relationships HW
-        url:
+        url: https://github.com/ga-adi-macaron/database-tables-hw
 ---
 
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Week {{page.week}}
