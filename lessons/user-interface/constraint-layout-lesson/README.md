@@ -154,7 +154,7 @@ The guideline is essentially an invisible line that you can position by dp or pe
 
 Let's try to put two buttons on the screen, each 1/3 of the way from the left and right sides.
 
-<img src="./images/Practice3.png" width="400"/>
+<img src="./images/practice3.png" width="400"/>
 
 
 ***
