@@ -6,8 +6,7 @@
 - [SQLite in Android](https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/databases/sql-in-android-lesson) (Tuesday, 10/25)
 - [Databases w/ RecyclerViews](https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/databases/database-recyclerview-lesson) (Tuesday, 10/25)
 - [Detail View Lesson](https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/databases/detail-view-lesson) (Thursday, 10/27)
-- Joins
-- Database Relationships Lesson
+- [SQL Joins](https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/databases/joins-lesson) (Friday, 10/28)
 - Content Providers
 - External Content Providers
 - Firebase

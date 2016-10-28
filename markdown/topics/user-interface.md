@@ -8,7 +8,7 @@
 - [RecyclerViews](https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/user-interface/recyclerview-lesson) (Tuesday, 10/18)
 - [AlertDialogs - Covered in the Developer Documentation Lesson](https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/workflow-and-dev-tools/developer-documentation-lesson) (Wednesday, 10/19)
 - [Detail View Lesson](https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/databases/detail-view-lesson) (Thursday, 10/27)
-- Constraint Layout
+- [Constraint Layout](https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/user-interface/constraint-layout-lesson) (Friday, 10/28)
 - Material Design Introduction
 - Toolbars and Menus
 - Simple Animation
