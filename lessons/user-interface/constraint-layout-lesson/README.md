@@ -63,7 +63,7 @@ ConstraintLayouts can be broken down into different types of constraints:
 **Before we can get started, you need to add the constraint layout to your Gradle**
 
 ```XML
-compile 'com.android.support.constraint:constraint-layout:1.0.0-beta1'
+compile 'com.android.support.constraint:constraint-layout:1.0.0-beta2'
 ```
 
 First, we need to add a Constraint Layout to our layout XML.
