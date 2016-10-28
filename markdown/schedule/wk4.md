@@ -86,12 +86,12 @@ days:
       - name: SQL Joins
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/databases/joins-lesson
       - name: Constraint Layout
-        url:
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/user-interface/constraint-layout-lesson
     assignments:
       - name: SQL Joins Lab
         url: https://github.com/ga-adi-macaron/joins-lab
       - name: Constraint Layout Lab
-        url:
+        url: https://github.com/ga-adi-macaron/constraint-layout-lab
       - name: Database Relationships HW
         url:
 ---
