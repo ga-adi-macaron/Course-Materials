@@ -81,7 +81,7 @@ days:
       - name: Reflection Survey & Discussion
         url: https://goo.gl/forms/5FlwZVBVyrFUc89W2
       - name: SQL Joins
-        url:
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/databases/joins-lesson
       - name: Constraint Layout
         url:
     assignments:
