@@ -90,6 +90,7 @@ days:
     assignments:
       - name: SQL Joins Lab
         url: https://github.com/ga-adi-macaron/joins-lab
+        note: "&#x2705;"
       - name: Constraint Layout Lab
         url: https://github.com/ga-adi-macaron/constraint-layout-lab
       - name: Database Relationships HW
