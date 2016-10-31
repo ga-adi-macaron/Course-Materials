@@ -17,29 +17,29 @@ days:
       - name: Material Design Intro
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/user-interface/material-design-intro
       - name: Activity Lifecycle 1
-        url: 
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/activities-and-fragments/activity-life-cycle-1-lesson
       - name: Activity Lifecycle 2
-        url: 
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/activities-and-fragments/activity-life-cycle-2-lesson
       - name: Introduce Project 2
-        url: 
+        url: https://github.com/ga-adi-macaron/project-2
     assignments:
       - name: Material Design HW
-        url: 
+        url: https://github.com/ga-adi-macaron/material-design-hw
 
   - date: Tuesday, 11/1
     lessons:
       - name: "Outcomes: Portfolio Websites"
         url: 
-      - name: Intro to Fragments
+      - name: Intro to Fragments & ViewPager
         url: 
-      - name: Fragments & ViewPager
+      - name: Fragment Communication
         url:
       - name: Exit Ticket
         url: 
     assignments:
-      - name: Fragments Lab
-        url:
       - name: ViewPager Lab
+        url:
+      - name: Fragment Communication Lab
         url:
       - name: Outcomes Circuit Unit 5
         url: https://circuits.generalassemb.ly
@@ -51,7 +51,7 @@ days:
       - name: Master/Detail Flow
         url:
     assignments:
-      - name: Usability Testing Lab
+      - name: Master/Detail Flow Lab
         url:
 
   - date: Thursday, 11/3

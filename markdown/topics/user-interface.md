@@ -10,8 +10,8 @@
 - [Detail View Lesson](https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/databases/detail-view-lesson) (Thursday, 10/27)
 - [Constraint Layout](https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/user-interface/constraint-layout-lesson) (Friday, 10/28)
 - [Material Design Introduction](https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/user-interface/material-design-intro) (Monday, 10/31)
-- Toolbars and Menus
-- Simple Animation
-- Building Accessible Apps
-- Drag & Swipe Morning Exercise
+- Drag & Swipe wi/ RecyclerView (Thursday, 11/3)
+- Toolbars and Menus (Thursday, 11/3)
+- Simple Animation (Friday, 11/4)
+- Accessibility
 - Notifications

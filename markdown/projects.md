@@ -5,10 +5,10 @@
 - [Project 0 - Rock Paper Scissors](https://github.com/ga-adi-macaron/project-0): Due Friday, 10/7 at 4:00 pm &#x2705;
 
 
-- [Project 1 - To-Do Lists](https://github.com/ga-adi-macaron/project-1): Due Friday, 10/21 at 3:30 pm
+- [Project 1 - To-Do Lists](https://github.com/ga-adi-macaron/project-1): Due Friday, 10/21 at 3:30 pm &#x2705;
 
 
-- Project 2 - Mobile Commerce App
+- [Project 2 - Mobile Commerce App](https://github.com/ga-adi-macaron/project-2): Due Thursday, 11/10 at 4:00 pm
 
 
 - Project 3 - Team Project
