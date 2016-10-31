@@ -13,7 +13,7 @@ days:
   - date: Monday, 10/31
     lessons:
       - name: Whiteboarding Practice 4
-        url: 
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/computer-science-and-interview-prep/whiteboarding-practice-4
       - name: Intro to Material Design
         url: 
       - name: Activity Lifecycle 1

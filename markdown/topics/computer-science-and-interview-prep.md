@@ -4,7 +4,7 @@
 - [Whiteboard Morning Exercise 1](https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/computer-science-and-interview-prep/whiteboarding-morning-exercise-1) (Tuesday, 10/18)
 - [Whiteboard Morning Exercise 2 - Recursion](https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/computer-science-and-interview-prep/recursion-morning-exercise) (Wednesday, 10/19)
 - [Whiteboard Morning Exercise 3](https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/computer-science-and-interview-prep/whiteboarding-practice-3) (Thursday, 10/27)
-- Whiteboard Morning Exercise 4
+- [Whiteboard Morning Exercise 4](https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/computer-science-and-interview-prep/whiteboarding-practice-4) (Monday, 10/31)
 - Whiteboard Morning Exercise 5
 - Whiteboard Morning Exercise 6
 - Whiteboard Morning Exercise 7
