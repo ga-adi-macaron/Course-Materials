@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CountdownApp</string>
+    <string name="title_activity_dialog">DialogActivity</string>
+</resources>
