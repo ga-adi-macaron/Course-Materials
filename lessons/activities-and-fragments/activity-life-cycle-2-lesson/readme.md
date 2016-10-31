@@ -97,7 +97,7 @@ After committing the changes, the String with key "exampleKey" now contains the 
 <a name="guided-practice"></a>
 ## Guided Practice: Persistent Data with SharedPreferences (10 mins)
 
-In this practice, we will adapt the app from the previous lesson that saved the time the app was launched to use `SharedPreferences` instead of a Bundle. In the starter code directory, load the [SharedPreferencesBetweenActivities](starter-code/SaveActivityCreationTime) project.
+In this practice, we will adapt the app from the previous lesson that saved the time the app was launched to use `SharedPreferences` instead of a Bundle. In the starter code directory, load the [SaveActivityCreationTime](starter-code/SaveActivityCreationTime) project.
 
 
 
