@@ -14,7 +14,7 @@ days:
     lessons:
       - name: Whiteboarding Practice 4
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/computer-science-and-interview-prep/whiteboarding-practice-4
-      - name: Intro to Material Design
+      - name: Material Design Intro
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/user-interface/material-design-intro
       - name: Activity Lifecycle 1
         url: 
