@@ -73,6 +73,7 @@
 - [Atom Text Editor](https://atom.io/)
 - [Cygwin](https://www.cygwin.com/) - Bash and other Unix/Linux tools for Windows
 - [POP](https://popapp.in/) - Prototyping on Paper app
+- [DB Browser for SQLite](http://sqlitebrowser.org/)
 - [JSON Beautifier](http://codebeautify.org/jsonviewer)
 - [Postman API Client](https://www.getpostman.com/)
 - [Google Machine Learning APIs](https://cloud.google.com/products/machine-learning/)
