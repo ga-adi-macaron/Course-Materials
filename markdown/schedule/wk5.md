@@ -31,16 +31,16 @@ days:
       - name: "Outcomes: Portfolio Websites"
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/outcomes/portfolio-website
       - name: Intro to Fragments & ViewPager
-        url: 
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/activities-and-fragments/fragments-1-lesson
       - name: Fragment Communication
-        url:
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/activities-and-fragments/fragments-2-lesson
       - name: Exit Ticket
         url: 
     assignments:
       - name: ViewPager Lab
-        url:
+        url: https://github.com/ga-adi-macaron/ViewPager-Lab
       - name: Fragment Communication Lab
-        url:
+        url: https://github.com/ga-adi-macaron/Fragments-Communications-Lab
       - name: Outcomes Circuit Unit 5
         url: https://circuits.generalassemb.ly
 
