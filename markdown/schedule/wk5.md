@@ -35,7 +35,7 @@ days:
       - name: Fragment Communication
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/activities-and-fragments/fragments-2-lesson
       - name: Exit Ticket
-        url: 
+        url: https://goo.gl/forms/93FIuI5uRrnnLvK92
     assignments:
       - name: ViewPager Lab
         url: https://github.com/ga-adi-macaron/ViewPager-Lab
