@@ -29,7 +29,7 @@ days:
   - date: Tuesday, 11/1
     lessons:
       - name: "Outcomes: Portfolio Websites"
-        url: 
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/outcomes/portfolio-website
       - name: Intro to Fragments & ViewPager
         url: 
       - name: Fragment Communication
