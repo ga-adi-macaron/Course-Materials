@@ -39,8 +39,10 @@ days:
     assignments:
       - name: ViewPager Lab
         url: https://github.com/ga-adi-macaron/ViewPager-Lab
+        note: "&#x2705;"
       - name: Fragment Communication Lab
         url: https://github.com/ga-adi-macaron/Fragments-Communications-Lab
+        note: "&#x2705;"
       - name: Outcomes Circuit Unit 5
         url: https://circuits.generalassemb.ly
 

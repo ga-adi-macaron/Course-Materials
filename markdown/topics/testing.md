@@ -2,5 +2,5 @@
 
 - [Intro to Testing](https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/testing/intro-to-testing) (Wednesday, 10/26)
 - [Unit Testing](https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/testing/unit-testing) (Wednesday, 10/26)
-- Usability Testing (Wednesday, 11/2)
 - Espresso (Thursday, 11/3)
+- Usability Testing

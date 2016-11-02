@@ -5,4 +5,4 @@
 - [Activity Lifecycle (Part 2)](https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/activities-and-fragments/activity-life-cycle-2-lesson) (Monday, 10/31)
 - [Intro to Fragments and ViewPager](https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/activities-and-fragments/fragments-1-lesson) (Tuesday, 11/1)
 - [Fragment Communication](https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/activities-and-fragments/fragments-2-lesson) (Tuesday, 11/1)
-- Master/Detail Flow (Wednesday, 11/2)
+- [Master/Detail Flow](https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/activities-and-fragments/master-detail-flow) (Wednesday, 11/2)
