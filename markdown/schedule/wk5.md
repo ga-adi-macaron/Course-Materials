@@ -57,7 +57,7 @@ days:
   - date: Thursday, 11/3
     lessons:
       - name: Drag & Swipe w/ RecyclerView
-        url:
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/user-interface/drag-and-swipe-with-recyclerview
       - name: Espresso Testing
         url:
       - name: Toolbars & Menus
