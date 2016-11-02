@@ -1,6 +1,6 @@
 ---
 title: Master Detail Flow
-duration: "2:00"
+duration: "1:30"
 creator:
     name: Charlie Drews
     city: NYC
@@ -137,8 +137,9 @@ public class DetailFragment extends Fragment {
         }
 }
 ```
-    > Note: remember to use Refactor > Rename so all references to this interface are updated at once!
-  - Move the code to populate the detail views from `DetailActivity.onCreate()` to `DetailFragment.onViewCreated()`, and make sure the `OnClickListener` for the FAB calls the listener method that the host activity will implement.
+> Note: remember to use Refactor > Rename so all references to this interface are updated at once!
+
+- Move the code to populate the detail views from `DetailActivity.onCreate()` to `DetailFragment.onViewCreated()`, and make sure the `OnClickListener` for the FAB calls the listener method that the host activity will implement.
 ```java
 public class DetailFragment extends Fragment {
       ...
@@ -190,7 +191,7 @@ public class DetailFragment extends Fragment {
       ...
 }
 ```
-    > Check: why can't we put this logic to populate the view inside the fragment's `onCreate()` method?
+> Check: why can't we put this logic to populate the view inside the fragment's `onCreate()` method?
 
 
 - Update `DetailActivity.java` to use the new detail fragment.
