@@ -46,13 +46,11 @@ days:
 
   - date: Wednesday, 11/2
     lessons:
-      - name: Usability Testing
-        url:
       - name: Master/Detail Flow
-        url:
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/activities-and-fragments/master-detail-flow
     assignments:
       - name: Master/Detail Flow Lab
-        url:
+        url: https://github.com/ga-adi-macaron/master-detail-flow-lab
 
   - date: Thursday, 11/3
     lessons:
