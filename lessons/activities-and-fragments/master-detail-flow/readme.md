@@ -10,9 +10,9 @@ creator:
 ### LEARNING OBJECTIVES
 *After this lesson, you will be able to:*
 - Describe the benefits Master/Detail flow
+- Convert a detail activity to use a detail fragment
 - Add multiple layouts for the same activity
 - Determine which version of a layout has been inflated
-- Implement Master/Detail flow by showing a detail view in either a second pane of the current screen, or on a whole new screen
 
 ### STUDENT PRE-WORK
 *Before this lesson, you should already be able to:*
@@ -30,11 +30,11 @@ creator:
 | TIMING  | TYPE  | TOPIC  |
 |:-:|---|---|
 | 5 min  | [Opening](#opening)  | Discuss lesson objectives |
-| 5 min  | [Introduction](#introduction)  | Master/Detail Flow |
+| 10 min  | [Introduction](#introduction)  | Master/Detail Flow Pattern |
 | 15 min  | [Guided Practice](#fragment)  | Add a Detail Fragment |
-| 30 min  | [Demo](#demo-sharing-events-with-an-activity-30-mins)  | Sharing Events with an Activity |
-| 20 min  | [Independent Practice](#independent-practice-topic-20-mins)  | Topic |
-| 5 min  | [Conclusion](#conclusion-5-mins)  | Review / Recap |
+| 20 min  | [Demo](#demo)  | Adding Alternate Layouts |
+| 30 min  | [Independent Practice](#independent-practice)  | Implement Master/Detail Flow |
+| 5 min  | [Conclusion](#conclusion)  | Review / Recap |
 
 <a name="opening"></a>
 ## Opening (5 mins)
@@ -54,7 +54,7 @@ Using fragments makes it easy to shuffle content around when necessary to fill a
 > Check: Why do you think it is worthwhile to design differently for small phone screens vs. large tablet screens?
 
 <a name="introduction"></a>
-## Introduction: The Master/Detail Flow Pattern (5 mins)
+## Introduction: The Master/Detail Flow Pattern (10 mins)
 
 The navigation pattern shown in the image above is called **Master Detail Flow**, and it is very commonly used to take advantage of the space offered by large tablet screens.
 In this pattern, the list of items is the _master_ view.
@@ -69,212 +69,264 @@ We'll add a second version of the layout file intended just for large screens.
 The system will then select which version to use on its own, and we can simply check which version it chose and act accordingly.
 
 <a name="fragment"></a>
-## Guided Practice: Sharing Events with an Activity (30 mins)
+## Guided Practice: Adding a Detail Fragment (15 mins)
 
-> Instructor note: Encourage students to follow along if they're comfortable.
+In the [starter code](starter-code) you'll find another version of the familiar "Planets" app we've used in previous examples.
+This version has two activities:
+1. `ListActivity` which shows a list of planets
+2. `DetailActivity` which shows detail for the planet the user selected
 
-> Check: Can anyone predict what you must do when you'd like a fragment to talk to its hosting Activity.
+All data is stored in a SQLite database, and both activities retrieve data from the database as needed. There is a FAB in the detail activity that indicates whether the user has "favorited" the planet. Tapping that button toggles the favorite status for that planet both on the screen and in the database.
 
-When a fragment needs to talk back to its hosting Activity, you must perform the following steps:
+If we're going to sometimes show the planet detail view in a separate activity (like it is now) and sometimes show it the same activity as the list, then we have a choice to make: duplicate the code from `DetailActivity` that shows the planet detail again in `ListActivity`, _or_ move that code to a fragment so we can use it in two activities without duplicating it. Let's go with the latter.
 
-1. Define an interface in the Fragment
-2. Implement the interface in the parent Activity
-3. Call the implemented method using a reference to the parent Activity
+Steps to add a detail fragment:
 
-From that callback, you can perform some action in the Activity, or pass on information to a different Fragment.
+- File > New > Fragment > Fragment (Blank)
+  - Choose a name, for example `DetailFragment`
+  - Check all 3 boxes
 
-We need to create a new project where we will have two Fragments: A ListFragment and a normal Fragment. When we click on an item in the ListFragment, it will change text in the other Fragment.
 
-Let's start by adding some data to show in the List. In your strings.xml, add the following
+- Copy the _all_ the XML from `activity_detail.xml` into the new `fragment_detail.xml`.
 
+
+- Update `activity_detail.xml` to have just a `FrameLayout` as a fragment container.
 ```xml
-<string-array name="Planets">
-        <item>Mercury</item>
-        <item>Venus</item>
-        <item>Earth</item>
-        <item>Mars</item>
-        <item>Jupiter</item>
-        <item>Saturn</item>
-        <item>Uranus</item>
-        <item>Neptune</item>
-    </string-array>
-```
-
-Now we can create the Java file for the Fragment.
-
-MyListFragment.java
-```java
-public class MyListFragment extends ListFragment {
-
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(getContext(),android.R.layout.simple_list_item_1,getResources().getStringArray(R.array.Planets));
-        setListAdapter(adapter);
-
-        return super.onCreateView(inflater, container, savedInstanceState);
-    }
-
-    @Override
-    public void onListItemClick(ListView l, View v, int position, long id) {
-        Toast.makeText(getActivity(), "Item: " + position, Toast.LENGTH_SHORT)
-                .show();
-    }
-}
-```
-
-Finally, let's add the fragment to our activity and test it out.
-
-activity_main.xml
-```xml
+<!-- activity_detail.xml -->
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/detail_fragment_container"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:orientation="horizontal"
-    tools:context="ly.generalassemb.drewmahrt.morefragments.MainActivity">
-
-    <fragment
-        android:id="@+id/list_fragment"
-        android:name="ly.generalassemb.drewmahrt.morefragments.MyListFragment"
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_weight="0.5"/>
-</LinearLayout>
-```
-It works so far!
-
-Now it's time to add our second fragment, and try communicating with it.
-
-The layout for this fragment will be simple, it will just have a TextView we can set.
-
-fragment_detail.xml
-```xml
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <TextView
-        android:id="@+id/text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Select a planet!" />
-</LinearLayout>
+    android:layout_height="match_parent"/>
 ```
 
-Now we need to create our DetailFragment.java
-
+- Update the automatically generated code in `DetailFragment.java`:
+  - Change `newInstance()` and `onCreate()` to take the selected planet's ID as an input.
 ```java
 public class DetailFragment extends Fragment {
-    @Nullable
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_detail,container,false);
-    }
-}
-```
+        public static final String SELECTED_PLANET_ID = "selectedPlanetId";
 
-> Check: Turn to the person next to you and explain the steps we went through, so far.
+        ...
 
-Now comes our final two steps. We need to set up the communication from the list fragment back to the activity, and from the activity to the detail fragment.
-
-Remember, we need to set up an interface in the ListFragment since that is where the Activity will be listening for the action. Then we need to allow the fragment to call on the activity.
-
-In MyListFragment.java
-```java
-OnPlanetSelectedListener mListener;
-...
-
-public interface OnPlanetSelectedListener {
-  public void onPlanetSelected(String selectedPlanet);
-}
-
-@Override
-    public void onAttach(Context context) {
-        super.onAttach(context);
-        try {
-            mListener = (OnPlanetSelectedListener) getActivity();
-        } catch (ClassCastException e) {
-            throw new ClassCastException(getActivity().toString() + " must implement OnPlanetSelectedListener");
+        public static DetailFragment newInstance(int selectedPlanetId) {
+            DetailFragment fragment = new DetailFragment();
+            Bundle args = new Bundle();
+            args.putInt(SELECTED_PLANET_ID, selectedPlanetId);
+            fragment.setArguments(args);
+            return fragment;
         }
-    }
 
-    @Override
-    public void onListItemClick(ListView l, View v, int position, long id) {
-        mListener.onPlanetSelected(l.getAdapter().getItem(position).toString());
-    }
+        @Override
+        public void onCreate(Bundle savedInstanceState) {
+            super.onCreate(savedInstanceState);
+            if (getArguments() != null) {
+                mSelectedPlanetId = getArguments().getInt(SELECTED_PLANET_ID);
+            }
+        }
+
+        ...
+}
 ```
-
-Overriding `onAttach` lets us check to make sure the parent activity implemented the callback needed for the interaction to be successful.
-
-Now let's add a method in the detail fragment to accept the String we are going to put in the TextView.
-
+  - Rename the interface defined in `DetailFragment` for communication with the host activity to something more descriptive.
 ```java
-public void setPlanetText(String planet){
-        TextView text = (TextView)getView().findViewById(R.id.text);
-        text.setText("Planet selected: "+planet);
+public class DetailFragment extends Fragment {
+        ...
+        public interface OnFavoriteStatusChangeListener {
+            void onFavoriteStatusChange(int planetId, boolean isFavorite);
+        }
+}
+```
+    > Note: remember to use Refactor > Rename so all references to this interface are updated at once!
+  - Move the code to populate the detail views from `DetailActivity.onCreate()` to `DetailFragment.onViewCreated()`, and make sure the `OnClickListener` for the FAB calls the listener method that the host activity will implement.
+```java
+public class DetailFragment extends Fragment {
+      ...
+      @Override
+      public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
+            super.onViewCreated(view, savedInstanceState);
+
+            // Get selected planet from database
+            final PlanetDbHelper planetDbHelper = PlanetDbHelper.getInstance(getContext());
+            final Planet selectedPlanet = planetDbHelper.getPlanetById(mSelectedPlanetId);
+
+            // Populate views with planet details
+            TextView nameView = (TextView) view.findViewById(R.id.planet_detail_name);
+            TextView diameterView = (TextView) view.findViewById(R.id.planet_detail_diameter);
+            TextView temperatureView = (TextView) view.findViewById(R.id.planet_detail_temperature);
+            TextView ringsView = (TextView) view.findViewById(R.id.planet_detail_rings);
+            TextView moonsView = (TextView) view.findViewById(R.id.planet_detail_moons);
+            mFavoriteFab = (FloatingActionButton) view.findViewById(R.id.planet_detail_favorite_button);
+
+            nameView.setText(selectedPlanet.getName());
+            diameterView.setText(String.format(Locale.getDefault(), "Diameter: %,d km",
+                    selectedPlanet.getDiameterInKm()));
+            temperatureView.setText(String.format(Locale.getDefault(), "Average temperature: %d°C",
+                    selectedPlanet.getAvgTempInC()));
+            ringsView.setText(selectedPlanet.hasRings() ? "Has rings" : "Does not have rings");
+            moonsView.setText(String.format(Locale.getDefault(), "Number of moons: %d",
+                    selectedPlanet.getNumMoons()));
+            setFavoriteFabIcon(selectedPlanet.isFavorite());
+
+            // Update the favorite status when the user clicks the FAB
+            mFavoriteFab.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                  // Toggle the favorite status
+                  selectedPlanet.setFavorite(!selectedPlanet.isFavorite());
+
+                  // Update the database to reflect this change
+                  planetDbHelper.updatePlanetFavoriteStatus(mSelectedPlanetId,
+                          selectedPlanet.isFavorite());
+
+                  // Update the FAB icon accordingly
+                  setFavoriteFabIcon(selectedPlanet.isFavorite());
+
+                  // Call the listener
+                  mListener.onFavoriteStatusChange(mSelectedPlanetId, selectedPlanet.isFavorite());
+                }
+            });
+      }
+      ...
+}
+```
+    > Check: why can't we put this logic to populate the view inside the fragment's `onCreate()` method?
+
+
+- Update `DetailActivity.java` to use the new detail fragment.
+  - Use `FragmentManager` and `FragmentTransaction` (remember to select the support library versions of these) 
+```java
+public class DetailActivity implements OnFavoriteStatusChangeListener {
+        ...
+        @Override
+        protected void onCreate(Bundle savedInstanceState) {
+            ...
+            // Load an instance of the detail fragment into its container view
+            FragmentManager fragmentManager = getSupportFragmentManager();
+            FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+
+            DetailFragment detailFragment = DetailFragment.newInstance(selectedPlanetId);
+            fragmentTransaction.add(R.id.detail_fragment_container, detailFragment);
+            fragmentTransaction.commit();
+        }
+}
+```
+  - All activities that host this fragment must implement the `OnFavoriteStatusChangeListener` interface. In `DetailActivity` there isn't anything else to update (since the list of planets isn't visible in that activity) but it must implement the interface anyway; the body of `onFavoriteStatusChange()` doesn't need to do anything.
+```java
+public class DetailActivity implements OnFavoriteStatusChangeListener {
+        ...
+        @Override
+        public void onFavoriteStatusChange(int planetId, boolean isFavorite) {
+            // Nothing to do
+        }
 }
 ```
 
-Finally, we need to add the detail fragment, and make the connection by implementing our callback interface in the MainActivity.
-
-```xml
-<fragment
-        android:id="@+id/detail_fragment"
-        android:name="ly.generalassemb.drewmahrt.morefragments.DetailFragment"
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_toRightOf="@id/list_fragment"
-        android:layout_weight="0.5"
-        />
-```
-
-```java
-@Override
-    public void onPlanetSelected(String selectedPlanet) {
-        DetailFragment detailFragment = (DetailFragment) getSupportFragmentManager().findFragmentById(R.id.detail_fragment);
-        detailFragment.setPlanetText(selectedPlanet);
-    }
-```
-
-> Check: Turn to the person next to you and explain the steps we went through to make the two fragments interact with each other.
-
-***
 
 <a name="demo"></a>
-## Guided Practice: Master-Detail Flow (15 mins)
+## Demo: Adding Alternate Layouts (20 mins)
 
-The master/detail flow can accomplish a similar two-pane layout, but only uses one fragment.
+In order to show the list of planets and the detail fragment side-by-side on large screens, we need an alternate layout file for `ListActivity` that specifies such a layout.
+Here's how to add more than one layout file for a single activity, and specify when the new file should be used:
+- In the Project explorer, right click the "res/layout" folder > New > Layout resource file
+- The filename must _exactly_ match the existing layout file for the activity: `activity_list`
+- Under "Available quantifiers" choose "Screen Width", hit >>, enter "900" as the screen width threshold
 
-Start a new project, and choose the Master/Detail Flow from the templates. The Master/Detail flow sets up a two-pane layout for us to use that automatically adapts to fit phones or tablets. On tablets, it displays the two panes side by side. On a phone, it makes each a separate screen.
+In the new XML file, copy all the contents of the existing `activity_list.xml`, then add a new `FrameLayout` to serve as a container for the detail fragment. You can use the `layout_weight` attribute to control how wide each element is within the `LinearLayout`.
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.charlesdrews.masterdetailflowdemo.list.ListActivity">
 
-Let's walk through all of the parts of the master detail flow to understand how it works.
+    <!-- the layout_weights below will make the recycler view take
+          up 30% of the screen width, and the fragment the other 70% -->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/planet_list_recycler_view"
+        android:layout_width="0dp"
+        android:layout_weight="0.3"
+        android:layout_height="match_parent"/>
 
-***
+    <FrameLayout
+        android:id="@+id/detail_fragment_container"
+        android:layout_width="0dp"
+        android:layout_weight="0.7"
+        android:layout_height="match_parent"/>
+</LinearLayout>
+```
 
-<a name="ind-practice"></a>
-## Independent Practice: Topic (20 mins)
+Now, anytime that criteria is met (screen width is 900dp or greater) then it will use the new version of `activity_list.xml`. If the screen is smaller, it will use the old version. Android checks the user's screen size and picks which XML file it needs on its own; you don't need to write code to determine the size of the user's screen.
 
-Take our demo from earlier in the lesson, and adapt it to act more like the Master-Detail flow. Instead of using one fragment like the template, ours will use two fragments. On a phone, have it display the detail text in a separate activity (but still in a fragment), and on a tablet have it display in a second pane next to the list.
+But how do we know which XML file was selected? We can simply check whether or not the fragment container is present. Call `findViewById(R.id.detail_fragment_container)` and check if the result is `null`. Null means we've got the original version of the XML, with a single pane, and should launch `DetailActivity` when a planet is clicked.
+If it's _not_ `null`, then we've got the new version of the XML with two panes, and should load the detail fragment when a planet is clicked.
 
-> Check: Were students able to create the desired deliverable(s)? Did it meet all necessary requirements / constraints?
+```java
+    // ListActivity.java
 
-***
+    @Override
+    public void onPlanetSelected(int planetId) {
+
+        //If two pane, update detail fragment here in this activity
+        //Otherwise, if single pane, launch detail activity
+        if (mTwoPane) {
+              FragmentManager fragmentManager = getSupportFragmentManager();
+              FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+
+              DetailFragment detailFragment = DetailFragment.newInstance(planetId);
+              fragmentTransaction.replace(R.id.detail_fragment_container, detailFragment);
+              fragmentTransaction.commit();
+        }
+        else {
+              Intent intent = new Intent(this, DetailActivity.class);
+              intent.putExtra(DetailFragment.SELECTED_PLANET_ID, planetId);
+              startActivity(intent);
+        }
+    }
+```
+
+Don't forget that `DetailFragment` demands that its host activity must implement the `OnFavoriteStatusChangeListener` interface.
+In `ListActivity`'s implementation of this, we want to update whichever list item matches the ID of the planet shown in the detail fragment.
+Loop through them and have the adapter update just that item.
+You could also just call `notifyDataSetChange()` to have the adapter update _all_ the list items, but there's not need to have it do all that work when only one item changed.
+
+```java
+    // ListActivity.java
+
+    @Override
+    public void onFavoriteStatusChange(int planetId, boolean isFavorite) {
+        for (int i = 0; i < mPlanets.size(); i++) {
+            if (mPlanets.get(i).getId() == planetId) {
+                    mPlanets.get(i).setFavorite(isFavorite);
+                    mPlanetListAdapter.notifyItemChanged(i);
+                    break;
+            }
+        }
+    }
+```
+
+<a name="independent-practice"></a>
+## Independent Practice: Implement Master/Detail Flow (30 mins)
+
+Follow the process described above to implement master/detail flow in the Planets app found in the [starter code](starter-code).
+
+> Check: were students able to implement the pattern successfully?
 
 <a name="conclusion"></a>
 ## Conclusion (5 mins)
 
-Now that we have a more complete understanding of how fragments work, and how they interact with the activity as well as each other, we get a better idea of when they are appropriate to use. Setting up the interaction between a fragment and an activity might seem like a lot of work at first, but with practice it becomes easier.
+Developers often overlook the differences between tablet screens and phone screens, and the result is usually apps that look stretched-out on a tablet with too much white space.
+The best way to combat this is to create alternate XML files with different layouts for large screens.
+The master/detail flow pattern is the most common example of how alternate XML files are used, and it can drasically improve your users' experience with your app on large screens.
 
-- Describe the steps needed to make the two fragments interact with each other.
+> Check: What are the main steps to implement master/detail flow? How does the detail fragment communicate with its host activity? How do you determine which XML file is being used?
 
-
-***
-
-### ADDITIONAL RESOURCES
+## ADDITIONAL RESOURCES
+- [Master/Detail Flow](https://developer.android.com/training/implementing-navigation/descendant.html#master-detail)
+- [Supporting Tablets & Multi-Pane Layouts](https://developer.android.com/guide/practices/tablets-and-handsets.html#Fragments)
 - [Fragments Developers Guide](http://developer.android.com/guide/components/fragments.html)
 - [Adaptive UI Guide](http://developer.android.com/training/multiscreen/adaptui.html)
