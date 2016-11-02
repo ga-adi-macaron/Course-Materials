@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Drag and Swipe</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- The %d in this string is placeholder where an int can be inserted later -->
+    <string name="list_item_message_text">This is item number %s</string>
+    <string name="item_removed_message">Item #%d removed</string>
+
+    <!-- When you have multiple placeholders, you need to number them like this -->
+    <string name="item_moved_message">Item #%1$d moved from position %2$d to position %3$d</string>
+</resources>
