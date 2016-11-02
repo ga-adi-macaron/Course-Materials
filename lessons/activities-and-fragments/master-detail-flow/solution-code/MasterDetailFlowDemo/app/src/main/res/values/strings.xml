@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Master Detail Flow Demo</string>
+    <string name="title_planet_list">Planets</string>
+    <string name="title_planet_detail">Planet Detail</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
