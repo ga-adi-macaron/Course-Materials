@@ -57,10 +57,13 @@ lessons:
   {% for lesson in page.lessons %}
   <li>
     {% if lesson.url %}
-      <a href="{{lesson.url}}">{{lesson.name}}</a> ({{lesson.date}})
+      <a href="{{lesson.url}}">{{lesson.name}}</a>
     {% else %}
-      {{lesson.name}} ({{lesson.date}})
-    {% endif %}</li>
+      {{lesson.name}}
+    {% endif %}
+    {% if lesson.date %}
+      ({{lesson.date}})
+    {% endif %}
   </li>
   {% endfor %}
 </ul>
