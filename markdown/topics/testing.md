@@ -20,6 +20,10 @@ lessons:
 
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) {{page.title}}
 
-{% for lesson in page.lessons %}
-- [{{lesson.name}}]({{lesson.url}}) ({{lesson.date}})
-{% endfor %}
+<ul>
+  {% for lesson in page.lessons %}
+  <li>
+    <a href="{{lesson.url}}">{{lesson.name}}</a> ({{lesson.date}})
+  </li>
+  {% endfor %}
+</ul>
