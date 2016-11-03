@@ -59,16 +59,16 @@ days:
       - name: Drag & Swipe w/ RecyclerView
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/user-interface/drag-and-swipe-with-recyclerview
       - name: Espresso Testing
-        url:
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/android-technologies-and-services/espresso-lesson
       - name: Toolbars & Menus
-        url:
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/user-interface/toolbars-and-menus-lesson
       - name: Exit Ticket
         url: 
     assignments:
       - name: Espresso Lab
-        url:
+        url: https://github.com/ga-adi-macaron/espresso-lab
       - name: Toolbars & Menus Lab
-        url:
+        url: https://github.com/ga-adi-macaron/toolbars-and-menus-lab
 
   - date: Friday, 11/4
     lessons:
