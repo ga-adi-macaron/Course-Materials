@@ -1,9 +1,42 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Workflow and Developer Tools
+---
+# Provide values for an array of lessons,
+#   with each lesson having a name, url, and date
 
-- [Command Line](https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/workflow-and-dev-tools/os-navigation-lesson) (Monday, 10/3)
-- [Git & Github](https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/workflow-and-dev-tools/git-github-lesson) (Monday, 10/3)
-- [Debugging Fundamentals in Java](https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/programming-fundamentals-in-java/debugging-fundamentals-in-java-lesson) (Thursday, 10/6)
-- [Debugging in Android Studio](https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/workflow-and-dev-tools/debugging-in-android-lesson) (Wednesday, 10/12)
-- [Developer Documentation](https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/workflow-and-dev-tools/developer-documentation-lesson) (Wednesday, 10/19)
-- Git Team Workflow Part 1
-- Git Team Workflow Part 2
+title: Workflow and Developer Tools
+lessons:
+  - name: Command Line
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/workflow-and-dev-tools/os-navigation-lesson
+    date: Monday, 10/3
+  - name: Git & Github
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/workflow-and-dev-tools/git-github-lesson
+    date: Monday, 10/3
+  - name: Debugging Fundamentals in Java
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/programming-fundamentals-in-java/debugging-fundamentals-in-java-lesson
+    date: Thursday, 10/6
+  - name: Debugging in Android Studio
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/workflow-and-dev-tools/debugging-in-android-lesson
+    date: Wednesday, 10/12
+  - name: Developer Documentation
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/workflow-and-dev-tools/developer-documentation-lesson
+    date: Wednesday, 10/19
+  - name: Git Team Workflow Part 1
+    url: 
+    date: 
+  - name: Git Team Workflow Part 2
+    url: 
+    date: 
+---
+
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) {{page.title}}
+
+<ul>
+  {% for lesson in page.lessons %}
+  <li>
+    {% if lesson.url %}
+      <a href="{{lesson.url}}">{{lesson.name}}</a> ({{lesson.date}})
+    {% else %}
+      {{lesson.name}} ({{lesson.date}})
+    {% endif %}</li>
+  </li>
+  {% endfor %}
+</ul>

@@ -23,7 +23,11 @@ lessons:
 <ul>
   {% for lesson in page.lessons %}
   <li>
-    <a href="{{lesson.url}}">{{lesson.name}}</a> ({{lesson.date}})
+    {% if lesson.url %}
+      <a href="{{lesson.url}}">{{lesson.name}}</a> ({{lesson.date}})
+    {% else %}
+      {{lesson.name}} ({{lesson.date}})
+    {% endif %}</li>
   </li>
   {% endfor %}
 </ul>
