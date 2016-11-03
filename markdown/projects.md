@@ -1,20 +1,68 @@
+---
+# Provide a list of projects,
+#   each should have a number, name, url, due-date, due-time,
+#   and set solution-posted to true if applicable
+
+projects:
+  - number: 0
+    name: Rock Paper Scissors
+    url: https://github.com/ga-adi-macaron/project-0
+    due-date: Friday, 10/7
+    due-time: 4:00 pm
+    solution-posted: true
+  - number: 1
+    name: To-Do Lists
+    url: https://github.com/ga-adi-macaron/project-1
+    due-date: Friday, 10/21
+    due-time: 3:30 pm
+    solution-posted: true
+  - number: 2
+    name: Mobile Commerce App
+    url: https://github.com/ga-adi-macaron/project-2
+    due-date: Thursday, 11/10
+    due-time: 4:00 pm
+    solution-posted: false
+  - number: 3
+    name: Team Project
+    url: 
+    due-date: 
+    due-time: 
+    solution-posted: false
+  - number: 4
+    name: Final Project
+    url: 
+    due-date: 
+    due-time: 
+    solution-posted: false
+---
+
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Projects
 
 &#x2705; = solution code posted
 
-- [Project 0 - Rock Paper Scissors](https://github.com/ga-adi-macaron/project-0): Due Friday, 10/7 at 4:00 pm &#x2705;
-
-
-- [Project 1 - To-Do Lists](https://github.com/ga-adi-macaron/project-1): Due Friday, 10/21 at 3:30 pm &#x2705;
-
-
-- [Project 2 - Mobile Commerce App](https://github.com/ga-adi-macaron/project-2): Due Thursday, 11/10 at 4:00 pm
-
-
-- Project 3 - Team Project
-
-
-- Project 4 - Final Project
+<table>
+<tr><td><b>Project</b></td><td><b>Due Date</b></td>
+{% for project in page.projects %}
+  <tr>
+    <td>
+      {% if project.url %}
+        <a href="{{project.url}}">{{project.number}}: {{project.name}}</a>
+      {% else %}
+        {{project.number}}: {{project.name}}
+      {% endif %}
+      {% if project.solution-posted %}
+        &#x2705;
+      {% endif %}
+    </td>
+    <td>
+      {{project.due-date}}
+      {% if project.due-time %}
+        @ {{project.due-time}}
+      {% endif %}
+    </td>
+  </tr>
+{% endfor %}
+</table>
 
 
 ---
