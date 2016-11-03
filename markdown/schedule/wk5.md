@@ -53,6 +53,7 @@ days:
     assignments:
       - name: Master/Detail Flow Lab
         url: https://github.com/ga-adi-macaron/master-detail-flow-lab
+        note: "&#x2705;"
 
   - date: Thursday, 11/3
     lessons:
