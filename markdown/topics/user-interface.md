@@ -38,7 +38,7 @@ lessons:
     url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/user-interface/drag-and-swipe-with-recyclerview
     date: Thursday, 11/3
   - name: Toolbars and Menus
-    url: 
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/user-interface/toolbars-and-menus-lesson
     date: Thursday, 11/3
   - name: Simple Animation
     url: 
