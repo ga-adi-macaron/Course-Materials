@@ -64,7 +64,7 @@ days:
       - name: Toolbars & Menus
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/user-interface/toolbars-and-menus-lesson
       - name: Exit Ticket
-        url: 
+        url: https://goo.gl/forms/r09DUY2ImZx7aPCE3
     assignments:
       - name: Espresso Lab
         url: https://github.com/ga-adi-macaron/espresso-lab
