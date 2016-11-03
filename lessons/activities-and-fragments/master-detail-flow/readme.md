@@ -73,6 +73,7 @@ The system will then select which version to use on its own, and we can simply c
 
 In the [starter code](starter-code) you'll find another version of the familiar "Planets" app we've used in previous examples.
 This version has two activities:
+
 1. `ListActivity` which shows a list of planets
 2. `DetailActivity` which shows detail for the planet the user selected
 
