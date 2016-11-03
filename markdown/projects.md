@@ -1,39 +1,39 @@
 ---
 # Provide a list of projects,
-#   each should have a number, name, url, due-date, due-time,
-#   and set solution-posted to true if applicable
+#   each should have a number, name, url, dueDate, dueTime,
+#   and set solutionPosted to true if applicable
 
 projects:
   - number: 0
     name: Rock Paper Scissors
     url: https://github.com/ga-adi-macaron/project-0
-    due-date: Friday, 10/7
-    due-time: 4:00 pm
-    solution-posted: true
+    dueDate: Friday, 10/7
+    dueTime: 4:00 pm
+    solutionPosted: true
   - number: 1
     name: To-Do Lists
     url: https://github.com/ga-adi-macaron/project-1
-    due-date: Friday, 10/21
-    due-time: 3:30 pm
-    solution-posted: true
+    dueDate: Friday, 10/21
+    dueTime: 3:30 pm
+    solutionPosted: true
   - number: 2
     name: Mobile Commerce App
     url: https://github.com/ga-adi-macaron/project-2
-    due-date: Thursday, 11/10
-    due-time: 4:00 pm
-    solution-posted: false
+    dueDate: Thursday, 11/10
+    dueTime: 4:00 pm
+    solutionPosted: false
   - number: 3
     name: Team Project
     url: 
-    due-date: 
-    due-time: 
-    solution-posted: false
+    dueDate: 
+    dueTime: 
+    solutionPosted: false
   - number: 4
     name: Final Project
     url: 
-    due-date: 
-    due-time: 
-    solution-posted: false
+    dueDate: 
+    dueTime: 
+    solutionPosted: false
 ---
 
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Projects
@@ -50,14 +50,14 @@ projects:
       {% else %}
         {{project.number}}: {{project.name}}
       {% endif %}
-      {% if project.solution-posted %}
+      {% if project.solutionPosted %}
         &#x2705;
       {% endif %}
     </td>
     <td>
-      {{project.due-date}}
-      {% if project.due-time %}
-        @ {{project.due-time}}
+      {{project.dueDate}}
+      {% if project.dueTime %}
+        @ {{project.dueTime}}
       {% endif %}
     </td>
   </tr>
