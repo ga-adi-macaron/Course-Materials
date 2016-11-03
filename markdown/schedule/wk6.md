@@ -29,6 +29,8 @@ days:
   - date: Tuesday, 11/8
     lessons:
       - name: "Outcomes: Qualifications Checkpoint"
+      - name: Usability Testing
+        url: 
       - name: Project 2 Workshop
         url: https://github.com/ga-adi-macaron/project-2
     assignments:
@@ -37,8 +39,6 @@ days:
 
   - date: Wednesday, 11/9
     lessons:
-      - name: Usability Testing
-        url: 
       - name: Project 2 Workshop
         url: https://github.com/ga-adi-macaron/project-2
     assignments:

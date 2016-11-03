@@ -15,7 +15,7 @@ lessons:
     date: Thursday, 11/3
   - name: Usability Testing
     url: 
-    date: Wednesday, 11/9
+    date: Tuesday, 11/8
 ---
 
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) {{page.title}}

@@ -12,7 +12,7 @@ lessons:
     date: Wednesday, 10/26
   - name: Usability Testing
     url: 
-    date: Wednesday, 11/9
+    date: Tuesday, 11/8
   - name: Design Thinking and UX
     url: 
     date: Wednesday, 11/16
