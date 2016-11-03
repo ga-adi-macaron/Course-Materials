@@ -12,6 +12,7 @@
   - [Week 3 (10/17 - 10/21)](markdown/schedule/wk3.md)
   - [Week 4 (10/24 - 10/28)](markdown/schedule/wk4.md)
   - [Week 5 (10/31 - 11/4)](markdown/schedule/wk5.md)
+  - [Week 6 (11/7 - 11/11)](markdown/schedule/wk6.md)
 - [Lessons by Topic](markdown/topics.md)
   - [Activities & Fragments](markdown/topics/activities-and-fragments.md)
   - [Android Technologies and Services](markdown/topics/android-technologies-and-services.md)

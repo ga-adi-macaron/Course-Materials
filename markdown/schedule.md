@@ -5,6 +5,7 @@
 - [Week 3 (10/17 - 10/21)](schedule/wk3.md)
 - [Week 4 (10/24 - 10/28)](schedule/wk4.md)
 - [Week 5 (10/31 - 11/4)](schedule/wk5.md)
+- [Week 6 (11/7 - 11/11)](schedule/wk6.md)
 
 
 ---
