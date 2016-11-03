@@ -73,10 +73,10 @@ days:
 
   - date: Friday, 11/4
     lessons:
-      - name: Reflection Survey & Discussion
-        url: 
+      - name: Mid-Course Survey (link will be emailed)
       - name: Simple Animations
         url:
+      - name: Pizza Lunch!
       - name: Multiple Devices
         url:
     assignments:
