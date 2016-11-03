@@ -6,29 +6,29 @@ title: Web Communication
 lessons:
   - name: JSON
     url: 
-    date: 
+    date: Monday, 11/14
   - name: HTTP and REST
     url: 
-    date: 
+    date: Monday, 11/14
   - name: API Introduction
     url: 
-    date: 
+    date: Tuesday, 11/15
   - name: API Documentation
     url: 
-    date: 
+    date: Wednesday, 11/16
   - name: Networking in Android
     url: 
-    date: 
+    date: Thursday, 11/17
   - name: OAuth
     url: 
-    date: 
+    date: Thursday, 11/17
   - name: GSON
     url: 
-    date: 
+    date: Monday, 11/21
   - name: Retrofit
     url: 
     date: 
-  - name: Sync Adapters Lesson
+  - name: Sync Adapters
     url: 
     date: 
 ---

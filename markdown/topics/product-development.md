@@ -15,16 +15,16 @@ lessons:
     date: Wednesday, 11/9
   - name: Design Thinking and UX
     url: 
-    date: 
+    date: Wednesday, 11/16
   - name: User Research
     url: 
-    date: 
+    date: Friday, 11/18
   - name: Competitor Research
     url: 
-    date: 
+    date: Friday, 11/18
   - name: User Goals and User Flows
     url: 
-    date: 
+    date: Friday, 11/18
   - name: User Personas
     url: 
     date: 

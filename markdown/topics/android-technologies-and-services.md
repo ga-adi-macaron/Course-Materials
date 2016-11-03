@@ -15,10 +15,7 @@ lessons:
     date: Monday, 11/7
   - name: Threading
     url:
-    date: 
-  - name: Efficient Apps Morning Exercise
-    url:
-    date: 
+    date: Tuesday, 11/15
   - name: Services
     url:
     date: 
