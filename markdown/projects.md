@@ -8,19 +8,19 @@ projects:
     name: Rock Paper Scissors
     url: https://github.com/ga-adi-macaron/project-0
     dueDate: Friday, 10/7
-    dueTime: 4:00 pm
+    dueTime: "4:00 pm"
     solutionPosted: true
   - number: 1
     name: To-Do Lists
     url: https://github.com/ga-adi-macaron/project-1
     dueDate: Friday, 10/21
-    dueTime: 3:30 pm
+    dueTime: "3:30 pm"
     solutionPosted: true
   - number: 2
     name: Mobile Commerce App
     url: https://github.com/ga-adi-macaron/project-2
     dueDate: Thursday, 11/10
-    dueTime: 4:00 pm
+    dueTime: "4:00 pm"
     solutionPosted: false
   - number: 3
     name: Team Project
