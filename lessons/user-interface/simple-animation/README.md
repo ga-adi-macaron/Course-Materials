@@ -305,3 +305,4 @@ View and Layout animation let you create visually appealing features and transit
 
 ## Additional Resources
 - [12 Principles of Animation Video Playlist](https://www.youtube.com/playlist?list=PL-bOh8btec4CXd2ya1NmSKpi92U_l6ZJd)
+- [Android Animations and Graphics](https://developer.android.com/guide/topics/graphics/overview.html)
