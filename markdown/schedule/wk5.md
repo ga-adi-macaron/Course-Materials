@@ -68,6 +68,7 @@ days:
     assignments:
       - name: Espresso Lab
         url: https://github.com/ga-adi-macaron/espresso-lab
+        note: "&#x2705;"
       - name: Toolbars & Menus Lab
         url: https://github.com/ga-adi-macaron/toolbars-and-menus-lab
 
