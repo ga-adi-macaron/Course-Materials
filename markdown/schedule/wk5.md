@@ -79,7 +79,7 @@ days:
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/user-interface/simple-animation
       - name: Pizza Lunch!
       - name: Multiple Devices
-        url:
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/user-interface/multiple-devices-lesson
     assignments:
       - name: Simple Animations Lab
         url: https://github.com/ga-adi-macaron/simple-animation-lab
