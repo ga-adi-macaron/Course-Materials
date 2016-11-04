@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="generalassembly.yuliyakaleda.viewanimation.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/scale"
+            android:text="@string/scale_button"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:textSize="@dimen/button_text"/>
+
+        <Button
+            android:id="@+id/translate"
+            android:text="@string/translate"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:textSize="@dimen/button_text"/>
+
+        <Button
+            android:id="@+id/rotate"
+            android:text="@string/rotate"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:textSize="@dimen/button_text"/>
+
+        <Button
+            android:id="@+id/fade"
+            android:text="@string/fade"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:textSize="@dimen/button_text"/>
+
+        <Button
+            android:id="@+id/comlex"
+            android:text="@string/complex_animation"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:textSize="@dimen/button_text"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/animation"
+        android:textSize="60sp"
+        android:layout_below="@+id/ll"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/next_activity_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next_activity"
+        android:textSize="@dimen/button_text"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"/>
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<resources>
+  <string name="app_name">ViewAnimation</string>
+  <string name="scale_button">Scale</string>
+  <string name="translate">Translate</string>
+  <string name="rotate">Rotate</string>
+  <string name="fade">Fade</string>
+  <string name="animation">Animation</string>
+  <string name="complex_animation">Complex animation</string>
+  <string name="add_button">add button</string>
+  <string name="delete_button">delete button</string>
+  <string name="next_activity">Next Activity</string>
+</resources>
