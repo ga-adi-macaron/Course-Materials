@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Independent Practice #2-->
+
+<resources>
+  <string name="submit_button">Enviar</string>
+
+  <!-- Independent Practice #3-->
+
+  <string name="portrait">Modo Retrato</string>
+  <string name="landscape">Modo paisaje</string>
+</resources>

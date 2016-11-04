@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="generalassembly.yuliyakaleda.independentpracticemultipledevices">
+
+  <!-- Change the level of the API to the level of your device version. Go to build.gradle and
+  set minSdkLevel to one level up. The project should fail because gradle overrides the value set
+  in the manifest-->
+  <uses-sdk android:minSdkVersion="16" />
+
+  <!-- Independent Practice #3-->
+
+  <application
+      android:allowBackup="true"
+      android:icon="@mipmap/ic_butterfly"
+      android:label="@string/app_name"
+      android:supportsRtl="true"
+      android:theme="@style/AppTheme">
+    <activity android:name=".MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+  </application>
+
+</manifest>
