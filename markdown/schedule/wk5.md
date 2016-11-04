@@ -75,13 +75,13 @@ days:
     lessons:
       - name: Mid-Course Survey (link will be emailed)
       - name: Simple Animations
-        url:
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/user-interface/simple-animation
       - name: Pizza Lunch!
       - name: Multiple Devices
         url:
     assignments:
       - name: Simple Animations Lab
-        url:
+        url: https://github.com/ga-adi-macaron/simple-animation-lab
       - name: Multiple Devices Lab
         url:
 ---

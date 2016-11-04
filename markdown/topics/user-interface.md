@@ -41,7 +41,7 @@ lessons:
     url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/user-interface/toolbars-and-menus-lesson
     date: Thursday, 11/3
   - name: Simple Animation
-    url: 
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/user-interface/simple-animation
     date: Friday, 11/4
   - name: Accessibility
     url: 
