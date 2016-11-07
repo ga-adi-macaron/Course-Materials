@@ -13,7 +13,7 @@ days:
   - date: Monday, 11/7
     lessons:
       - name: Whiteboarding Practice 5
-        url: 
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/computer-science-and-interview-prep/whiteboarding-practice-5
       - name: Accessibility
         url: 
       - name: "1:1 Check-Ins"
