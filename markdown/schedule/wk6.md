@@ -16,8 +16,6 @@ days:
         url: 
       - name: Accessibility
         url: 
-      - name: Model-View-Presenter
-        url: 
       - name: "1:1 Check-Ins"
         url: https://docs.google.com/spreadsheets/d/1YABj9ZaNxLymnWsgcf2Qew3sGzPqNb0grlpg-DECS-8/edit?usp=sharing
       - name: Project 2 Workshop
