@@ -83,6 +83,7 @@ days:
     assignments:
       - name: Simple Animations Lab
         url: https://github.com/ga-adi-macaron/simple-animation-lab
+        note: "&#x2705;"
       - name: Multiple Devices Lab
         url: https://github.com/ga-adi-macaron/multiple-devices-lab
 ---
