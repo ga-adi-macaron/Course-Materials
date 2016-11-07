@@ -19,6 +19,10 @@ days:
       - name: HTTP & REST
         url: 
     assignments:
+      - name: JSON Lab
+        url: 
+      - name: HTTP Lab
+        url: 
       - name: HW TBD
         url: 
 
