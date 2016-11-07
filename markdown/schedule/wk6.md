@@ -15,7 +15,7 @@ days:
       - name: Whiteboarding Practice 5
         url: 
       - name: Accessibility
-        url: 
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/android-technologies-and-services/accessible-apps-lesson
       - name: "1:1 Check-Ins"
         url: https://docs.google.com/spreadsheets/d/1YABj9ZaNxLymnWsgcf2Qew3sGzPqNb0grlpg-DECS-8/edit?usp=sharing
       - name: Project 2 Workshop
