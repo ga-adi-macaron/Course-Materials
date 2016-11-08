@@ -74,7 +74,6 @@ days:
 
   - date: Friday, 11/4
     lessons:
-      - name: Mid-Course Survey (link will be emailed)
       - name: Simple Animations
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/user-interface/simple-animation
       - name: Pizza Lunch!

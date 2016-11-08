@@ -27,6 +27,7 @@ days:
   - date: Tuesday, 11/8
     lessons:
       - name: "Outcomes: Qualifications Checkpoint"
+      - name: Mid-Course Survey (link will be emailed)
       - name: Usability Testing
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/testing/usability-testing
       - name: Project 2 Workshop
