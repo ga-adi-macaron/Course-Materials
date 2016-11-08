@@ -45,13 +45,10 @@ days:
 
   - date: Thursday, 11/10
     lessons:
-      - name: Reflection Survey & Discussion
-        url: 
       - name: Project 2 Workshop & Presentations
         url: https://github.com/ga-adi-macaron/project-2
     assignments:
-      - name: HW TBD
-        url:
+      - name: None
 
   - date: Friday, 11/11
     lessons:
