@@ -14,7 +14,7 @@ lessons:
     url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/android-technologies-and-services/espresso-lesson
     date: Thursday, 11/3
   - name: Usability Testing
-    url: 
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/testing/usability-testing
     date: Tuesday, 11/8
 ---
 

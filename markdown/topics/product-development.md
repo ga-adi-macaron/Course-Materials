@@ -11,7 +11,7 @@ lessons:
     url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/testing/intro-to-testing
     date: Wednesday, 10/26
   - name: Usability Testing
-    url: 
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/testing/usability-testing
     date: Tuesday, 11/8
   - name: Design Thinking and UX
     url: 

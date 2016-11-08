@@ -22,13 +22,13 @@ days:
         url: https://github.com/ga-adi-macaron/project-2
     assignments:
       - name: Accessibility Lab
-        url: 
+        url: https://github.com/ga-adi-macaron/accessibility-testing-lab
 
   - date: Tuesday, 11/8
     lessons:
       - name: "Outcomes: Qualifications Checkpoint"
       - name: Usability Testing
-        url: 
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/testing/usability-testing
       - name: Project 2 Workshop
         url: https://github.com/ga-adi-macaron/project-2
     assignments:
