@@ -1,0 +1,10 @@
+<resources>
+  <string name="app_name">UsabilityTestingBetterVersion</string>
+  <string name="title_activity_dog">DogActivity</string>
+  <string name="title_activity_tiger">TigerActivity</string>
+  <string name="next_button">Next</string>
+  <string name="dog">Dog</string>
+  <string name="eagle">Eagle</string>
+  <string name="tiger">Tiger</string>
+  <string name="exit_button">Exit</string>
+</resources>
