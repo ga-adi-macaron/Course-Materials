@@ -35,6 +35,9 @@ days:
     assignments:
       - name: Outcomes Circuit Unit 6
         url: https://circuits.generalassemb.ly
+        note: (final circuit assignment)
+      - name: Revised Cover Letter & Resume
+        note: due 11/15; hand in both new and original drafts
 
   - date: Wednesday, 11/9
     lessons:
