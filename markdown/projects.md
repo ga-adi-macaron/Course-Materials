@@ -21,7 +21,7 @@ projects:
     url: https://github.com/ga-adi-macaron/project-2
     dueDate: Thursday, 11/10
     dueTime: "4:00 pm"
-    solutionPosted: false
+    solutionPosted: true
   - number: 3
     name: Team Project
     url: 
