@@ -1,18 +1,18 @@
 ---
 # Provide values for an array of days,
 #   within each day an array of lessons, each with name and url,
-#   and an array of assignments, each with name, url, and note.
+#   and an array of assignments, each with name, url, solutionPosted (boolean) and note.
 
 # If no lessons one day, enter one with name None and url blank.
 # If no assignments one day, enter one with either name or note None and url blank.
-
-# When solution code is posted, put "&#x2705;" (with the "") in the assignment's note.
 
 week: 2
 days:
   - date: Monday, 10/10
     lessons:
-      - name: Columbus Day
+      - name: Columbus Day - no classes
+    assignments:
+      - name: None
 
   - date: Tuesday, 10/11
     lessons:
@@ -27,13 +27,13 @@ days:
     assignments:
       - name: Organizing Information Lab
         url: https://github.com/ga-adi-macaron/Organizing-Info-Lab
-        note: "&#x2705;"
+        solutionPosted: true
       - name: Classes Lab
         url: https://github.com/ga-adi-macaron/classes-lab
-        note: "&#x2705;"
+        solutionPosted: true
       - name: Classes HW
         url: https://github.com/ga-adi-macaron/classes-hw
-        note: "&#x2705;"
+        solutionPosted: true
 
   - date: Wednesday, 10/12
     lessons:
@@ -46,7 +46,7 @@ days:
     assignments:
       - name: XML HW
         url: https://github.com/ga-adi-macaron/xml-intro-hw
-        note: "&#x2705;"
+        solutionPosted: true
 
   - date: Thursday, 10/13
     lessons:
@@ -61,13 +61,13 @@ days:
     assignments:
       - name: Subclassing Lab
         url: https://github.com/ga-adi-macaron/subclassing-lab/
-        note: "&#x2705;"
+        solutionPosted: true
       - name: Interfaces & Abstract Classes Lab
         url: https://github.com/ga-adi-macaron/abstract-classes-and-interfaces-lab/
-        note: "&#x2705;"
+        solutionPosted: true
       - name: Subclasses, Abstract Classes, Interfaces HW
         url: https://github.com/ga-adi-macaron/subclasses-abstract-classes-interfaces-hw
-        note: "&#x2705;"
+        solutionPosted: true
       - name: Outcomes Circuit Unit 1
         url: https://circuits.generalassemb.ly
 
@@ -84,13 +84,13 @@ days:
     assignments:
       - name: Views Lab
         url: https://github.com/ga-adi-macaron/Views-Lab
-        note: "&#x2705;"
+        solutionPosted: true
       - name: Activities & Intents Lab
         url: https://github.com/ga-adi-macaron/activities-and-intents-lab
-        note: "&#x2705;"
+        solutionPosted: true
       - name: OOP Assessment HW
         url: https://github.com/ga-adi-macaron/oop-assessment
-        note: "&#x2705;"
+        solutionPosted: true
       - name: Outcomes Circuit Unit 2
         url: https://circuits.generalassemb.ly
 ---
@@ -105,21 +105,39 @@ Assignments must be submitted via pull request by 9:00 am the next class day.
 <tr><td><b>Date</b></td><td><b>Lessons</b></td><td><b>Assignments</b></td></tr>
 {% for day in page.days %}
   <tr>
-    <td>{{day.date}}</td>
-    <td><ul>{% for lesson in day.lessons %}
-      <li>{% if lesson.url %}
-        <a href="{{lesson.url}}">{{lesson.name}}</a>
-      {% else %}
-        {{lesson.name}}
-      {% endif %}</li>
-    {% endfor %}</ul></td>
-    <td><ul>{% for assignment in day.assignments %}
-      <li>{% if assignment.url %}
-        <a href="{{assignment.url}}">{{assignment.name}}</a>
-      {% else %}
-        {{assignment.name}}
-      {% endif %}{{assignment.note}}</li>
-    {% endfor %}</ul></td>
+    <td>
+      {{day.date}}
+    </td>
+    <td>
+      <ul>
+        {% for lesson in day.lessons %}
+          <li>
+            {% if lesson.url %}
+              <a href="{{lesson.url}}">{{lesson.name}}</a>
+            {% else %}
+              {{lesson.name}}
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    </td>
+    <td>
+      <ul>
+        {% for assignment in day.assignments %}
+          <li>
+            {% if assignment.url %}
+              <a href="{{assignment.url}}">{{assignment.name}}</a>
+            {% else %}
+              {{assignment.name}}
+            {% endif %}
+            {% if assignment.solutionPosted %}
+              &#x2705;
+            {% endif %}
+            {{assignment.note}}
+          </li>
+        {% endfor %}
+      </ul>
+    </td>
   </tr>
 {% endfor %}
 </table>

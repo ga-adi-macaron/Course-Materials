@@ -1,12 +1,10 @@
 ---
 # Provide values for an array of days,
 #   within each day an array of lessons, each with name and url,
-#   and an array of assignments, each with name, url, and note.
+#   and an array of assignments, each with name, url, solutionPosted (boolean) and note.
 
 # If no lessons one day, enter one with name None and url blank.
 # If no assignments one day, enter one with either name or note None and url blank.
-
-# When solution code is posted, put "&#x2705;" (with the "") in the assignment's note.
 
 week: 5
 days:
@@ -39,10 +37,10 @@ days:
     assignments:
       - name: ViewPager Lab
         url: https://github.com/ga-adi-macaron/ViewPager-Lab
-        note: "&#x2705;"
+        solutionPosted: true
       - name: Fragment Communication Lab
         url: https://github.com/ga-adi-macaron/Fragments-Communications-Lab
-        note: "&#x2705;"
+        solutionPosted: true
       - name: Outcomes Circuit Unit 5
         url: https://circuits.generalassemb.ly
 
@@ -53,7 +51,7 @@ days:
     assignments:
       - name: Master/Detail Flow Lab
         url: https://github.com/ga-adi-macaron/master-detail-flow-lab
-        note: "&#x2705;"
+        solutionPosted: true
 
   - date: Thursday, 11/3
     lessons:
@@ -68,7 +66,7 @@ days:
     assignments:
       - name: Espresso Lab
         url: https://github.com/ga-adi-macaron/espresso-lab
-        note: "&#x2705;"
+        solutionPosted: true
       - name: Toolbars & Menus Lab
         url: https://github.com/ga-adi-macaron/toolbars-and-menus-lab
 
@@ -82,7 +80,7 @@ days:
     assignments:
       - name: Simple Animations Lab
         url: https://github.com/ga-adi-macaron/simple-animation-lab
-        note: "&#x2705;"
+        solutionPosted: true
       - name: Multiple Devices Lab
         url: https://github.com/ga-adi-macaron/multiple-devices-lab
 ---
@@ -97,21 +95,39 @@ Assignments must be submitted via pull request by 9:00 am the next class day.
 <tr><td><b>Date</b></td><td><b>Lessons</b></td><td><b>Assignments</b></td></tr>
 {% for day in page.days %}
   <tr>
-    <td>{{day.date}}</td>
-    <td><ul>{% for lesson in day.lessons %}
-      <li>{% if lesson.url %}
-        <a href="{{lesson.url}}">{{lesson.name}}</a>
-      {% else %}
-        {{lesson.name}}
-      {% endif %}</li>
-    {% endfor %}</ul></td>
-    <td><ul>{% for assignment in day.assignments %}
-      <li>{% if assignment.url %}
-        <a href="{{assignment.url}}">{{assignment.name}}</a>
-      {% else %}
-        {{assignment.name}}
-      {% endif %}{{assignment.note}}</li>
-    {% endfor %}</ul></td>
+    <td>
+      {{day.date}}
+    </td>
+    <td>
+      <ul>
+        {% for lesson in day.lessons %}
+          <li>
+            {% if lesson.url %}
+              <a href="{{lesson.url}}">{{lesson.name}}</a>
+            {% else %}
+              {{lesson.name}}
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    </td>
+    <td>
+      <ul>
+        {% for assignment in day.assignments %}
+          <li>
+            {% if assignment.url %}
+              <a href="{{assignment.url}}">{{assignment.name}}</a>
+            {% else %}
+              {{assignment.name}}
+            {% endif %}
+            {% if assignment.solutionPosted %}
+              &#x2705;
+            {% endif %}
+            {{assignment.note}}
+          </li>
+        {% endfor %}
+      </ul>
+    </td>
   </tr>
 {% endfor %}
 </table>

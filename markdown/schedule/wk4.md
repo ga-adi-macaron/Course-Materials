@@ -1,12 +1,10 @@
 ---
 # Provide values for an array of days,
 #   within each day an array of lessons, each with name and url,
-#   and an array of assignments, each with name, url, and note.
+#   and an array of assignments, each with name, url, solutionPosted (boolean) and note.
 
 # If no lessons one day, enter one with name None and url blank.
 # If no assignments one day, enter one with either name or note None and url blank.
-
-# When solution code is posted, put "&#x2705;" (with the "") in the assignment's note.
 
 week: 4
 days:
@@ -23,10 +21,10 @@ days:
     assignments:
       - name: SQLite Lab
         url: https://github.com/ga-adi-macaron/sqlite-lab
-        note: "&#x2705;"
+        solutionPosted: true
       - name: SQL Practice HW
         url: https://github.com/ga-adi-macaron/sql-practice-hw
-        note: "&#x2705;"
+        solutionPosted: true
 
   - date: Tuesday, 10/25
     lessons:
@@ -40,7 +38,7 @@ days:
     assignments:
       - name: Databases w/ RecyclerViews Lab
         url: https://github.com/ga-adi-macaron/databases-with-recyclerview-lab
-        note: "&#x2705;"
+        solutionPosted: true
       - name: Outcomes Circuit Unit 4
         url: https://circuits.generalassemb.ly
       - name: Brand Statement & Peer Reviews (due Thursday, 10/27)
@@ -55,7 +53,7 @@ days:
     assignments:
       - name: Unit Testing Lab
         url: https://github.com/ga-adi-macaron/unit-testing-lab
-        note: "&#x2705;"
+        solutionPosted: true
       - name: User Stories HW
         url: https://github.com/ga-adi-macaron/user-stories-hw
       - name: Prep for Enabling Search HW
@@ -74,10 +72,10 @@ days:
     assignments:
       - name: Enabling Search Lab
         url: https://github.com/ga-adi-macaron/enable-search-lab
-        note: "&#x2705;"
+        solutionPosted: true
       - name: Detail Views Lab
         url: https://github.com/ga-adi-macaron/detail-view-lab
-        note: "&#x2705;"
+        solutionPosted: true
 
   - date: Friday, 10/28
     lessons:
@@ -90,12 +88,12 @@ days:
     assignments:
       - name: SQL Joins Lab
         url: https://github.com/ga-adi-macaron/joins-lab
-        note: "&#x2705;"
+        solutionPosted: true
       - name: Constraint Layout Lab
         url: https://github.com/ga-adi-macaron/constraint-layout-lab
       - name: Database Relationships HW
         url: https://github.com/ga-adi-macaron/database-tables-hw
-        note: "&#x2705;"
+        solutionPosted: true
 ---
 
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Week {{page.week}}
@@ -108,21 +106,39 @@ Assignments must be submitted via pull request by 9:00 am the next class day.
 <tr><td><b>Date</b></td><td><b>Lessons</b></td><td><b>Assignments</b></td></tr>
 {% for day in page.days %}
   <tr>
-    <td>{{day.date}}</td>
-    <td><ul>{% for lesson in day.lessons %}
-      <li>{% if lesson.url %}
-        <a href="{{lesson.url}}">{{lesson.name}}</a>
-      {% else %}
-        {{lesson.name}}
-      {% endif %}</li>
-    {% endfor %}</ul></td>
-    <td><ul>{% for assignment in day.assignments %}
-      <li>{% if assignment.url %}
-        <a href="{{assignment.url}}">{{assignment.name}}</a>
-      {% else %}
-        {{assignment.name}}
-      {% endif %}{{assignment.note}}</li>
-    {% endfor %}</ul></td>
+    <td>
+      {{day.date}}
+    </td>
+    <td>
+      <ul>
+        {% for lesson in day.lessons %}
+          <li>
+            {% if lesson.url %}
+              <a href="{{lesson.url}}">{{lesson.name}}</a>
+            {% else %}
+              {{lesson.name}}
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    </td>
+    <td>
+      <ul>
+        {% for assignment in day.assignments %}
+          <li>
+            {% if assignment.url %}
+              <a href="{{assignment.url}}">{{assignment.name}}</a>
+            {% else %}
+              {{assignment.name}}
+            {% endif %}
+            {% if assignment.solutionPosted %}
+              &#x2705;
+            {% endif %}
+            {{assignment.note}}
+          </li>
+        {% endfor %}
+      </ul>
+    </td>
   </tr>
 {% endfor %}
 </table>

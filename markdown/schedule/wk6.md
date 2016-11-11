@@ -1,12 +1,10 @@
 ---
 # Provide values for an array of days,
 #   within each day an array of lessons, each with name and url,
-#   and an array of assignments, each with name, url, and note.
+#   and an array of assignments, each with name, url, solutionPosted (boolean) and note.
 
 # If no lessons one day, enter one with name None and url blank.
 # If no assignments one day, enter one with either name or note None and url blank.
-
-# When solution code is posted, put "&#x2705;" (with the "") in the assignment's note.
 
 week: 6
 days:
@@ -55,7 +53,9 @@ days:
 
   - date: Friday, 11/11
     lessons:
-      - name: Veterans Day
+      - name: Veterans Day - no classes
+    assignments:
+      - name: None
 ---
 
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Week {{page.week}}
@@ -68,21 +68,39 @@ Assignments must be submitted via pull request by 9:00 am the next class day.
 <tr><td><b>Date</b></td><td><b>Lessons</b></td><td><b>Assignments</b></td></tr>
 {% for day in page.days %}
   <tr>
-    <td>{{day.date}}</td>
-    <td><ul>{% for lesson in day.lessons %}
-      <li>{% if lesson.url %}
-        <a href="{{lesson.url}}">{{lesson.name}}</a>
-      {% else %}
-        {{lesson.name}}
-      {% endif %}</li>
-    {% endfor %}</ul></td>
-    <td><ul>{% for assignment in day.assignments %}
-      <li>{% if assignment.url %}
-        <a href="{{assignment.url}}">{{assignment.name}}</a>
-      {% else %}
-        {{assignment.name}}
-      {% endif %}{{assignment.note}}</li>
-    {% endfor %}</ul></td>
+    <td>
+      {{day.date}}
+    </td>
+    <td>
+      <ul>
+        {% for lesson in day.lessons %}
+          <li>
+            {% if lesson.url %}
+              <a href="{{lesson.url}}">{{lesson.name}}</a>
+            {% else %}
+              {{lesson.name}}
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    </td>
+    <td>
+      <ul>
+        {% for assignment in day.assignments %}
+          <li>
+            {% if assignment.url %}
+              <a href="{{assignment.url}}">{{assignment.name}}</a>
+            {% else %}
+              {{assignment.name}}
+            {% endif %}
+            {% if assignment.solutionPosted %}
+              &#x2705;
+            {% endif %}
+            {{assignment.note}}
+          </li>
+        {% endfor %}
+      </ul>
+    </td>
   </tr>
 {% endfor %}
 </table>

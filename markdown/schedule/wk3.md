@@ -1,12 +1,10 @@
 ---
 # Provide values for an array of days,
 #   within each day an array of lessons, each with name and url,
-#   and an array of assignments, each with name, url, and note.
+#   and an array of assignments, each with name, url, solutionPosted (boolean) and note.
 
 # If no lessons one day, enter one with name None and url blank.
 # If no assignments one day, enter one with either name or note None and url blank.
-
-# When solution code is posted, put "&#x2705;" (with the "") in the assignment's note.
 
 week: 3
 days:
@@ -23,10 +21,10 @@ days:
     assignments:
       - name: ListViews Lab
         url: https://github.com/ga-adi-macaron/ListViews-ListAdapters-Lab
-        note: "&#x2705;"
+        solutionPosted: true
       - name: ListViews HW
         url: https://github.com/ga-adi-macaron/listview-and-listadapter-hw
-        note: "&#x2705;"
+        solutionPosted: true
 
   - date: Tuesday, 10/18
     lessons:
@@ -43,7 +41,7 @@ days:
     assignments:
       - name: RecyclerViews Lab
         url: https://github.com/ga-adi-macaron/RecyclerView-Lab
-        note: "&#x2705;"
+        solutionPosted: true
 
   - date: Wednesday, 10/19
     lessons:
@@ -77,7 +75,7 @@ days:
     assignments:
       - name: Tic Tac Toe HW
         url: https://github.com/ga-adi-macaron/tic-tac-toe-hw
-        note: "&#x2705;"
+        solutionPosted: true
       - name: Install SQLite on your computer
         url: https://www.tutorialspoint.com/sqlite/sqlite_installation.htm
         note: (no deliverable)
@@ -93,21 +91,39 @@ Assignments must be submitted via pull request by 9:00 am the next class day.
 <tr><td><b>Date</b></td><td><b>Lessons</b></td><td><b>Assignments</b></td></tr>
 {% for day in page.days %}
   <tr>
-    <td>{{day.date}}</td>
-    <td><ul>{% for lesson in day.lessons %}
-      <li>{% if lesson.url %}
-        <a href="{{lesson.url}}">{{lesson.name}}</a>
-      {% else %}
-        {{lesson.name}}
-      {% endif %}</li>
-    {% endfor %}</ul></td>
-    <td><ul>{% for assignment in day.assignments %}
-      <li>{% if assignment.url %}
-        <a href="{{assignment.url}}">{{assignment.name}}</a>
-      {% else %}
-        {{assignment.name}}
-      {% endif %}{{assignment.note}}</li>
-    {% endfor %}</ul></td>
+    <td>
+      {{day.date}}
+    </td>
+    <td>
+      <ul>
+        {% for lesson in day.lessons %}
+          <li>
+            {% if lesson.url %}
+              <a href="{{lesson.url}}">{{lesson.name}}</a>
+            {% else %}
+              {{lesson.name}}
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    </td>
+    <td>
+      <ul>
+        {% for assignment in day.assignments %}
+          <li>
+            {% if assignment.url %}
+              <a href="{{assignment.url}}">{{assignment.name}}</a>
+            {% else %}
+              {{assignment.name}}
+            {% endif %}
+            {% if assignment.solutionPosted %}
+              &#x2705;
+            {% endif %}
+            {{assignment.note}}
+          </li>
+        {% endfor %}
+      </ul>
+    </td>
   </tr>
 {% endfor %}
 </table>
