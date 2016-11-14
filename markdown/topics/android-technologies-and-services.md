@@ -14,7 +14,7 @@ lessons:
     url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/android-technologies-and-services/accessible-apps-lesson
     date: Monday, 11/7
   - name: Threading
-    url:
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/android-technologies-and-services/threading-lesson
     date: Tuesday, 11/15
   - name: Services
     url:

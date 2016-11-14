@@ -27,14 +27,14 @@ days:
   - date: Tuesday, 11/15
     lessons:
       - name: "Outcomes: GA Profiles"
+      - name: Threading w/ AsyncTask
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/android-technologies-and-services/threading-lesson
       - name: Introduction to APIs
         url: 
-      - name: Threading w/ AsyncTask
-        url: 
     assignments:
-      - name: APIs Lab
-        url: 
       - name: Threading Lab
+        url: https://github.com/ga-adi-macaron/threading-lab
+      - name: APIs Lab
         url: 
       - name: Threading HW
         url: 
