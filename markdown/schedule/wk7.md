@@ -21,8 +21,8 @@ days:
         url: https://github.com/ga-adi-macaron/json-lab/
       - name: HTTP Lab
         url: https://github.com/ga-adi-macaron/http-lab/
-      - name: HW TBD
-        url: 
+      - name: Heterogeneous RecyclerView HW
+        url: https://github.com/ga-adi-macaron/heterogeneous-recyclerview-hw
 
   - date: Tuesday, 11/15
     lessons:
