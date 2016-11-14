@@ -18,9 +18,9 @@ days:
         url: 
     assignments:
       - name: JSON Lab
-        url: 
+        url: https://github.com/ga-adi-macaron/json-lab/subscription
       - name: HTTP Lab
-        url: 
+        url: https://github.com/ga-adi-macaron/http-lab/subscription
       - name: HW TBD
         url: 
 
