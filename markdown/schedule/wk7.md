@@ -37,7 +37,7 @@ days:
       - name: APIs Lab
         url: 
       - name: Threading HW
-        url: 
+        url: https://github.com/ga-adi-macaron/threading-hw
         note: "(extra day: due 9am Thursday)"
 
   - date: Wednesday, 11/16
