@@ -13,9 +13,9 @@ days:
       - name: Whiteboarding Practice 6
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/computer-science-and-interview-prep/whiteboarding-practice-6
       - name: JSON
-        url: 
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/web-communication/json-lesson
       - name: HTTP & REST
-        url: 
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/web-communication/http-rest-lesson
     assignments:
       - name: JSON Lab
         url: https://github.com/ga-adi-macaron/json-lab/
