@@ -72,7 +72,7 @@ days:
         url: 
       - name: User Goals & Flows
         url: 
-      - name: Introduct Project 3
+      - name: Introduce Project 3
         url: 
     assignments:
       - name: Research for Project 3
