@@ -11,7 +11,7 @@ days:
   - date: Monday, 11/14
     lessons:
       - name: Whiteboarding Practice 6
-        url: 
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/computer-science-and-interview-prep/whiteboarding-practice-6
       - name: JSON
         url: 
       - name: HTTP & REST

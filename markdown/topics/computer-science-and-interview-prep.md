@@ -20,10 +20,10 @@ lessons:
     url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/computer-science-and-interview-prep/whiteboarding-practice-4
     date: Monday, 10/31
   - name: Whiteboard Morning Exercise 5
-    url: 
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/computer-science-and-interview-prep/whiteboarding-practice-5
     date: Monday, 11/7
   - name: Whiteboard Morning Exercise 6
-    url: 
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/computer-science-and-interview-prep/whiteboarding-practice-6
     date: 
   - name: Whiteboard Morning Exercise 7
     url: 
