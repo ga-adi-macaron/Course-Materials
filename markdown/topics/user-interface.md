@@ -44,8 +44,8 @@ lessons:
     url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/user-interface/simple-animation
     date: Friday, 11/4
   - name: Accessibility
-    url: 
-    date: 
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/android-technologies-and-services/accessible-apps-lesson
+    date: Monday, 11/7
   - name: Notifications
     url: 
     date: 

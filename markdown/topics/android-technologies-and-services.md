@@ -8,10 +8,10 @@ lessons:
     url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/android-technologies-and-services/enable-search-lesson
     date: Thursday, 10/27
   - name: Designing for Multiple Devices
-    url:
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/user-interface/multiple-devices-lesson
     date: Friday, 11/3
   - name: Accessibility
-    url:
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/android-technologies-and-services/accessible-apps-lesson
     date: Monday, 11/7
   - name: Threading
     url:

@@ -5,10 +5,10 @@
 title: Web Communication
 lessons:
   - name: JSON
-    url: 
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/web-communication/json-lesson
     date: Monday, 11/14
   - name: HTTP and REST
-    url: 
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/web-communication/http-rest-lesson
     date: Monday, 11/14
   - name: API Introduction
     url: 
