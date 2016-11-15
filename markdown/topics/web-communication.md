@@ -11,7 +11,7 @@ lessons:
     url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/web-communication/http-rest-lesson
     date: Monday, 11/14
   - name: API Introduction
-    url: 
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/web-communication/api-intro-lesson
     date: Tuesday, 11/15
   - name: API Documentation
     url: 

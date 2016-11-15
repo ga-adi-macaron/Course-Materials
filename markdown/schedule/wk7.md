@@ -19,10 +19,12 @@ days:
     assignments:
       - name: JSON Lab
         url: https://github.com/ga-adi-macaron/json-lab/
+        solutionPosted: true
       - name: HTTP Lab
         url: https://github.com/ga-adi-macaron/http-lab/
       - name: Heterogeneous RecyclerView HW
         url: https://github.com/ga-adi-macaron/heterogeneous-recyclerview-hw
+        solutionPosted: true
 
   - date: Tuesday, 11/15
     lessons:
