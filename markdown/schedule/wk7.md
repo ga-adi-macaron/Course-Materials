@@ -13,31 +13,31 @@ days:
       - name: Whiteboarding Practice 6
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/computer-science-and-interview-prep/whiteboarding-practice-6
       - name: JSON
-        url: 
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/web-communication/json-lesson
       - name: HTTP & REST
-        url: 
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/web-communication/http-rest-lesson
     assignments:
       - name: JSON Lab
         url: https://github.com/ga-adi-macaron/json-lab/
       - name: HTTP Lab
         url: https://github.com/ga-adi-macaron/http-lab/
-      - name: HW TBD
-        url: 
+      - name: Heterogeneous RecyclerView HW
+        url: https://github.com/ga-adi-macaron/heterogeneous-recyclerview-hw
 
   - date: Tuesday, 11/15
     lessons:
       - name: "Outcomes: GA Profiles"
+      - name: Threading w/ AsyncTask
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/android-technologies-and-services/threading-lesson
       - name: Introduction to APIs
         url: 
-      - name: Threading w/ AsyncTask
-        url: 
     assignments:
-      - name: APIs Lab
-        url: 
       - name: Threading Lab
-        url: 
+        url: https://github.com/ga-adi-macaron/threading-lab
+      - name: APIs Lab
+        url: https://github.com/ga-adi-macaron/api-data-lab
       - name: Threading HW
-        url: 
+        url: https://github.com/ga-adi-macaron/threading-hw
         note: "(extra day: due 9am Thursday)"
 
   - date: Wednesday, 11/16
