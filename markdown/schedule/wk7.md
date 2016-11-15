@@ -27,11 +27,13 @@ days:
   - date: Tuesday, 11/15
     lessons:
       - name: "Outcomes: GA Profiles"
+        url: https://profiles.generalassemb.ly/profiles
       - name: Threading w/ AsyncTask
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/android-technologies-and-services/threading-lesson
       - name: Introduction to APIs
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/web-communication/api-intro-lesson
     assignments:
+      - name: Update LinkedIn and GA Profiles
       - name: Threading Lab
         url: https://github.com/ga-adi-macaron/threading-lab
       - name: APIs Lab
