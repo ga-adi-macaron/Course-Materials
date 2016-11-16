@@ -38,8 +38,8 @@ lessons:
     url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/computer-science-and-interview-prep/recursion-morning-exercise
     date: Wednesday, 10/19
   - name: Error Handling with Try/Catch
-    url: 
-    date: Thursday, 11/17
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/programming-fundamentals-in-java/error-handling-with-try-catch
+    date: Wednesday, 11/16
 ---
 
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) {{page.title}}

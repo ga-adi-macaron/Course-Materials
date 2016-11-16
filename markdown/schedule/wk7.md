@@ -47,18 +47,18 @@ days:
   - date: Wednesday, 11/16
     lessons:
       - name: Design Thinking & UX
-        url: 
-      - name: API Documentation
-        url: 
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/product-development/design-thinking-and-ux-lesson
+      - name: Error Handling w/ Try/Catch
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/programming-fundamentals-in-java/error-handling-with-try-catch
     assignments:
       - name: API Documentation HW
-        url: 
+        url: https://github.com/ga-adi-macaron/api-documentation-hw
 
   - date: Thursday, 11/17
     lessons:
-      - name: Error Handling w/ Try/Catch
-        url: 
       - name: Networking in Android
+        url: 
+      - name: GSON
         url: 
       - name: OAuth
         url: 
