@@ -72,15 +72,17 @@ days:
 
   - date: Friday, 11/18
     lessons:
+      - name: Retrofit
+        url: 
       - name: User Research
         url: 
       - name: Competitor Research
         url: 
-      - name: User Goals & Flows
-        url: 
       - name: Introduce Project 3
         url: 
     assignments:
+      - name: Retrofit Lab
+        url: 
       - name: Research for Project 3
         url:
 ---
