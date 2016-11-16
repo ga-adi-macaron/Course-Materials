@@ -89,4 +89,4 @@ days:
         note: (no deliverable)
 ---
 
-{% include "./week-table.md" %}
+{% include "./week-template.md" %}
