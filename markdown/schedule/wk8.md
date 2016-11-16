@@ -63,13 +63,13 @@ days:
     lessons:
       - name: Thanksgiving Break
     assignments:
-      - name: None
+      - name: <img src="https://render.bitstrips.com/v2/cpanel/10211581-205539203_12-s1-v1.png?transparent=1">
 
   - date: Friday, 11/25
     lessons:
       - name: Thanksgiving Break
     assignments:
-      - name: None
+      - name: <img src="https://render.bitstrips.com/v2/cpanel/10211583-205539203_12-s1-v1.png?transparent=1">
 ---
 
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Week {{page.week}}
