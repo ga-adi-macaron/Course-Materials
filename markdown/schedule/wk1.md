@@ -93,7 +93,7 @@ days:
 
 Assignments must be submitted via pull request by 9:00 am the next class day.
 
-&#x2705; = solution code posted
+{{book.solutionPosted}} = solution code posted
 
 <table>
 <tr><td><b>Date</b></td><td><b>Lessons</b></td><td><b>Assignments</b></td></tr>
@@ -125,7 +125,7 @@ Assignments must be submitted via pull request by 9:00 am the next class day.
               {{assignment.name}}
             {% endif %}
             {% if assignment.solutionPosted %}
-              &#x2705;
+              {{book.solutionPostedSymbol}}
             {% endif %}
             {{assignment.note}}
           </li>
