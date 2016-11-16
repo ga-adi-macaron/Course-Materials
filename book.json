@@ -3,6 +3,5 @@
         "readme": "README.md",
         "summary": "SUMMARY.md"
     },
-    "plugins": ["toggle-chapters"],
-	"solutionPostedSymbol": "&#x2705;"
+    "plugins": ["toggle-chapters"]
 }
