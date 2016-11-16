@@ -61,13 +61,13 @@ days:
 
   - date: Thursday, 11/24
     lessons:
-      - name: Thanksgiving Break
+      - name: Thanksgiving Day (no classes)
     assignments:
       - name: <img src="https://render.bitstrips.com/v2/cpanel/10211581-205539203_12-s1-v1.png?transparent=1">
 
   - date: Friday, 11/25
     lessons:
-      - name: Thanksgiving Break
+      - name: Day After Thanksgiving (no classes)
     assignments:
       - name: <img src="https://render.bitstrips.com/v2/cpanel/10211583-205539203_12-s1-v1.png?transparent=1">
 ---
