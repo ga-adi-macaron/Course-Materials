@@ -34,6 +34,8 @@ days:
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/android-technologies-and-services/threading-lesson
       - name: Introduction to APIs
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/web-communication/api-intro-lesson
+      - name: Exit Ticket
+        url: https://goo.gl/forms/vEkotcWFnyHFP1Zz1
     assignments:
       - name: Update LinkedIn and GA Profiles
       - name: Threading Lab
