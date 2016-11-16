@@ -61,7 +61,7 @@ days:
       - name: Networking in Android
         url: 
       - name: GSON
-        url: 
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/web-communication/gson-lesson
       - name: OAuth
         url: 
     assignments:
