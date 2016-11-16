@@ -64,6 +64,8 @@ days:
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/web-communication/gson-lesson
       - name: OAuth
         url: 
+      - name: Exit Tickets
+        url: 
     assignments:
       - name: Networking in Android Lab
         url:
