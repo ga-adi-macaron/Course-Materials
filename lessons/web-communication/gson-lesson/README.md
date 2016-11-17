@@ -121,7 +121,7 @@ String json = gson.toJson(result);
 <a name="ind-practice"></a>
 ## Independent Practice: Implement User Interface (20 mins)
 
-Now it's time to practice. In pairs, add an EditText, a Button, and a ListView so you can search for an item using the Walmart API, and display the names of the items in your ListView. Use the objects GSON creates for you to populate the ListView.
+Now it's time to practice. In pairs, add an EditText, a Button, and a RecyclerView so you can search for an item using the Walmart API, and display the names of the items in your RecyclerView. Use the objects GSON creates for you to populate the RecyclerView.
 
 
 ***
