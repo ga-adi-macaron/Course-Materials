@@ -40,8 +40,10 @@ days:
       - name: Update LinkedIn and GA Profiles
       - name: Threading Lab
         url: https://github.com/ga-adi-macaron/threading-lab
-      - name: APIs Lab
+        solutionPosted: true
+      - name: API Data Lab
         url: https://github.com/ga-adi-macaron/api-data-lab
+        solutionPosted: true
       - name: Threading HW
         url: https://github.com/ga-adi-macaron/threading-hw
         note: "(extra day: due 9am Thursday)"
@@ -55,6 +57,7 @@ days:
     assignments:
       - name: API Documentation HW
         url: https://github.com/ga-adi-macaron/api-documentation-hw
+        solutionPosted: true
 
   - date: Thursday, 11/17
     lessons:
