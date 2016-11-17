@@ -61,7 +61,7 @@ We're going to be using the [Walmart API](https://developer.walmartlabs.com/docs
 The first step is to add GSON to your gradle:
 
 ```
-compile 'com.google.code.gson:gson:2.7'
+compile 'com.google.code.gson:gson:2.8.0'
 ```
 
 Next, we will create a Java objects to represent our search result, and the items in the search result.
