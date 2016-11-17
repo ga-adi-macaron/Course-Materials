@@ -1,0 +1,5 @@
+<resources>
+  <string name="app_name">DownloadData</string>
+  <string name="check_network">check network connection</string>
+  <string name="data">data will be displayed here</string>
+</resources>

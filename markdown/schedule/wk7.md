@@ -62,7 +62,7 @@ days:
   - date: Thursday, 11/17
     lessons:
       - name: Networking in Android
-        url: 
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/web-communication/networking-in-android-lesson
       - name: GSON
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/web-communication/gson-lesson
       - name: OAuth
@@ -71,7 +71,7 @@ days:
         url: 
     assignments:
       - name: Networking in Android Lab
-        url:
+        url: https://github.com/ga-adi-macaron/networking-in-android-lab
       - name: OAuth Lab
         url: 
 
