@@ -77,6 +77,8 @@ days:
 
   - date: Friday, 11/18
     lessons:
+      - name: Reflection Survey & Discussion
+        url: https://goo.gl/forms/0BDHHtfiUo5DwRbj2
       - name: Retrofit
         url: 
       - name: User Research

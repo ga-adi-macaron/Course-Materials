@@ -72,6 +72,8 @@ days:
 
   - date: Friday, 11/4
     lessons:
+      - name: Reflection Survey & Discussion
+        url: https://goo.gl/forms/kRNdw8LXzSWOre0B3
       - name: Simple Animations
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/user-interface/simple-animation
       - name: Pizza Lunch!
