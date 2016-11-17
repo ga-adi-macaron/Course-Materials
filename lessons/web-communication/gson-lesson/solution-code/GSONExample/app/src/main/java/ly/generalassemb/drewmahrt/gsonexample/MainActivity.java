@@ -6,9 +6,12 @@ import android.net.NetworkInfo;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -26,6 +29,7 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.List;
 
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
@@ -37,18 +41,22 @@ public class MainActivity extends AppCompatActivity {
     private static String mUrl = "http://api.walmartlabs.com/v1/search?apiKey=g5p3xscxuhc7v4bgecnckwkp&query=";
 
     private WalmartAsyncTask mTask;
-    private ArrayAdapter<WalmartItem> mAdapter;
+    private List<WalmartItem> mItems;
+    private RecyclerView.Adapter mAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mAdapter = new ArrayAdapter<WalmartItem>(this,android.R.layout.simple_list_item_1,new ArrayList<WalmartItem>());
+        // Set up recycler view
+        RecyclerView recyclerView = (RecyclerView) findViewById(R.id.results_list);
+        mItems = new ArrayList<>();
+        mAdapter = new WalmartItemRvAdapter(mItems);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
+        recyclerView.setAdapter(mAdapter);
 
-        ListView listView = (ListView) findViewById(R.id.results_list);
-        listView.setAdapter(mAdapter);
-
+        // Set up search button
         Button searchButton = (Button) findViewById(R.id.search_button);
         searchButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -60,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
                         mTask.cancel(true);
                     }
                     mTask = new WalmartAsyncTask();
-                    String query = ((TextView)findViewById(R.id.search_text)).getText().toString();
+                    String query = ((EditText)findViewById(R.id.search_text)).getText().toString();
                     mTask.execute(mUrl+query);
                 } else {
                     Toast.makeText(MainActivity.this, "No network connection detected", Toast.LENGTH_SHORT).show();
@@ -97,8 +105,9 @@ public class MainActivity extends AppCompatActivity {
         @Override
         protected void onPostExecute(WalmartSearchResult s) {
             super.onPostExecute(s);
-            mAdapter.clear();
-            mAdapter.addAll(s.getItems());
+            mItems.clear();
+            mItems.addAll(s.getItems());
+            mAdapter.notifyDataSetChanged();
         }
     }
 }

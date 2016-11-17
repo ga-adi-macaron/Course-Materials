@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$USER_HOME$/Dropbox/Charlie/GA/ADI-Macaron/adi-nyc/curriculum/04-schedule-and-supplies/week-07/instructor-contributions/gson-lesson/solution-code/GSONExample/GSONExample.iml" filepath="$USER_HOME$/Dropbox/Charlie/GA/ADI-Macaron/adi-nyc/curriculum/04-schedule-and-supplies/week-07/instructor-contributions/gson-lesson/solution-code/GSONExample/GSONExample.iml" />
-      <module fileurl="file://$USER_HOME$/Dropbox/Charlie/GA/ADI-Macaron/adi-nyc/curriculum/04-schedule-and-supplies/week-07/instructor-contributions/gson-lesson/solution-code/GSONExample/app/app.iml" filepath="$USER_HOME$/Dropbox/Charlie/GA/ADI-Macaron/adi-nyc/curriculum/04-schedule-and-supplies/week-07/instructor-contributions/gson-lesson/solution-code/GSONExample/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GSONExample.iml" filepath="$PROJECT_DIR$/GSONExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
 </project>

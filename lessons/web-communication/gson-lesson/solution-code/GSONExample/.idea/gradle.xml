@@ -7,8 +7,8 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
-            <option value="$USER_HOME$/Dropbox/Charlie/GA/ADI-Macaron/adi-nyc/curriculum/04-schedule-and-supplies/week-07/instructor-contributions/gson-lesson/solution-code/GSONExample" />
-            <option value="$USER_HOME$/Dropbox/Charlie/GA/ADI-Macaron/adi-nyc/curriculum/04-schedule-and-supplies/week-07/instructor-contributions/gson-lesson/solution-code/GSONExample/app" />
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
