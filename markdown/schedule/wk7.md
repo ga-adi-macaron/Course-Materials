@@ -68,7 +68,7 @@ days:
       - name: OAuth
         url: https://github.com/ga-adi-macaron/oauth-lab
       - name: Exit Tickets
-        url: 
+        url: https://goo.gl/forms/Ei3k6V6Ux4SXmJen1
     assignments:
       - name: Networking in Android Lab
         url: https://github.com/ga-adi-macaron/networking-in-android-lab
