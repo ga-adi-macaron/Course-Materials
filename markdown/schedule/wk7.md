@@ -89,7 +89,7 @@ days:
       - name: Retrofit Lab
         url: 
       - name: Research for Project 3
-        url:
+        url: https://github.com/ga-adi-macaron/research-for-project-3
 ---
 
 {% include "./week-template.md" %}
