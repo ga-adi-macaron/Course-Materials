@@ -80,7 +80,7 @@ days:
       - name: Reflection Survey & Discussion
         url: https://goo.gl/forms/0BDHHtfiUo5DwRbj2
       - name: Retrofit
-        url: 
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/web-communication/retrofit-lesson
       - name: User Research
         url: 
       - name: Competitor Research
