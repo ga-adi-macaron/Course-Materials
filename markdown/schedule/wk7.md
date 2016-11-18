@@ -88,7 +88,7 @@ days:
       - name: Competitor Research
         url: 
       - name: Introduce Project 3
-        url: 
+        url: https://github.com/ga-adi-macaron/project-3
     assignments:
       - name: Retrofit Lab
         url: https://github.com/ga-adi-macaron/retrofit-lab
