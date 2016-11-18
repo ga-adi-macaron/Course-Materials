@@ -72,8 +72,10 @@ days:
     assignments:
       - name: Networking in Android Lab
         url: https://github.com/ga-adi-macaron/networking-in-android-lab
+        solutionPosted: true
       - name: OAuth Lab
         url: https://github.com/ga-adi-macaron/oauth-lab
+        solutionPosted: true
 
   - date: Friday, 11/18
     lessons:
