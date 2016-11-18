@@ -84,9 +84,9 @@ days:
       - name: Retrofit
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/web-communication/retrofit-lesson
       - name: User Research
-        url: 
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/product-development/user-research-lesson
       - name: Competitor Research
-        url: 
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/product-development/competitive-research-lesson
       - name: Introduce Project 3
         url: https://github.com/ga-adi-macaron/project-3
     assignments:
