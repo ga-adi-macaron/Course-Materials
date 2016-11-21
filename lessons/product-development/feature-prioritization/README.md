@@ -10,10 +10,10 @@ creator:
 
 ### LEARNING OBJECTIVES
 *After this lesson, you will be able to:*
-- Discuss struggles with feature prioritization and vision alignment and how to address them
-- Explore famous product pivots in technology
-- Use a common framework to prioritize features that align with your vision
-- Use your user goals and feature prioritization to construct a project proposal that breaks down your point of view and outlines how you intend to complete your final project
+- Describe the pitfalls of working without any established feature priority
+- Align possible app features with the user goals developed during research synthesis
+- Apply the 2x2 matrix framework to possible features
+- Prioritize features and align them to a clear vision for the app
 
 ### STUDENT PRE-WORK
 *Before this lesson, you should already be able to:*
