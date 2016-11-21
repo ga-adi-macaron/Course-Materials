@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">Notifications</string>
+  <string name="notification">Notification</string>
+  <string name="notification_activity">Notification activity is launched</string>
+  <string name="big_view">Big View notification</string>
+  <string name="big_text_style">Big Text Style</string>
+  <string name="big_picture_style">Big Picture Style</string>
+  <string name="inbox_style">Inbox Style</string>
+</resources>
