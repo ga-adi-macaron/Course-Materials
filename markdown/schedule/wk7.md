@@ -92,6 +92,7 @@ days:
     assignments:
       - name: Retrofit Lab
         url: https://github.com/ga-adi-macaron/retrofit-lab
+        solutionPosted: true
       - name: Research for Project 3
         url: https://github.com/ga-adi-macaron/research-for-project-3
 ---
