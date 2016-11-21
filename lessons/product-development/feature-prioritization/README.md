@@ -1,12 +1,12 @@
 ---
-title: Prioritization and project proposal
+title: Feature Prioritization
 duration: "1:25"
 creator:
     name: Julie Kerner
     city: NYC
 ---
 
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Prioritization and project proposal
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Featire Prioritization
 
 ### LEARNING OBJECTIVES
 *After this lesson, you will be able to:*
@@ -32,10 +32,10 @@ creator:
 |:-:|---|---|
 | 5 min  | [Opening](#opening-5-mins)  | Discuss lesson objectives |
 | 5 min  | [Introduction](#introduction-feature-prioritization-5-mins)  | Feature Prioritization |
-| 10 min  | [Guided Practice](#guided-practice-feature-prioritization-10-mins)  | Feature Prioritization |
-| 10 min  | [Demo](#demo-feature-prioritization-10-mins)  | Feature Prioritization |
-| 30 min  | [Group Practice](#guided-practice-creating-a-2x2-matrix-30-mins)  | Creating a 2x2 Matrix |
-| 20 min  | [Group Practice](#independent-practice-create-a-2x2-matrix-for-project-3-20-minutes)  | Create a 2x2 Matrix for Project 3 |
+| 10 min  | [Guided Practice](#guided-practice-feature-inventory-10-mins)  | Feature Inventory |
+| 10 min  | [Demo](#demo-2x2-matrix-feature-prioritization-10-mins)  | 2x2 Matrix Feature Prioritization |
+| 30 min  | [Group Practice](#group-practice-creating-a-2x2-matrix-for-project-3-30-mins)  | Creating a 2x2 Matrix for Project 3 |
+| 20 min  | [Group Practice](#group-practice-prioritize-your-project-3-features-20-minutes)  | Prioritize Your Project 3 Features |
 | 5 min  | [Conclusion](#conclusion-5-mins)  | Review / Recap |
 
 ## Opening (5 mins)
