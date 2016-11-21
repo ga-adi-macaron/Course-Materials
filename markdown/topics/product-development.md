@@ -17,17 +17,14 @@ lessons:
     url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/product-development/design-thinking-and-ux-lesson
     date: Wednesday, 11/16
   - name: User Research
-    url: 
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/product-development/user-research-lesson
     date: Friday, 11/18
   - name: Competitor Research
-    url: 
-    date: Friday, 11/18
-  - name: User Goals and User Flows
-    url: 
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/product-development/competitive-research-lesson
     date: Friday, 11/18
   - name: User Personas
-    url: 
-    date: 
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/product-development/user-personas
+    date: Monday, 11/21
   - name: Feature Prioritization
     url: 
     date: 
