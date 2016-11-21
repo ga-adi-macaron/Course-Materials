@@ -33,8 +33,8 @@ days:
         url: 
       - name: Google Play Services
         url: 
-      - name: Prioritization & Proposal
-        url: 
+      - name: Feature Prioritization
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/product-development/feature-prioritization
       - name: Exit Ticket
         url: 
     assignments:
@@ -43,7 +43,7 @@ days:
       - name: Project 3 Pitch Lab
         url: 
       - name: Git Branching Reading
-        url: 
+        url: https://www.atlassian.com/git/tutorials/using-branches
         note: (no deliverable)
 
   - date: Wednesday, 11/23
@@ -54,7 +54,7 @@ days:
         url: 
     assignments:
       - name: Trello Reading
-        url: 
+        url: http://buildbettersoftware.com/trello-for-software-development
         note: (no deliverable)
       - name: OPTIONAL Email Client Mini-Project
         url: 

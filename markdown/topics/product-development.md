@@ -26,7 +26,7 @@ lessons:
     url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/product-development/user-personas
     date: Monday, 11/21
   - name: Feature Prioritization
-    url: 
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/product-development/feature-prioritization
     date: Tuesday, 11/22
 ---
 
