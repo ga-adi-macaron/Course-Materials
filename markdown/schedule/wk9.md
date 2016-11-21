@@ -35,7 +35,7 @@ days:
         url: 
       - name: "Outcomes: Ask the Experts Panel"
         url: 
-      - name: Model-View-Presenter Architecture
+      - name: MVP Architecture
         url: 
       - name: Project 3 Workshop
         url: https://github.com/ga-adi-macaron/project-3
