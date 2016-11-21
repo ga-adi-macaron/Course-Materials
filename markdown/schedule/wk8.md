@@ -13,15 +13,15 @@ days:
       - name: User Personas
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/product-development/user-personas
       - name: Services
-        url: 
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/android-technologies-and-services/services-lesson
       - name: Notifications
-        url: 
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/android-technologies-and-services/notifications-lesson
     assignments:
       - name: Services Lab
-        url: 
+        url: https://github.com/ga-adi-macaron/services-lab
         solutionPosted: false
       - name: Notifications Lab
-        url: 
+        url: https://github.com/ga-adi-macaron/notifications-lab
         solutionPosted: false
       - name: Volley HW
         url: 
