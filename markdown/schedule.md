@@ -8,7 +8,7 @@
 - [Week 6 (11/7 - 11/11)](schedule/wk6.md)
 - [Week 7 (11/14 - 11/18)](schedule/wk7.md)
 - [Week 8 (11/21 - 11/25)](schedule/wk8.md)
-
+- [Week 9 (11/29 - 12/2)](schedule/wk9.md)
 
 ---
 

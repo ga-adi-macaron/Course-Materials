@@ -49,6 +49,9 @@ lessons:
   - name: Notifications
     url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/android-technologies-and-services/notifications-lesson
     date: Monday, 11/21
+  - name: Activity Transitions
+    url: 
+    date: Monday, 11/28
 ---
 
 {% include "./topic-template.md" %}

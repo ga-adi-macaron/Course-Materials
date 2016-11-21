@@ -15,6 +15,7 @@
   - [Week 6 (11/7 - 11/11)](markdown/schedule/wk6.md)
   - [Week 7 (11/14 - 11/18)](markdown/schedule/wk7.md)
   - [Week 8 (11/21 - 11/25)](markdown/schedule/wk8.md)
+  - [Week 9 (11/29 - 12/2)](markdown/schedule/wk9.md)
 - [Lessons by Topic](markdown/topics.md)
   - [Activities & Fragments](markdown/topics/activities-and-fragments.md)
   - [Android Technologies and Services](markdown/topics/android-technologies-and-services.md)
