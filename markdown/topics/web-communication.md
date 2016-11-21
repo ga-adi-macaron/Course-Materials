@@ -14,38 +14,26 @@ lessons:
     url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/web-communication/api-intro-lesson
     date: Tuesday, 11/15
   - name: API Documentation
-    url: 
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/web-communication/api-documentation-lesson
     date: Wednesday, 11/16
   - name: Networking in Android
-    url: 
-    date: Thursday, 11/17
-  - name: OAuth
-    url: 
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/web-communication/networking-in-android-lesson
     date: Thursday, 11/17
   - name: GSON
-    url: 
-    date: Monday, 11/21
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/web-communication/gson-lesson
+    date: Thursday, 11/17
+  - name: OAuth
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/web-communication/oauth-lesson
+    date: Thursday, 11/17
   - name: Retrofit
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/web-communication/retrofit-lesson
+    date: Friday, 11/18
+  - name: Job Scheduler
     url: 
-    date: 
+    date: Tuesday, 11/29
   - name: Sync Adapters
     url: 
     date: 
 ---
 
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) {{page.title}}
-
-<ul>
-  {% for lesson in page.lessons %}
-  <li>
-    {% if lesson.url %}
-      <a href="{{lesson.url}}">{{lesson.name}}</a>
-    {% else %}
-      {{lesson.name}}
-    {% endif %}
-    {% if lesson.date %}
-      ({{lesson.date}})
-    {% endif %}
-  </li>
-  {% endfor %}
-</ul>
+{% include "./topic-template.md" %}
