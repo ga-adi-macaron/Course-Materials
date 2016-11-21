@@ -41,7 +41,7 @@ days:
       - name: Google Play Services Lab
         url: 
       - name: Project 3 Pitch Lab
-        url: 
+        url: https://github.com/ga-adi-macaron/project-3-pitch-lab
       - name: Git Branching Reading
         url: https://www.atlassian.com/git/tutorials/using-branches
         note: (no deliverable)
