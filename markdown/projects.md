@@ -24,9 +24,9 @@ projects:
     solutionPosted: true
   - number: 3
     name: Team Project
-    url: 
-    dueDate: 
-    dueTime: 
+    url: https://github.com/ga-adi-macaron/project-3
+    dueDate: Wednesday, 12/7
+    dueTime: "11:00 am"
     solutionPosted: false
   - number: 4
     name: Final Project
