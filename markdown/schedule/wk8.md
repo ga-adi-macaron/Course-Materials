@@ -32,14 +32,14 @@ days:
       - name: "Outcomes: Interviews & Negotiations"
         url: 
       - name: Google Play Services
-        url: 
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/android-technologies-and-services/google-play-services-lesson
       - name: Feature Prioritization
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/product-development/feature-prioritization
       - name: Exit Ticket
         url: 
     assignments:
       - name: Google Play Services Lab
-        url: 
+        url: https://github.com/ga-adi-macaron/google-play-services-lab
       - name: Project 3 Pitch Lab
         url: https://github.com/ga-adi-macaron/project-3-pitch-lab
       - name: Git Branching Reading
