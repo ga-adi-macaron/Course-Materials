@@ -12,18 +12,18 @@ days:
     lessons:
       - name: Activity Transitions
         url: 
-      - name: External Content Providers
-        url: 
       - name: Creating a Content Provider
         url: 
-    assignments:
-      - name: External Content Providers Lab
+      - name: External Content Providers
         url: 
-        solutionPosted: false
+    assignments:
       - name: Creating a Content Provider Lab
         url: 
         solutionPosted: false
-      - name: Homework TBD
+      - name: External Content Providers Lab
+        url: 
+        solutionPosted: false
+      - name: Content Provider HW
         url: 
         solutionPosted: false
 
@@ -57,7 +57,7 @@ days:
       - name: Project 3 Workshop
         url: https://github.com/ga-adi-macaron/project-3
       - name: 1:1 Check-Ins
-        url: 
+        url: https://docs.google.com/spreadsheets/d/1YABj9ZaNxLymnWsgcf2Qew3sGzPqNb0grlpg-DECS-8/edit?usp=sharing
     assignments:
       - name: None
 
