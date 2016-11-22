@@ -23,7 +23,7 @@ lessons:
     url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/android-technologies-and-services/notifications-lesson
     date: Monday, 11/21
   - name: Google Play Services
-    url:
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/android-technologies-and-services/google-play-services-lesson
     date: Tuesday, 11/22
   - name: JobSchedulers
     url: 
