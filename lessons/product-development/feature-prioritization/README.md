@@ -99,11 +99,6 @@ You should refer to your problem statement, user personas to help you decide the
 Remember that you may not end up implementing _ALL_ these features. Ordering them in terms of priority is the next step.
 For now, just focus on the value vs. difficulty of each feature so that you have a basis for deciding priority later.
 
-Using that list of features you created, combine them all together and remove any duplicates.
-You might look for a cluster of features that seem like they offer great impact to your users, relative to the amount of effort required.
-There may be an idea that’s an outlier that is so worth it to your users that it’s worth the effort.
-Just make sure you can explain your rationale.
-
 **Be sure to document your matrix by taking a photo!**
 
 ## Group Practice: Prioritize Your Project 3 Features (20 minutes)
