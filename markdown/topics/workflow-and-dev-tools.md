@@ -20,10 +20,10 @@ lessons:
     url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/workflow-and-dev-tools/developer-documentation-lesson
     date: Wednesday, 10/19
   - name: Git Team Workflow Part 1
-    url: 
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/workflow-and-dev-tools/git-team-workflow-1
     date: Wednesday, 11/23
   - name: Git Team Workflow Part 2
-    url: 
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/workflow-and-dev-tools/git-team-workflow-2
     date: Wednesday, 11/23
 ---
 

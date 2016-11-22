@@ -35,7 +35,7 @@ days:
       - name: Feature Prioritization
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/product-development/feature-prioritization
       - name: Exit Ticket
-        url: 
+        url: https://goo.gl/forms/TBjsm5ed2weGVQbl1
     assignments:
       - name: Google Play Services Lab
         url: https://github.com/ga-adi-macaron/google-play-services-lab
@@ -48,15 +48,15 @@ days:
   - date: Wednesday, 11/23
     lessons:
       - name: Git Team Workflow 1
-        url: 
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/workflow-and-dev-tools/git-team-workflow-1
       - name: Git Team Workflow 2
-        url: 
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/workflow-and-dev-tools/git-team-workflow-2
     assignments:
       - name: Trello Reading
         url: http://buildbettersoftware.com/trello-for-software-development
         note: (no deliverable)
       - name: OPTIONAL Email Client Mini-Project
-        url: 
+        url: https://github.com/ga-adi-macaron/optional-email-client-lab
 
   - date: Thursday, 11/24
     lessons:
