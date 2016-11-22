@@ -19,13 +19,13 @@ days:
     assignments:
       - name: Services Lab
         url: https://github.com/ga-adi-macaron/services-lab
-        solutionPosted: false
+        solutionPosted: true
       - name: Notifications Lab
         url: https://github.com/ga-adi-macaron/notifications-lab
-        solutionPosted: false
+        solutionPosted: true
       - name: Volley HW
         url: https://github.com/ga-adi-macaron/volley-hw
-        solutionPosted: false
+        solutionPosted: true
 
   - date: Tuesday, 11/22
     lessons:
