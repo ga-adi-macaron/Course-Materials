@@ -6,7 +6,7 @@ creator:
     city: NYC
 ---
 
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Featire Prioritization
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Feature Prioritization
 
 ### LEARNING OBJECTIVES
 *After this lesson, you will be able to:*
@@ -87,26 +87,47 @@ The goal is to identify want things that have high value and low cost.
 
 ## Group Practice: Creating a 2x2 Matrix for Project 3 (30 mins)
 
-With your group, you'll take the next 15 minutes and practice creating a 2x2 matrix to prioritize the list of features you've decided on for your group project.
+With your group, you'll take the next 30 minutes and practice creating a 2x2 matrix to prioritize the list of features you've decided on for your group project.
+If you think of additional features beyond those you came up with earlier, add them now.
 
-Using that list of features you created, combine them all together and remove any duplicates. You might look for a cluster of features that seem like they offer great impact to your users, relative to the amount of effort required. There may be an idea that’s an outlier that is so worth it to your users that it’s worth the effort. Just make sure you can explain your rationale.
+Draw out a 2x2 matrix on the wall or table, and decide where in the matrix each post-it belongs.
+This is a good time to remove duplicate post-its or combine similar post-its into one.
 
+It's very important that the team discuss and reach a consensus on the value and difficulty of each feature - you should all be able to explain why each feature should go where you put it in the matrix!
+You should refer to your problem statement, user personas to help you decide the value of each feature.
 
-> Check: After 15 minutes: What did you decide makes the most sense?  How did the prioritization method work out for your group?
-any duplicates.
+Remember that you may not end up implementing _ALL_ these features. Ordering them in terms of priority is the next step.
+For now, just focus on the value vs. difficulty of each feature so that you have a basis for deciding priority later.
+
+Using that list of features you created, combine them all together and remove any duplicates.
+You might look for a cluster of features that seem like they offer great impact to your users, relative to the amount of effort required.
+There may be an idea that’s an outlier that is so worth it to your users that it’s worth the effort.
+Just make sure you can explain your rationale.
+
+**Be sure to document your matrix by taking a photo!**
 
 ## Group Practice: Prioritize Your Project 3 Features (20 minutes)
 
 In your groups, prioritize features for your project groups.
+In this context, _priority_ refers to **the order in which you will implement the features.**
+Once you complete the prioritization, stick to it! It doesn't make any sense to work on a low-priority feature before a high-priority feature is done.
 
-- Review your personas, user goals, and flows. You probably want to identify ~2 more user goals in addition to the primary happy path we worked on
-- List out all the features that would make these goals possible
-- Prioritize using a 2x2 matrix and use the prioritization results to help you decide which features make the most sense for your user goals and client constraints
-- Make sure you document your work by taking a photo - you'll need this for the next lab
+Some suggestions:
+- At the top of your priority list should be any high-value, low-difficulty features.
+- After that, you need to make some tough calls for the ordering of high-value, high-difficulty features. There may be an idea that’s an outlier that is so worth it to your users that it’s worth the effort.
+- After that will likely be the low-value but low-difficulty features.
+- Lastly, any low-value, high-difficulty features should be at the BOTTOM of your list. If you run out of time before getting to these, that shouldn't be a problem.
+
+**Be sure to document your priority list by taking a photo or typing it up!**
 
 ## Conclusion (5 mins)
 
-You will continue working on your project pitch during the next lab.
+In the next lab, you will combine your research with your prioritized feature list to craft a pitch that explains your vision for your app.
 
-- Why is it important to prioritize during the design process?
-- What did you decide makes the most sense for your project 3 groups?
+After that, you can combine your prioritized feature list with the techniques we've discussed previously to form a roadmap for how your team will do its work:
+- Work on the features in order of priority
+- Divide up the work by feature. Everyone should be able to say exactly what feature they're working on at any given time!
+- For each feature, write conditional statements that must be true for the feature to be considered complete
+- Write user stories for each condition
+- Determine how each user story will be tested (combination of unit tests, Espresso tests, and manual tests)
+- Finally, write code and refine it until all tests pass
