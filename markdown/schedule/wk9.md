@@ -11,7 +11,7 @@ days:
   - date: Monday, 11/28
     lessons:
       - name: Activity Transitions
-        url: 
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/user-interface/activity-transitions
       - name: Creating a Content Provider
         url: 
       - name: External Content Providers
