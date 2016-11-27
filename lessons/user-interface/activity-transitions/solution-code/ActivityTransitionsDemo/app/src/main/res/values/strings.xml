@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Activity Transitions Demo</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_second">SecondActivity</string>
+
+    <string name="image_content_description">Android Logo</string>
+
+    <string name="image_one_transition_name">ImageOneTransitionName</string>
+    <string name="image_two_transition_name">ImageTwoTransitionName</string>
+    <string name="app_bar_transition_name">AppBarTransitionName</string>
+</resources>
