@@ -15,7 +15,7 @@ days:
       - name: Creating a Content Provider
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/android-technologies-and-services/content-provider-lesson
       - name: External Content Providers
-        url: 
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/android-technologies-and-services/external-content-providers-lesson
     assignments:
       - name: Creating a Content Provider Lab
         url: https://github.com/ga-adi-macaron/content-providers-lab
