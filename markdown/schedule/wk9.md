@@ -23,9 +23,6 @@ days:
       - name: External Content Providers Lab
         url: 
         solutionPosted: false
-      - name: Content Provider HW
-        url: https://github.com/ga-adi-macaron/content-providers-hw
-        solutionPosted: false
 
   - date: Tuesday, 11/29
     lessons:
