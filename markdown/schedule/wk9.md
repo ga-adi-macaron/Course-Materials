@@ -30,8 +30,6 @@ days:
         url: 
       - name: Job Scheduler
         url: 
-      - name: "Outcomes: Ask the Experts Panel"
-        url: 
       - name: MVP Architecture
         url: 
       - name: Project 3 Workshop
