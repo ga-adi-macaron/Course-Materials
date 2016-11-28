@@ -13,12 +13,12 @@ days:
       - name: Activity Transitions
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/user-interface/activity-transitions
       - name: Creating a Content Provider
-        url: 
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/android-technologies-and-services/content-provider-lesson
       - name: External Content Providers
         url: 
     assignments:
       - name: Creating a Content Provider Lab
-        url: 
+        url: https://github.com/ga-adi-macaron/content-providers-lab
         solutionPosted: false
       - name: External Content Providers Lab
         url: 
