@@ -39,6 +39,7 @@ days:
     assignments:
       - name: Google Play Services Lab
         url: https://github.com/ga-adi-macaron/google-play-services-lab
+        solutionPosted: true
       - name: Project 3 Pitch Lab
         url: https://github.com/ga-adi-macaron/project-3-pitch-lab
       - name: Git Branching Reading
