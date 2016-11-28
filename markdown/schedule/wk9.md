@@ -21,7 +21,7 @@ days:
         url: https://github.com/ga-adi-macaron/content-providers-lab
         solutionPosted: false
       - name: External Content Providers Lab
-        url: 
+        url: https://github.com/ga-adi-macaron/external-content-providers-lab
         solutionPosted: false
 
   - date: Tuesday, 11/29
