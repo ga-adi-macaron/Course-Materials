@@ -27,7 +27,7 @@ days:
   - date: Tuesday, 11/29
     lessons:
       - name: Whiteboard Practice 7
-        url: 
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/computer-science-and-interview-prep/whiteboarding-practice-7
       - name: Job Scheduler
         url: 
       - name: MVP Architecture
