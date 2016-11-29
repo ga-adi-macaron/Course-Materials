@@ -58,3 +58,4 @@ Campus will be closed and no classes will be held on the following dates:
 | Eric | [coacheric@ga.co](mailto:coacheric@ga.co) | coacheric |
 | Macia | [macia@ga.co](mailto:macia@ga.co) | coachmacia |
 | Outcomes Team | [nycoutcomes@generalassemb.ly](mailto:nycoutcomes@generalassemb.ly) | |
+| Student Services (for any concern you'd rather not share with the contacts above) | [studentservicesnyc@ga.co](mailto:studentservicesnyc@ga.co) | |
