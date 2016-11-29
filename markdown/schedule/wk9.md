@@ -29,7 +29,7 @@ days:
       - name: Whiteboard Practice 7
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/computer-science-and-interview-prep/whiteboarding-practice-7
       - name: Job Scheduler
-        url: 
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/android-technologies-and-services/job-scheduler-lesson
       - name: MVP Architecture
         url: 
       - name: Project 3 Workshop
@@ -38,7 +38,7 @@ days:
         url: 
     assignments:
       - name: Job Scheduler Lab
-        url: 
+        url: https://github.com/ga-adi-macaron/job-scheduler-lab
 
   - date: Wednesday, 11/30
     lessons:
