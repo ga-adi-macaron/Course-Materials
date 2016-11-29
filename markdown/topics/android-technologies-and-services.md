@@ -26,8 +26,8 @@ lessons:
     url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/android-technologies-and-services/google-play-services-lesson
     date: Tuesday, 11/22
   - name: JobSchedulers
-    url: 
-    date: 
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/android-technologies-and-services/job-scheduler-lesson
+    date: Tuesday, 11/29
   - name: Sync Adapters
     url: 
     date: 

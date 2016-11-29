@@ -29,7 +29,7 @@ lessons:
     url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/web-communication/retrofit-lesson
     date: Friday, 11/18
   - name: Job Scheduler
-    url: 
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/android-technologies-and-services/job-scheduler-lesson
     date: Tuesday, 11/29
   - name: Sync Adapters
     url: 

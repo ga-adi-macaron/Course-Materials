@@ -26,10 +26,10 @@ lessons:
     url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/databases/joins-lesson
     date: Friday, 10/28
   - name: Content Providers
-    url: 
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/android-technologies-and-services/content-provider-lesson
     date: Monday, 11/28
   - name: External Content Providers
-    url: 
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/android-technologies-and-services/external-content-providers-lesson
     date: Monday, 11/28
   - name: Firebase
     url: 

@@ -33,8 +33,9 @@ lessons:
     date: Monday, 11/14
 
   - name: Whiteboard Morning Exercise 7
-    url: 
-    date: 
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/computer-science-and-interview-prep/whiteboarding-practice-7
+    date:  Tuesday, 11/29
+
   - name: Arrays and Lists
     url: 
     date: 

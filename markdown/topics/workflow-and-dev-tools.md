@@ -25,6 +25,10 @@ lessons:
   - name: Git Team Workflow Part 2
     url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/workflow-and-dev-tools/git-team-workflow-2
     date: Wednesday, 11/23
+  - name: MVP Architecture
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/workflow-and-dev-tools/mvp-architecture
+    date: Tuesday, 11/29
+
 ---
 
 {% include "./topic-template.md" %}

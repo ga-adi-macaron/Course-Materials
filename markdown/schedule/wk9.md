@@ -31,11 +31,9 @@ days:
       - name: Job Scheduler
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/android-technologies-and-services/job-scheduler-lesson
       - name: MVP Architecture
-        url: 
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/workflow-and-dev-tools/mvp-architecture
       - name: Project 3 Workshop
         url: https://github.com/ga-adi-macaron/project-3
-      - name: Exit Ticket
-        url: 
     assignments:
       - name: Job Scheduler Lab
         url: https://github.com/ga-adi-macaron/job-scheduler-lab
