@@ -15,7 +15,7 @@ days:
       - name: Creating a Content Provider
         url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/android-technologies-and-services/content-provider-lesson
       - name: External Content Providers
-        url: 
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/android-technologies-and-services/external-content-providers-lesson
     assignments:
       - name: Creating a Content Provider Lab
         url: https://github.com/ga-adi-macaron/content-providers-lab
@@ -27,10 +27,8 @@ days:
   - date: Tuesday, 11/29
     lessons:
       - name: Whiteboard Practice 7
-        url: 
+        url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/computer-science-and-interview-prep/whiteboarding-practice-7
       - name: Job Scheduler
-        url: 
-      - name: "Outcomes: Ask the Experts Panel"
         url: 
       - name: MVP Architecture
         url: 
