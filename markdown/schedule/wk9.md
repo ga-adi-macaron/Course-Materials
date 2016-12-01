@@ -19,10 +19,10 @@ days:
     assignments:
       - name: Creating a Content Provider Lab
         url: https://github.com/ga-adi-macaron/content-providers-lab
-        solutionPosted: false
+        solutionPosted: true
       - name: External Content Providers Lab
         url: https://github.com/ga-adi-macaron/external-content-providers-lab
-        solutionPosted: false
+        solutionPosted: true
 
   - date: Tuesday, 11/29
     lessons:
@@ -37,6 +37,7 @@ days:
     assignments:
       - name: Job Scheduler Lab
         url: https://github.com/ga-adi-macaron/job-scheduler-lab
+        solutionPosted: true
 
   - date: Wednesday, 11/30
     lessons:
