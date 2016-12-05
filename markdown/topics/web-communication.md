@@ -33,7 +33,7 @@ lessons:
     date: Tuesday, 11/29
   - name: Sync Adapters
     url: 
-    date: 
+    date: Thursday, 12/8
 ---
 
 {% include "./topic-template.md" %}

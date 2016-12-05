@@ -40,6 +40,9 @@ lessons:
   - name: Error Handling with Try/Catch
     url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/programming-fundamentals-in-java/error-handling-with-try-catch
     date: Wednesday, 11/16
+  - name: Intro to RxJava
+    url: 
+    date: Wednesday, 12/21
 ---
 
 {% include "./topic-template.md" %}

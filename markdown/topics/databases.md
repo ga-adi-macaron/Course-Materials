@@ -33,7 +33,7 @@ lessons:
     date: Monday, 11/28
   - name: Firebase
     url: 
-    date: 
+    date: Friday, 12/9
 ---
 
 {% include "./topic-template.md" %}

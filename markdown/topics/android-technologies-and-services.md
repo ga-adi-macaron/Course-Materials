@@ -30,13 +30,16 @@ lessons:
     date: Tuesday, 11/29
   - name: Sync Adapters
     url: 
-    date: 
+    date: Thursday, 12/8
   - name: Firebase
     url: 
-    date: 
+    date: Friday, 12/9
+  - name: Intro to SurfaceView & Canvas
+    url: 
+    date: Thursday, 12/22
   - name: Releasing Your App
     url: 
-    date: 
+    date: Tuesday, 1/3
 ---
 
 {% include "./topic-template.md" %}
