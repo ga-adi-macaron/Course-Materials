@@ -9,10 +9,16 @@
 - [Week 7 (11/14 - 11/18)](schedule/wk7.md)
 - [Week 8 (11/21 - 11/25)](schedule/wk8.md)
 - [Week 9 (11/29 - 12/2)](schedule/wk9.md)
+- [Week 10 (12/5 - 12/9)](schedule/wk10.md)
+- [Week 11 (12/12 - 12/16)](schedule/wk11.md)
+- [Week 12 (12/19 - 12/23)](schedule/wk12.md)
+- [Week 13 (12/26 - 12/30)](schedule/wk13.md)
+- [Week 14 (1/2 - 1/6)](schedule/wk14.md)
+- [Week 15 (1/9)](schedule/wk15.md)
 
 ---
 
-#### How to download soution code posted to an assignment repo after you made your fork:
+#### How to download solution code posted to an assignment repo after you made your fork:
 
 1. Navigate to your local repo from the command line
 1. Run `git remote -v` and note there is only one remote listed, your fork with the name `origin`
