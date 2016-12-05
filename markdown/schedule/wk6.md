@@ -53,7 +53,7 @@ days:
 
   - date: Friday, 11/11
     lessons:
-      - name: Veterans Day - no classes
+      - name: Veterans Day (no classes)
     assignments:
       - name: None
 ---

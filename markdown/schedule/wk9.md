@@ -57,8 +57,6 @@ days:
 
   - date: Friday, 12/2
     lessons:
-      - name: Reflection Survey & Discussion
-        url: 
       - name: Project 3 Workshop
         url: https://github.com/ga-adi-macaron/project-3
     assignments:
