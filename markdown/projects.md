@@ -29,10 +29,10 @@ projects:
     dueTime: "11:00 am"
     solutionPosted: false
   - number: 4
-    name: Final Project
-    url: 
-    dueDate: 
-    dueTime: 
+    name: Portfolio Project
+    url: https://github.com/ga-adi-macaron/project-4
+    dueDate: Monday, 1/9/17
+    dueTime: "9:00 am"
     solutionPosted: false
 ---
 
