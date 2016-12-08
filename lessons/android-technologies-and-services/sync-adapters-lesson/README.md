@@ -45,7 +45,6 @@ creator:
 
 So far we've been able to incorporate a lot of really cool features into our apps, including sending and receiving data from our device. This is very useful with today's constantly connected world. Unfortunately, we've had to do all of this manually, so far. Luckily, Android provides a very handy feature called the `SyncAdapter` that works to run synchronization operations without a bunch of manual work.
 
-> Check: Ask the students for examples of where/when we would want our apps to sync data.
 
 ***
 
@@ -61,7 +60,6 @@ Here are some key features Sync Adapters have (from the Android documentation):
 - **Improved battery performance** - Allows you to centralize all of your app's data transfer tasks in one place, so that they all run at the same time. Your data transfer is also scheduled in conjunction with data transfers from other apps. These factors reduce the number of times the system has to switch on the network, which reduces battery usage.
 - **Account management and authentication** - If your app requires user credentials or server login, you can optionally integrate account management and authentication into your data transfer.
 
-> Check: Predict, with a partner, the three ways syncs can be triggered.
 
 There are three ways of setting up syncs: Automated, Periodic, and Manual
 
@@ -79,7 +77,6 @@ You can also have the app register with the system to sync at certain intervals.
 
 The final option is to tell the device manually that you want to sync, such as on a button press. This is the least ideal situation, since syncs should ideally be a seamless, behind-the-scenes process.
 
-> Check: Ask the students to discuss with each other a few examples of each of the three categories. Have students share out.
 
 ***
 
@@ -100,7 +97,6 @@ While the first two aren't mandatory, the SyncAdapter requires them to be presen
 
 Since we aren't going to be authenticating with anything in our example, the starter-code contains the [stub authenticator code provided by Google](http://developer.android.com/training/sync-adapters/creating-authenticator.html).
 
-> Instructor note: Briefly show the students the content provider and database
 
 #### Step 2
 
@@ -176,7 +172,6 @@ Next, we need to set up some configuration options for the SyncAdapter. Create `
 
 The last thing in this step is to add our permissions.
 
-> Check: Ask the students what types of permissions they think we need.
 
 ```xml
 <uses-permission
@@ -308,7 +303,6 @@ public class MainActivity extends AppCompatActivity{
 }
 ```
 
-> Check: Make your way around the room - Was everyone able to set up their sync adapter?
 
 ***
 
@@ -349,7 +343,6 @@ The first line only needs to be called once, it turns on the ability for your ap
 
 The last parameter in the second method call is how often you want the sync to occur in seconds. So 60 is every minute.
 
-> Check: If we had everyone sync at a certain time of day, what problems would that create? How could we get around it?
 
 ***
 
@@ -362,7 +355,6 @@ To get the latest 20 stories, we can make the following call:
 
 http://api.nytimes.com/svc/news/v3/content/all/all/all.json?limit=20&api-key=YOURAPIKEY
 
-> Check: Work with a partner, for 2 minutes, and write pseudo code one the desks for how you might do this.
 
 Objects to hold the search results have been provided for use with GSON. We are going to use these search results to store the news article titles in the database.
 
@@ -404,7 +396,6 @@ In onPerformSync
     }
 ```
 
-> Check: Were students able to successfully solve the problem or complete the task?
 
 ***
 
@@ -415,7 +406,6 @@ In this practice, you will be completing the onPerformSync method to add the new
 
 Additionally, we need to reflect those changes in our UI. Previously we have used CursorLoaders to interact with ContentProviders to show our data. Work with a partner to add a CursorLoader to display the content.
 
-> Check: What code triggers the ContentObserver in our Main Activity?
 
 ***
 
