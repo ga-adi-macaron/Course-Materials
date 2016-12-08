@@ -36,8 +36,8 @@ lessons:
     url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/computer-science-and-interview-prep/whiteboarding-practice-7
     date:  Tuesday, 11/29
 
-  - name: Whiteboarding Practice 8
-    url: 
+  - name: "Whiteboarding Practice 8: More Recursion"
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/computer-science-and-interview-prep/whiteboarding-practice-8
     date: Thursday, 12/8
 
   - name: Whiteboarding Practice 9
