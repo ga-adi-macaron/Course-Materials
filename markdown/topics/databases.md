@@ -32,7 +32,7 @@ lessons:
     url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/android-technologies-and-services/external-content-providers-lesson
     date: Monday, 11/28
   - name: Firebase
-    url: 
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/databases/firebase-lesson
     date: Friday, 12/9
 ---
 

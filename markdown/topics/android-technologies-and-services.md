@@ -35,7 +35,7 @@ lessons:
     url: 
     date: Friday, 12/9
   - name: Intro to SurfaceView & Canvas
-    url: 
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/databases/firebase-lesson
     date: Thursday, 12/22
   - name: Releasing Your App
     url: 
