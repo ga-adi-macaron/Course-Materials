@@ -45,11 +45,9 @@ Arrays and Lists have been used throughout the course, but it is important that 
 
 Arrays are very useful for creating collections of objects or primitives. Arrays can be built and accessed very quickly, and every element is indexed for your convenience, making them a great way to organize data.
 
-> Check: Have the students take 2 minutes to discuss at their tables any limitations or disadvantages of arrays.
 
 Arrays are great if you know exactly how much data you need to organize. In Java, the size of an array is fixed once it has been created.
 
-> Check: Show the code below to the students, and ask students to talk with the person next to them about what error it would cause (IndexOutOfBoundsException).
 
 
 ```java
@@ -67,12 +65,10 @@ Arrays are great if you know exactly how much data you need to organize. In Java
 Both attempts to insert the number 15 will cause an `IndexOutOfBoundsException`. This is because both arrays are fixed at length 3. In order to add the number 15, you must either replace one of the other elements, or create a whole new array. To create a collection of objects that can be added to without needing to re-copy itself continuously, we can use a __LinkedList__.
 
 
-> Check: Have the students take 1 minute to come up with examples where an array would be the best choice to hold data.  Ask student groups to share out.
 
 
 ## Introduction: Singly Linked Lists (15 mins)
 
-> Check: Ask the students if they remember the differences between an ArrayList and a LinkedList
 
 The simplest form of the LinkedList is the singly LinkedList. In this data structure, each element knows about only two objects: itself and the next object in the list.
 
@@ -115,7 +111,6 @@ As you can see, a Node object contains a reference to another Node called `Next`
 
 But how is a Node actually used in the LinkedList?
 
-> Check: Take two minutes to figure out how we would define a LinkedList class and its member variables.
 
 ```java
 public class LinkedList {
@@ -124,7 +119,6 @@ public class LinkedList {
 }
 ```
 
-> Check: Ask the students to explain to each other what would happen if you remove an element from the LinkedList at 1. the head 2. the middle 3. the tail
 
 #### Demo: Utilizing `java.util.LinkedList` (15 mins)
 
@@ -165,11 +159,9 @@ public static void main(String[] args) {
 }
 ```
 
-> Check: When the for loop executes, how does it access each value in the list?
 
 Notice how the LinkedList can be read using a standard `for` loop. While it may look like a LinkedList is indexed (like an array), it is actually _iterated_ using its size (remember the small LinkedList implementation above). That means that, unlike an array, you cannot go directly to a specified element. Instead, you must iterate through the list until you reach the desired location. This may not seem like a lot of effort, but it is something to consider if you start working with large amounts of data. So how do we have a collection of undetermined size that is also indexed? For that, we use an ArrayList.
 
-> Check: Ask the students to take a minute and come up with an example where we would use a LinkedList (1 mins). Have students share out.
 
 
 ## Introduction: Array Lists (10 mins)
@@ -211,13 +203,11 @@ Both blocks of code are valid, and both use the same method names. That is becau
 
 An ArrayList is actually backed by an array of finite size. If the array becomes full, it then copies itself into a larger array. As the array grows larger, the cost of this copying also grows. The array is usually expanded by a factor of itself, so it grows by a larger amount each time to avoid doing extra copy operations. Essentially, it trades memory for speed, as the backer array allows for each element to be indexed.
 
-> Check: Ask the students to come up with an example where we would use an ArrayList (1 min). Have students share out.
 
 #### Independent Practice Practice: LinkedList vs ArrayList (20 mins)
 
 In groups, look over this code.  With your group, discuss each question found within in the code around strengths and weaknesses of LinkedLists and ArrayLists.
 
-> Instructor Note: Share this code with students (potentially as a gist, but be sure to strip out the answers under each discussion question.)
 
 
 ```java
@@ -259,7 +249,6 @@ public static void main(String[] args) {
 }
 ```
 
-> Check: Discuss the answers with the class during the last 5 minutes of the activity.
 
 <a name="conclusion"></a>
 ## Conclusion (5 mins)
