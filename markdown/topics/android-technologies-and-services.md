@@ -32,10 +32,10 @@ lessons:
     url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/android-technologies-and-services/sync-adapters-lesson
     date: Thursday, 12/8
   - name: Firebase
-    url: 
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/databases/firebase-lesson
     date: Friday, 12/9
   - name: Intro to SurfaceView & Canvas
-    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/databases/firebase-lesson
+    url: 
     date: Thursday, 12/22
   - name: Releasing Your App
     url: 
