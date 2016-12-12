@@ -45,7 +45,7 @@ lessons:
     date: Monday, 12/12
 
   - name: Arrays vs. Linked Lists
-    url: 
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/programming-fundamentals-in-java/arrays-lists-lesson
     date: Monday, 12/12
 
   - name: "Whiteboarding Practice 10: Linked Lists"
