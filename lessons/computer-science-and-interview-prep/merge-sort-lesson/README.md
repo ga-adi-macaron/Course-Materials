@@ -32,6 +32,7 @@ creator:
 | 15 min  | [Introduction](#introduction-merge-sort-15-mins)  | Merge Sort |
 | 25 min  | [Independent Practice](#independent-practice-implementing-merge-sort-25-mins)  | Implementing Merge Sort |
 | 5 min  | [Conclusion](#conclusion-5-mins)  | Review / Recap |
+
 <a name="opening"></a>
 ## Opening (5 mins)
 
@@ -67,7 +68,7 @@ You can see from those two parts, where the name and type of sort comes from.
 
 > Check: How many "levels" did the completed diagram have?  
 
-#### Demo: MergeSort (10 mins)
+## Demo: MergeSort (10 mins)
 
 > Instructor Note: On the computer, use a program such as Slides that will allow you to write out numbers and drag them around to re-sort.
 
@@ -80,7 +81,7 @@ Remember that the entire process is split into two primary parts:
 
 > Check: Prompt the students for each step.
 
-#### Demo: MergeSort the students! (10 mins)
+## Demo: MergeSort the students! (10 mins)
 
 > Instructor Note: Distribute the randomly numbered pieces of paper, one to each student.  
 
@@ -89,14 +90,14 @@ Now, it's time to try the Merge Sort yourselves (literally)!  Using the numbers 
 > Instructor Note: Direct the students to perform merge sort using the steps in the ordered list you've written on the board.  Facilitate each step.
 
 
-#### Guided Practice: Practicing Merge Sort (15 mins)
+## Guided Practice: Practicing Merge Sort (15 mins)
 
 Work with a partner, and draw out the steps to sort the follow list of numbers: {51, 27, 16, 1, 4, 43, 18, 43, 2, 24, 36, 17, 16, 18, 7, 36, 54, 15, 29, 57, 0}
 
 > Check: With 2 minutes left, review a student answer with the class.
 
 
-#### Independent Practice: The Merge Sort Algorithm (15 mins)
+## Independent Practice: The Merge Sort Algorithm (15 mins)
 
 Use the steps on the board, and your practice sorting as guides to write out the pseudocode for the merge sort.
 
@@ -154,5 +155,5 @@ As stated before, there is no perfect sorting algorithm. While Insertion Sort is
 
 It would also be great if there was some mathematical notation to compare these algorithms, right? Fortunately for us, there is Big O Notation - we'll be talking about that soon.
 
-### ADDITIONAL RESOURCES
+## ADDITIONAL RESOURCES
 - [More Efficient Merge Sort](http://www.java2novice.com/java-sorting-algorithms/merge-sort/)
