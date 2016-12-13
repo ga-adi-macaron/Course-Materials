@@ -49,7 +49,7 @@ lessons:
     date: Monday, 12/12
 
   - name: "Whiteboarding Practice 10: Linked Lists"
-    url: 
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/computer-science-and-interview-prep/whiteboarding-practice-10
     date: Tuesday, 12/13
 
   - name: Sorting Algorithms
