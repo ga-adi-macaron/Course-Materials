@@ -53,11 +53,11 @@ lessons:
     date: Tuesday, 12/13
 
   - name: Sorting Algorithms
-    url: 
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/computer-science-and-interview-prep/sorting-algorithms-lesson
     date: Tuesday, 12/13
 
   - name: Merge Sort
-    url: 
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/computer-science-and-interview-prep/merge-sort-lesson
     date: Wednesday, 12/14
 
   - name: "Whiteboarding Practice 11: Brain Teasers"
