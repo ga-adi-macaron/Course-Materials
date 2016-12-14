@@ -61,11 +61,11 @@ lessons:
     date: Wednesday, 12/14
 
   - name: "Whiteboarding Practice 11: Brain Teasers"
-    url: 
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/computer-science-and-interview-prep/whiteboarding-practice-11
     date: Thursday, 12/15
 
   - name: Binary Search
-    url: 
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/computer-science-and-interview-prep/binary-search-lesson
     date: Thursday, 12/15
 
   - name: Big-O Notation
