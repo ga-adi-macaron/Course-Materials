@@ -69,15 +69,15 @@ lessons:
     date: Thursday, 12/15
 
   - name: Big-O Notation
-    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/computer-science-and-interview-prep/whiteboarding-practice-12
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/computer-science-and-interview-prep/big-o-lesson
     date: Friday, 12/16
 
   - name: "Whiteboarding Practice 12: Big-O"
-    url: 
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/computer-science-and-interview-prep/whiteboarding-practice-12
     date: Monday, 12/19
 
   - name: "Whiteboarding Practice 13: Real-World Problems"
-    url: 
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/computer-science-and-interview-prep/whiteboarding-practice-13
     date: Tuesday, 12/20
 ---
 
