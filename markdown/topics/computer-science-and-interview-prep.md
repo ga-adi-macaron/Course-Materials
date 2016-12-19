@@ -69,7 +69,7 @@ lessons:
     date: Thursday, 12/15
 
   - name: Big-O Notation
-    url: 
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/computer-science-and-interview-prep/whiteboarding-practice-12
     date: Friday, 12/16
 
   - name: "Whiteboarding Practice 12: Big-O"
