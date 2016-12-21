@@ -6,9 +6,7 @@ creator:
     city: NYC
 ---
 
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Graphics with Canvas
-
-## 2D Graphics in Android with Canvas
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) 2D Graphics in Android with Canvas
 
 This is a very informal mini-lesson about drawing 2D graphics in Android. To create animated graphics, you have a couple basic options:
 
