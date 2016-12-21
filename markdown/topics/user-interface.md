@@ -52,8 +52,8 @@ lessons:
   - name: Activity Transitions
     url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/user-interface/activity-transitions
     date: Monday, 11/28
-  - name: Intro to SurfaceView & Canvas
-    url: 
+  - name: Graphics with Canvas
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/user-interface/graphics-with-canvas
     date: Thursday, 12/22
 ---
 
