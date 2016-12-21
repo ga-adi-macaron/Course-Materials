@@ -17,7 +17,7 @@ lessons:
     url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/testing/usability-testing
     date: Tuesday, 11/8
   - name: Unit Testing w/ Mockito
-    url: 
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/testing/testing-with-mockito
     date: Wednesday, 12/21
 ---
 

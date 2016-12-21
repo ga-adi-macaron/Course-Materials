@@ -34,6 +34,9 @@ lessons:
   - name: Firebase
     url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/databases/firebase-lesson
     date: Friday, 12/9
+  - name: RxJava
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/android-technologies-and-services/rxjava-lesson
+    date: Wednesday, 12/21
   - name: Intro to SurfaceView & Canvas
     url: 
     date: Thursday, 12/22

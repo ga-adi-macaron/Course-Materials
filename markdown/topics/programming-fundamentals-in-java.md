@@ -41,7 +41,7 @@ lessons:
     url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/programming-fundamentals-in-java/error-handling-with-try-catch
     date: Wednesday, 11/16
   - name: Intro to RxJava
-    url: 
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/android-technologies-and-services/rxjava-lesson
     date: Wednesday, 12/21
 ---
 
