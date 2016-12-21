@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Trending Products MVP Demo</string>
+    <string name="action_favorites">Favorites</string>
+    <string name="title_activity_trending">Trending Products</string>
+    <string name="title_activity_favorites">Your Favorite Products</string>
+    <string name="favorite_icon_image_description">Favorite Icon</string>
+    <string name="product_thumbnail_image_description">Product Thumbnail Image</string>
+    <string name="undo">UNDO</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,41 @@
+# Testing w/ Mockito
+
+Opening
+    - What is MVP?
+        - Model: describes, saves, retrieves the app's data
+        - View: handle UI & detect user actions (w/ listeners)
+        - Presenter: retrieve, format, and supply data for the view, decide how to handle user actions
+    - Benefits of MVP?
+        - Maintainability
+        - simplified teamwork
+        - flexibility for testing
+
+Intro
+    - Why is testing a presenter hard?
+        - It's the view that calls the presenter's methods, and to test the view we'd have to bother with Espresso
+        - The presenter will read/write data & we don't want to mess up our database, or bother with network calls during tests
+    - How can Mockito help?
+        - Create fake/mock versions of the view & data provider
+        - Quickly define how these mocks will respond when the presenter calls their methods
+    - Can only work with Dependency Injection
+        - If presenter instantiates its own dependencies, we can't mock them!
+
+Demo - setting up a test class for TrendingProduct w/ Mockito
+https://developer.android.com/training/testing/unit-testing/local-unit-tests.html#mocking-dependencies
+    1. Add `testCompile 'org.mockito:mockito-core:2.3.7'` to the `dependencies {}` list in your 'build.gradle' file for your app module
+    2. Create a new test class in the `test` package (not the androidTest package, since these will unit tests, and not instrumented tests like Espresso)
+    3. Add `@RunWith(MockitoJUnitRunner.class)` annotation to class
+    4. Add member variables for the dependencies of the class you will test, and give them the `@Mock` annotation
+    5. Use Mockito's static methods like `when()`, `doReturn()`, and `doAnswer()` to tell the mock objects how to respond when their methods are called
+    6. Use JUnit's assertions or Mockito's `verify()` to test whether the class being tested has done its job properly
+
+Guided practice - more test methods for TrendingProducts
+
+Indep Practice - create test class for FavoriteProducts
+
+Conclusion
+
+Vocab
+- MVP
+- Dependency Injection
+- Mocking

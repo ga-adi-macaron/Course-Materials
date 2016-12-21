@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="@dimen/product_horizontal_margin"
+    android:layout_marginRight="@dimen/product_horizontal_margin"
+    android:layout_marginTop="@dimen/product_vertical_margin">
+
+    <ImageView
+        android:id="@+id/product_thumbnail"
+        android:layout_width="@dimen/thumbnail_size"
+        android:layout_height="@dimen/thumbnail_size"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="@dimen/product_horizontal_margin"
+        android:layout_marginRight="@dimen/product_horizontal_margin"
+        android:contentDescription="@string/product_thumbnail_image_description"/>
+
+    <ImageView
+        android:id="@+id/product_favorite_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/favorite_icon_image_description"/>
+
+    <TextView
+        android:id="@+id/product_name"
+        style="@android:style/TextAppearance.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="@dimen/product_text_vertical_margin"
+        android:layout_toEndOf="@id/product_thumbnail"
+        android:layout_toLeftOf="@id/product_favorite_icon"
+        android:layout_toRightOf="@id/product_thumbnail"
+        android:layout_toStartOf="@id/product_favorite_icon"/>
+
+    <TextView
+        android:id="@+id/product_price"
+        style="@android:style/TextAppearance.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/product_name"/>
+
+    <TextView
+        android:id="@+id/product_brand"
+        style="@android:style/TextAppearance.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/product_name"
+        android:layout_toEndOf="@id/product_thumbnail"
+        android:layout_toLeftOf="@id/product_price"
+        android:layout_toRightOf="@id/product_thumbnail"
+        android:layout_toStartOf="@id/product_price"/>
+</RelativeLayout>
