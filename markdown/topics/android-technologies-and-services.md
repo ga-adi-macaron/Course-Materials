@@ -38,7 +38,7 @@ lessons:
     url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/android-technologies-and-services/rxjava-lesson
     date: Wednesday, 12/21
   - name: Intro to SurfaceView & Canvas
-    url: 
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/user-interface/graphics-with-canvas
     date: Thursday, 12/22
   - name: Releasing Your App
     url: 
