@@ -27,14 +27,14 @@ public class MainActivity extends AppCompatActivity {
 
         // Set exit and enter transitions
         getWindow().setExitTransition(new Explode());
-        getWindow().setEnterTransition(new Fade());
+//        getWindow().setEnterTransition(new Fade());
 
         // Set shared element transitions as a set
-        TransitionSet transition = new TransitionSet();
-        transition.addTransition(new ChangeTransform());
-
-        getWindow().setSharedElementEnterTransition(transition);
-        getWindow().setSharedElementReturnTransition(transition);
+//        TransitionSet transition = new TransitionSet();
+//        transition.addTransition(new ChangeTransform());
+//
+//        getWindow().setSharedElementEnterTransition(transition);
+//        getWindow().setSharedElementReturnTransition(transition);
 
         // Inflate the activity's views and set up the toolbar
         setContentView(R.layout.activity_main);
@@ -60,8 +60,9 @@ public class MainActivity extends AppCompatActivity {
                         getString(R.string.app_bar_transition_name));
 
                 // Create the animation options to pass to startActivity()
-                ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(MainActivity.this,
-                        pair1, pair2, pair3);
+//                ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(MainActivity.this,
+//                        pair1, pair2, pair3);
+                ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(MainActivity.this);
 
                 // Start the new activity
                 startActivity(intent, options.toBundle());
