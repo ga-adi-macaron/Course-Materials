@@ -34,7 +34,7 @@ lessons:
   - name: Material Design Introduction
     url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/user-interface/material-design-intro
     date: Monday, 10/31
-  - name: Drag & Swipe wi/ RecyclerView
+  - name: Drag & Swipe w/ RecyclerView
     url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/user-interface/drag-and-swipe-with-recyclerview
     date: Thursday, 11/3
   - name: Toolbars and Menus
