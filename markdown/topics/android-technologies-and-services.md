@@ -41,8 +41,8 @@ lessons:
     url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/user-interface/graphics-with-canvas
     date: Thursday, 12/22
   - name: Releasing Your App
-    url: 
-    date: Tuesday, 1/3
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/workflow-and-dev-tools/releasing-your-apps-lesson
+    date: Wednesday, 1/4
 ---
 
 {% include "./topic-template.md" %}
