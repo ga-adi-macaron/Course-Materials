@@ -9,11 +9,11 @@ lessons:
     date: Monday, 10/17
 
   - name: Whiteboarding Practice 1
-    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/computer-science-and-interview-prep/whiteboarding-morning-exercise-1
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/computer-science-and-interview-prep/whiteboarding-practice-1
     date: Tuesday, 10/18
 
   - name: "Whiteboarding Practice 2: Recursion"
-    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/computer-science-and-interview-prep/recursion-morning-exercise
+    url: https://github.com/ga-adi-macaron/Course-Materials/tree/master/lessons/computer-science-and-interview-prep/whiteboarding-practice-2-recursion
     date: Wednesday, 10/19
 
   - name: Whiteboarding Practice 3
